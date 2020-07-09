@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'normalize.css';
+import Header from "./components/Header/Header";
+import HeaderSection from "./components/Header-Content/Header-Section";
+import BackgroundVideo from "./common/BackgroundVideo/BackgroundVideo";
+import AboutUs from "./components/AboutUs/AboutUs";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+    return (
+        <div className="App-Wrapper">
+            <div className="Container">
+                <section className="Header">
+                    <div className="Header-Content">
+                        <div className="Header-Top">
+                            <Header/>
+                            <HeaderSection/>
+                        </div>
+                        <div className="Video">
+                           <BackgroundVideo/>
+                        </div>
+                    </div>
+                </section>
+                <section className="AboutUs">
+                    <AboutUs/>
+                </section>
+            </div>
+        </div>
+    );
 }
 
 export default App;

@@ -1,0 +1,37 @@
+.Wrapper{
+    /*position: fixed;*/
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 100vw;
+    line-height: 20px;
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.Container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.Header{
+
+}
+.HeaderInner{
+    display: flex;
+    justify-content: space-between;
+}
+.NavigationMenu{
+    display: flex;
+    padding: 15px;
+}
+.NavigationMenu a{
+    padding: 15px;
+}
+.Logo img{
+    width: 60px;
+}
+.Button{
+    margin-top: 6px;
+}

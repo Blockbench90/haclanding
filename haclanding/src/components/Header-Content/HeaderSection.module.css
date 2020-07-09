@@ -1,0 +1,25 @@
+.Wrapper{
+color: white;
+}
+.Container{
+
+}
+.HeaderTitle{
+    padding-top: 10vh;
+    padding-left: 8vw;
+}
+.HeaderTitle img{
+    width: 100px;
+}
+.Content{
+    text-align: center;
+    width: 550px;
+    padding-left: 8vw;
+}
+.Btn{
+    padding-left: 14vw;
+    padding-top: 30px;
+}
+.HeaderVideoBox{
+
+}
