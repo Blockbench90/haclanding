@@ -18,12 +18,15 @@ const App = () => {
                             <HeaderSection/>
                         </div>
                         <div className="Video">
-                           <BackgroundVideo/>
+                            <BackgroundVideo/>
                         </div>
                     </div>
                 </section>
                 <section className="AboutUs">
                     <AboutUs/>
+                </section>
+                <section className="Partners">
+
                 </section>
             </div>
         </div>

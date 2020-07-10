@@ -1,5 +1,5 @@
 .Wrapper{
-    /*position: fixed;*/
+    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -8,11 +8,10 @@
     line-height: 20px;
     font-size: 25px;
     background: rgba(0, 0, 0, 0.5);
-
 }
 
 .Container{
-    max-width: 1250px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .Header{

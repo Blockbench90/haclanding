@@ -1,4 +1,5 @@
 .App-Wrapper{
+ /*width: 100vw;*/
 
 }
 .Container{
@@ -7,7 +8,7 @@
 .Header-Content{
 }
 .Header{
- overflow: hidden;
+ /*overflow: hidden;*/
 }
 .Header-Top{
  height: 100vh;
@@ -15,17 +16,14 @@
  right: 0;
  position: absolute;
  z-index: 5;
- background-color: rgba(0, 0, 0, 0.3);
+ background-color: rgba(0, 0, 0, 0.4);
 }
 
-.Video{
- background-size: cover;
- height: 100vh;
- width: 100vw;
- left: 0;
- right: 0;
-}
+/*.Video{*/
+/* background-size: cover;*/
+/* height: 100vh;*/
+/* width: 100vw;*/
+/* left: 0;*/
+/* right: 0;*/
+/*}*/
 
-.aparat{
-
-}

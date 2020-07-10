@@ -1,25 +1,34 @@
-.Wrapper{
-color: white;
+.Wrapper {
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 100px;
 }
-.Container{
+
+.Container {
 
 }
-.HeaderTitle{
+
+.HeaderTitle {
     padding-top: 10vh;
     padding-left: 8vw;
 }
-.HeaderTitle img{
+
+.HeaderTitle img {
     width: 100px;
 }
-.Content{
+
+.Content {
     text-align: center;
     width: 550px;
     padding-left: 8vw;
 }
-.Btn{
+
+.Btn {
     padding-left: 14vw;
     padding-top: 30px;
 }
-.HeaderVideoBox{
+
+.HeaderVideoBox {
 
 }

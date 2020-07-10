@@ -20,14 +20,6 @@ const HeaderSection = () => {
                               illo laboriosam perspiciatis praesentium provident quod saepe veniam, voluptate
                               voluptatum. Aliquid, blanditiis consequuntur dolorem perspiciatis repudiandae totam.
                           </div>
-                          <div>A ab architecto asperiores autem commodi dignissimos doloribus enim esse ex fugiat illum
-                              iure iusto, maxime neque, non odio perspiciatis praesentium quaerat quasi, quia quidem
-                              reiciendis sequi totam veritatis vitae!
-                          </div>
-                          <div>A ab aliquid amet aspernatur culpa delectus dolor earum eligendi ex facere harum illo, in
-                              iusto libero, minus nesciunt nobis officia possimus quod sed temporibus totam ullam velit
-                              voluptate voluptates.
-                          </div>
                           <div className={style.Btn}>
                               <Button title={"Консультация"}/>
                           </div>
