@@ -5,6 +5,11 @@ import Header from "./components/Header/Header";
 import HeaderSection from "./components/Header-Content/Header-Section";
 import BackgroundVideo from "./common/BackgroundVideo/BackgroundVideo";
 import AboutUs from "./components/AboutUs/AboutUs";
+import PartnersSlider from "./components/Slist/PartnersSlider";
+import Partners from "./components/Partners/Partners";
+
+
+
 
 
 const App = () => {
@@ -26,7 +31,12 @@ const App = () => {
                     <AboutUs/>
                 </section>
                 <section className="Partners">
-
+                    <div className="PartnersContent">
+                        <Partners/>
+                    </div>
+                    <div className="PartnersSlider">
+                        <PartnersSlider/>
+                    </div>
                 </section>
             </div>
         </div>

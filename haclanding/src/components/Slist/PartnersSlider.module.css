@@ -1,0 +1,43 @@
+.Wrapper{
+    background-color: black;
+}
+
+
+
+.first {
+    background-image: url("../../assets/img/green nvidia.jpg");
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    right: 0;
+}
+
+.two {
+    background-image: url("../../assets/img/green-computer.jpg");
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    right: 0;
+}
+
+.three {
+    background-image: url("../../assets/img/1400.jpg");
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    right: 0;
+}
+.For{
+    background-image: url("../../assets/img/ais.jpg");
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    right: 0;
+}
+.Fiwe{
+    background-image: url("../../assets/img/Top-Free-RGB.jpg");
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    right: 0;
+}

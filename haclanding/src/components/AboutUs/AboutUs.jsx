@@ -10,7 +10,7 @@ const Post = (props) => {
                 {/*<span className={s.PostSpan}>{props.span}</span>*/}
             </div>
             <div className={s.PostBtn}>
-                <Button title={"Подробнее ->"}/>
+                <Button title={"Подробнее..."}/>
             </div>
         </div>
     )

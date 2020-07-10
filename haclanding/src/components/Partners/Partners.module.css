@@ -1,0 +1,55 @@
+.Wrapper{
+    height: 100vh;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.Container{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+
+}
+.ContentInner{
+    margin-top: 150px;
+}
+.TopContent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 130px 0;
+}
+.BottomContent{
+    display: flex;
+    justify-content: space-between;
+
+}
+.TopLeftBlock{
+    width: 400px;
+    height: 250px;
+    padding: 0 0 0 0;
+    border-left: 1px solid white;
+}
+.TopRightBlock{
+    width: 400px;
+    height: 250px;
+    padding: 0 200px 0 0;
+    border-left: 1px solid white;
+}
+.BotLeftBlock{
+    width: 400px;
+    height: 250px;
+    margin: 0 0 0 200px;
+    border-left: 1px solid white;
+}
+.BotRightBlock{
+    width: 400px;
+    height: 250px;
+    padding: 0 0 0 0;
+    border-left: 1px solid white;
+}
+
+.ContentBlock{
+    margin: 50px;
+}
