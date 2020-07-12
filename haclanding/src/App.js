@@ -7,6 +7,7 @@ import BackgroundVideo from "./common/BackgroundVideo/BackgroundVideo";
 import AboutUs from "./components/AboutUs/AboutUs";
 import PartnersSlider from "./components/Slist/PartnersSlider";
 import Partners from "./components/Partners/Partners";
+import Comments from "./components/Comments/Comments";
 
 
 
@@ -36,6 +37,11 @@ const App = () => {
                     </div>
                     <div className="PartnersSlider">
                         <PartnersSlider/>
+                    </div>
+                </section>
+                <section className="Comments">
+                    <div className="CommentsWrapper">
+                        <Comments/>
                     </div>
                 </section>
             </div>

@@ -1,0 +1,47 @@
+.InputWrapper{
+    width: 250px;
+    border-bottom: 2px solid black;
+}
+
+.InputWrapper input{
+    /*width: 300px;*/
+    /*font-size: 13px;*/
+    /*padding: 6px 0 4px 10px;*/
+    /*!*border: 1px solid #cecece;*!*/
+    /*!*border: hidden;*!*/
+    /*outline: none;*/
+    /*border-bottom: 15px solid white;*/
+    /*background: darkcyan;*/
+    /*border-radius: 8px;*/
+    background-color: darkcyan;
+
+    /*Сброс стандартных стилей*/
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+
+}
+.InputWrapper input::placeholder{
+    color: white;
+}
+.TextareaWrapper{
+
+}
+.TextareaWrapper textarea{
+    /*!* = Убираем скролл *!*/
+    overflow: auto;
+    /*!* = Убираем увеличение *!*/
+    resize: none;
+    width: 300px;
+    height: 50px;
+    color: red;
+    background-color: darkcyan;
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+}
+.TextareaWrapper textarea::placeholder{
+ color: white;
+}
