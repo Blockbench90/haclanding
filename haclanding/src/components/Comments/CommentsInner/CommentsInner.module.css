@@ -1,0 +1,17 @@
+.Wrapper{
+    height: 100vh;
+    background-color: darkcyan;
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+}
+.CommentsText{
+    padding-top: 100px;
+    padding-right: 30px;
+    width: 70%;
+}
+.CommentsInput{
+    padding-top: 50px;
+    width: 30% ;
+}

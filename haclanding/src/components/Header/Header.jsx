@@ -2,8 +2,12 @@ import React from "react";
 import style from "./Header.module.css"
 import logo from "../../assets/copy/img/Png/Msi.png"
 import Button from "../../common/Butoon/Button";
+import {Link, animateScroll as scroll} from "react-scroll";
 
 class Header extends React.Component {
+    scrollToTop = () => {
+        scroll.scrollToTop();
+    };
     render() {
         return (
             <div className={style.Wrapper}>
@@ -11,22 +15,40 @@ class Header extends React.Component {
                     <div className={style.Header}>
                         <header className={style.HeaderInner}>
                             <div className={style.Logo}>
-                                <a href="#">
-                                    <img src={logo} alt=""/>
-                                </a>
+                                    <img src={logo}
+                                         alt="Logo"
+                                         onClick={this.scrollToTop}/>
                             </div>
                             <nav className={style.NavigationMenu}>
                                 <div className={style.Nav}>
-                                    <a href="#">Ремонт</a>
+                                    <Link to="section1"
+                                          spy={true}
+                                          smooth={true}
+                                          duration={1000}>Главная</Link>
                                 </div>
                                 <div className={style.NavButton}>
-                                    <a href="#">Покупка</a>
+                                    <Link to="section2"
+                                          spy={true}
+                                          smooth={true}
+                                          duration={1000}>Услуги</Link>
                                 </div>
                                 <div className={style.NavButton}>
-                                    <a href="#">Галерея</a>
+                                    <Link  to="section3"
+                                           spy={true}
+                                           smooth={true}
+                                           duration={1000}>Партнеры</Link>
                                 </div>
                                 <div className={style.NavButton}>
-                                    <a href="#">О нас</a>
+                                    <Link  to="section4"
+                                           spy={true}
+                                           smooth={true}
+                                           duration={1000}>Отзывы</Link>
+                                </div>
+                                <div className={style.NavButton}>
+                                    <Link  to="section5"
+                                           spy={true}
+                                           smooth={true}
+                                           duration={1000}>Контакты</Link>
                                 </div>
                             </nav>
                             <div className={style.Button}>

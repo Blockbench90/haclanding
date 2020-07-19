@@ -9,6 +9,18 @@
     background-color: aqua;
 }
 
-.title {
+.ToWrapper {
+    /*width: 30px;*/
+    /*height: 40px;*/
+    /*border: 1px solid red;*/
+}
+.ToContainer img{
+    width: 89px;
+    height: 80px;
+    border-radius: 20%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.ButtonUp{
 
 }

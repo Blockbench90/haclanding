@@ -29,8 +29,36 @@
 .NavigationMenu a{
     padding: 15px;
 }
+.NavigationMenu a:hover {
+    --stroke-pos: 0.1px;
+    --stroke-neg: -0.1px;
+    /*--stroke-color: rgba(0, 255, 0, 0.5);*/
+    --stroke-color: aqua;
+    filter: drop-shadow(var(--stroke-pos) 0 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(0 var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(0 var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-pos) var(--stroke-pos) 0 var(--stroke-color))
+    /*drop-shadow(var(--stroke-pos) var(--stroke-neg) 0 var(--stroke-color))*/
+    /*drop-shadow(var(--stroke-neg) var(--stroke-pos) 0 var(--stroke-color))*/
+    /*drop-shadow(var(--stroke-neg) var(--stroke-neg) 0 var(--stroke-color));*/
+}
 .Logo img{
     width: 60px;
+}
+.Logo img:hover {
+    --stroke-pos: 1px;
+    --stroke-neg: -1px;
+    /*--stroke-color: rgba(0, 255, 0, 0.5);*/
+    --stroke-color: aqua;
+    filter: drop-shadow(var(--stroke-pos) 0 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(0 var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(0 var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-pos) var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-pos) var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) var(--stroke-neg) 0 var(--stroke-color));
 }
 .Button{
     margin-top: 6px;

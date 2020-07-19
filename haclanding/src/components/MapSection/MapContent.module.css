@@ -1,0 +1,14 @@
+.Wrapper{
+    height: 100vh;
+    background-image: url("../../assets/img/MapBackground.jpg");
+    background-size: cover;
+}
+.Container{
+
+}
+.BackContainer{
+    
+}
+.ButtonUp{
+    padding: 33% 0 0 93%;
+}
