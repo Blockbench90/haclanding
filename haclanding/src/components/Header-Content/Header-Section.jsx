@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./HeaderSection.module.css"
 import logo from "../../assets/img/Logo6.png"
-import Button from "../../common/Butoon/Button";
+import {ButtonPhone} from "../../common/Butoon/Button";
 
 const HeaderSection = () => {
         return (
@@ -21,7 +21,7 @@ const HeaderSection = () => {
                               voluptatum. Aliquid, blanditiis consequuntur dolorem perspiciatis repudiandae totam.
                           </div>
                           <div className={style.Btn}>
-                              <Button title={"Консультация"} phone={"tel:+1234567890"}/>
+                              <ButtonPhone title={"Консультация"} phone={"tel:+1234567890"}/>
                           </div>
                       </div>
                   </div>

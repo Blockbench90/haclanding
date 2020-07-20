@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import HacLanding from "./HackLanding";
+import {BrowserRouter} from "react-router-dom";
 
-ReactDOM.render(<HacLanding />,
-  document.getElementById('root')
+ReactDOM.render(<BrowserRouter>
+        <HacLanding/>
+    </BrowserRouter>,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
