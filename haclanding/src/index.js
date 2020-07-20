@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 import HacLanding from "./HackLanding";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <HacLanding />
-  </React.StrictMode>,
+ReactDOM.render(<HacLanding />,
   document.getElementById('root')
 );
 

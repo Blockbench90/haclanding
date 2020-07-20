@@ -11,14 +11,24 @@ const MapContent = (props) => {
     return <div className={s.Wrapper}>
         <div className={s.Container}>
             <div>
-                <h2>Найти нас очень просто</h2>
+                <span>Найти нас очень просто</span>
             </div>
             <div>
-                <h3>Можно позвонить или перейти в карту</h3>
+                <span>Можно позвонить или перейти в карту</span>
             </div>
-            <div><span>+3 8 099 321 65 65</span></div>
-            <div><span>+3 8 099 321 65 65</span></div>
-            <div><span>+3 8 099 321 65 65</span></div>
+            <div>
+                <a href="tel:+1234567890">+3 8 099 321 65 65</a>
+            </div>
+            <div>
+                <a href="tel:+1234567890">+3 8 099 321 65 65</a>
+            </div>
+            <div>
+                <a href="tel:+1234567890">+3 8 099 321 65 65</a>
+            </div>
+            <div>
+                <a href="https://www.google.com.ua/maps/@47.782484,35.1840032,18.75z?hl=ru" target="_blank">
+                    Посмотреть нас на карте</a>
+            </div>
         </div>
         <div className={s.ButtonUp}>
             <ButtonToUp handleClick={toUp}/>

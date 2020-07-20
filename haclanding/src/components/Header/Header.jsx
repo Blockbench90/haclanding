@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Header.module.css"
-import logo from "../../assets/copy/img/Png/Msi.png"
+import logo from "../../assets/img/Logo6.png"
 import Button from "../../common/Butoon/Button";
 import {Link, animateScroll as scroll} from "react-scroll";
 
@@ -52,7 +52,7 @@ class Header extends React.Component {
                                 </div>
                             </nav>
                             <div className={style.Button}>
-                                <Button title={"Консультация"}/>
+                                <Button title={"Консультация"} phone={"tel:+1234567890"}/>
                             </div>
                         </header>
                     </div>

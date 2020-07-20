@@ -8,6 +8,7 @@ import Partners from "./components/Partners/Partners";
 import CommentsInner from "./components/Comments/CommentsInner/CommentsInner";
 import HeaderContent from "./components/Header-Content/HeaderContent";
 import MapContent from "./components/MapSection/MapContent";
+import Preloader from "./common/Preloader/Preloader";
 
 
 
@@ -37,9 +38,9 @@ const App = () => {
                 <section className="Map" id="section5">
                     <MapContent/>
                 </section>
-                {/*<section>*/}
-                {/*    <Preloader/>*/}
-                {/*</section>*/}
+                <section>
+                    <Preloader/>
+                </section>
             </div>
         </div>
     );

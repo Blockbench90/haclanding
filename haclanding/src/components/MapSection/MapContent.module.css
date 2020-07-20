@@ -1,14 +1,25 @@
 .Wrapper{
     height: 100vh;
-    background-image: url("../../assets/img/MapBackground.jpg");
+    background-image: url("../../assets/img/Map.png");
     background-size: cover;
+    /*left: 0;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    display: flex;
+    justify-content: space-between;
 }
 .Container{
-
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.Container div{
+    padding-bottom: 10px;
 }
 .BackContainer{
     
 }
 .ButtonUp{
-    padding: 33% 0 0 93%;
+   padding: 800px 20px 0 0;
 }

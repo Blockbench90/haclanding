@@ -11,11 +11,11 @@
 
 }
 .PreloaderWrapper {
-    padding-top: 250px;
+    padding-top: 170px;
 }
 .PreloaderWrapper img{
     padding-left: 41%;
-    width: 358px;
+    width: 379px;
 }
 .PreloaderContainer{
     --effect: hover 1s linear infinite;

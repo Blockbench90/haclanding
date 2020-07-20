@@ -7,7 +7,7 @@ import up from "../../assets/img/ToUp.png";
 const Button = (props) => {
     return (
         <div className={s.wrapper}>
-            <a href="#"><div className={s.title}>
+            <a href={props.phone || "#"}><div className={s.title}>
                 <span>{props.title}</span>
             </div>
             </a>

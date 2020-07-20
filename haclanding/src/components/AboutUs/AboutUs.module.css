@@ -2,6 +2,7 @@
     height: 100vh;
     width: 100vw;
     background: rgba(22, 99, 106, 0.9);
+    /*background: rgba(211, 217, 237, 0.9);*/
     color: white;
 }
 .Content {
@@ -56,7 +57,7 @@
     margin: 60px 0 0 350px;
 }
 .tLbInner{
-    background-image: url("../../assets/copy/img/Png/Pc.png");
+    background-image: url("../../assets/img/remont.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 585px;
@@ -72,7 +73,7 @@
     border-radius: 30px;
 }
 .cLbInner{
-    background-image: url("../../assets/copy/img/office-icons.png");
+    background-image: url("../../assets/img/win.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 585px;
