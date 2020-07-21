@@ -1,18 +1,12 @@
 .PreloaderWrapper{
-    /*--effect: hover 1s linear infinite;*/
-}
-/**{*/
-/*    margin:0;*/
-/*}*/
-.Preloader{
+   position: fixed;
+    z-index: 10;
+    padding-top: 170px;
     width: 100vw;
     height: 100vh;
     background: rgba(26, 45, 46, 0.9);
+}
 
-}
-.PreloaderWrapper {
-    padding-top: 170px;
-}
 .PreloaderWrapper img{
     padding-left: 41%;
     width: 379px;

@@ -1,6 +1,6 @@
 .Wrapper{
     position: fixed;
-    z-index: 10;
+    z-index: 7;
     left: 0;
     top: 0;
     right: 0;
@@ -28,16 +28,10 @@
 }
 .NavigationMenu a{
     padding: 15px;
+    /*border-bottom: 1px solid white;*/
+    text-decoration: underline;
 }
 .NavigationMenu a:hover {
-    /*--stroke-pos: 0.1px;*/
-    /*--stroke-neg: -0.1px;*/
-    /*--stroke-color: aqua;*/
-    /*filter: drop-shadow(var(--stroke-pos) 0 0 var(--stroke-color))*/
-    /*drop-shadow(var(--stroke-neg) 0 var(--stroke-color))*/
-    /*drop-shadow(0 var(--stroke-pos) 0 var(--stroke-color))*/
-    /*drop-shadow(0 var(--stroke-neg) 0 var(--stroke-color))*/
-    /*drop-shadow(var(--stroke-pos) var(--stroke-pos) 0 var(--stroke-color))*/
     font-size: 30px;
     font-weight: 700;
     color: aqua;
@@ -47,6 +41,7 @@
     width: 45px;
 }
 .Logo img:hover {
+    cursor: pointer;
     --stroke-pos: 1px;
     --stroke-neg: -1px;
     /*--stroke-color: rgba(0, 255, 0, 0.5);*/

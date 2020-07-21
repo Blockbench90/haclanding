@@ -52,9 +52,9 @@ const App = () => {
                 <section className="Map" id="section5">
                     <MapContent/>
                 </section>
-                <section>
-                    <Preloader/>
-                </section>
+                {/*<section>*/}
+                {/*    <Preloader/>*/}
+                {/*</section>*/}
             </div>
         </div>
     );

@@ -12,6 +12,7 @@
     width: 70%;
 }
 .CommentsInput{
-    padding-top: 50px;
+    padding: 50px 50px 0 50px;
+    overflow: hidden;
     width: 30% ;
 }
