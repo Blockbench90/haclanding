@@ -1,4 +1,4 @@
-.Wrapper{
+.Wrapper {
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -8,6 +8,7 @@
     height: 5px; /* высота для горизонтального скролла */
     background: black;
 }
+
 ::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.1);
     transition: all .5s;
@@ -18,7 +19,7 @@
     background-color: aqua;
 }
 
-.Container{
+.Container {
     max-height: 650px;
     display: inline-block;
     padding: 50px;
@@ -26,4 +27,23 @@
     background-color: darkcyan;
     color: white;
 
+}
+
+.PostWrapper {
+    margin: 15px;
+}
+
+.PostContainer {
+    display: flex;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    padding: 15px;
+}
+.UserDescription{
+    padding: 30px;
+    font-size: 19px;
+}
+
+.PostContainer img {
+    width: 150px;
 }

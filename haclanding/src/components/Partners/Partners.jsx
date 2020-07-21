@@ -1,6 +1,5 @@
 import React from "react";
 import s from "./Partners.module.css"
-import Button from "../../common/Butoon/Button";
 
 
 const Content = (props) => {
