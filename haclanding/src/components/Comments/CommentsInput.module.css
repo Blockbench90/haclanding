@@ -1,14 +1,16 @@
 .Wrapper{
     padding: 50px;
     background-color: darkcyan;
-    color: white;
-    max-height: 800px;
+
 }
 .Container{
 
 }
 .InputInner{
     margin-bottom: 40px;
+}
+.InputInner span{
+    font-size: 15px;
 }
 .TextareaInner{
     margin-bottom: 10px;

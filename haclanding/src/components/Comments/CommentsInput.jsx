@@ -15,6 +15,10 @@ const CommentsInput = (props) => {
                     <div className={s.InputInner}>
                         <Input placeholder={"Введите ваше фамилию"}/>
                     </div>
+                    <div className={s.InputInner}>
+                        <Input placeholder={"Возраст"}/>
+                        <span>*Возраст нужен, чтобы подобрать подходящую аватарку</span>
+                    </div>
                     <div className={s.TextareaInner}>
                         <Textarea placeholder={"Оставьте ваш отзыв"}/>
                     </div>
