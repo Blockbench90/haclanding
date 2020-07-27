@@ -5,10 +5,7 @@ import Header from "./components/Header/Header";
 import AboutUs from "./components/AboutUs/AboutUs";
 import PartnersSlider from "./components/Slist/PartnersSlider";
 import Partners from "./components/Partners/Partners";
-import CommentsInner from "./components/Comments/CommentsInner/CommentsInner";
 import HeaderContent from "./components/Header-Content/HeaderContent";
-import MapContent from "./components/MapSection/MapContent";
-import Preloader from "./common/Preloader/Preloader";
 import {Route, Switch} from "react-router-dom";
 import Fix from "./components/WithRoute/Fix";
 import Replacement from "./components/WithRoute/Replacement";
@@ -16,6 +13,9 @@ import Assembly from "./components/WithRoute/Assembly";
 import Support from "./components/WithRoute/Support";
 import Master from "./components/WithRoute/Master";
 import Zero from "./components/WithRoute/Zero";
+import CommentsInner from "./components/Comments/CommentsInner/CommentsInner";
+import MapContent from "./components/MapSection/MapContent";
+
 
 
 const App = () => {
@@ -38,23 +38,20 @@ const App = () => {
                         <Route path='/zero' render={() => <Zero/>}/>
                     </Switch>
                 </section>
-                {/*<section className="Partners" id="section3">*/}
-                {/*    <div className="PartnersContent">*/}
-                {/*        <Partners/>*/}
-                {/*    </div>*/}
-                {/*    <div className="PartnersSlider">*/}
-                {/*        <PartnersSlider/>*/}
-                {/*    </div>*/}
-                {/*</section>*/}
-                {/*<section className="Comments" id="section4">*/}
-                {/*    <CommentsInner/>*/}
-                {/*</section>*/}
-                {/*<section className="Map" id="section5">*/}
-                {/*    <MapContent/>*/}
-                {/*</section>*/}
-                {/*<section>*/}
-                {/*    <Preloader/>*/}
-                {/*</section>*/}
+                <section className="Partners" id="section3">
+                    <div className="PartnersContent">
+                        <Partners/>
+                    </div>
+                    <div className="PartnersSlider">
+                        <PartnersSlider/>
+                    </div>
+                </section>
+                <section className="Comments" id="section4">
+                    <CommentsInner/>
+                </section>
+                <section className="Map" id="section5">
+                    <MapContent/>
+                </section>
             </div>
         </div>
     );

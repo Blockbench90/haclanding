@@ -1,6 +1,5 @@
 .Wrapper{
-    padding: 50px;
-    /*background-color: darkcyan;*/
+    padding: 43px;
 }
 .Container{
 
@@ -15,11 +14,36 @@
     margin-bottom: 10px;
 }
 .ButtonInner{
-    padding-left: 78%;
+    padding-left: 72%;
 }
 .Input textarea{
     background-color: rgba(38, 55, 54, 0.3);
     color: white;
     height: 40vh;
     width: 25vw;
+}
+@media (max-width: 1270px) {
+    .ButtonInner{
+        padding-left: 18%;
+    }
+}
+
+@media (max-width: 833px) {
+    .Wrapper{
+        padding: 0;
+    }
+    .Input textarea{
+        height: 10vh;
+        width: 60vw;
+    }
+}
+
+@media (max-width: 416px) {
+    .InputInner span{
+        font-size: 8px;
+    }
+    .Input textarea{
+        height: 10vh;
+        width: 83vw;
+    }
 }

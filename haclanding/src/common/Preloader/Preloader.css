@@ -4,11 +4,16 @@
     padding-top: 170px;
     width: 100vw;
     height: 100vh;
-    background: rgba(26, 45, 46, 0.9);
+    background: rgba(26, 45, 46, 1);
+    /*background: white;*/
+
+}
+.Preloader{
+
 }
 
 .PreloaderWrapper img{
-    padding-left: 41%;
+    padding-left: 41vw;
     width: 379px;
 }
 .PreloaderContainer{

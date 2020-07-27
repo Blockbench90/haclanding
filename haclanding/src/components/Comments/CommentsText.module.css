@@ -26,7 +26,6 @@
     overflow: auto;
     background-color: darkcyan;
     color: white;
-
 }
 
 .PostWrapper {
@@ -46,4 +45,36 @@
 
 .PostContainer img {
     width: 150px;
+}
+@media (max-width: 1270px) {
+    .PostContainer img {
+        width: 75px;
+    }
+    .UserDescription{
+        padding: 10px;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 833px) {
+    .Container {
+        max-height: 319px;
+    }
+}
+
+@media (max-width: 416px) {
+    .Container {
+        max-height: 419px;
+        padding: 6px;
+    }
+    .UserDescription p{
+        /*padding: 30px;*/
+        font-size: 11px;
+    }
+    .PostContainer {
+        padding: 15px;
+    }
+    .PostContainer img {
+        width: 30px;
+    }
 }

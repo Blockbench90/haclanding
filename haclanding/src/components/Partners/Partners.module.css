@@ -10,7 +10,6 @@
     max-width: 1200px;
     margin: 0 auto;
     color: white;
-
 }
 .ContentInner{
     margin-top: 150px;
@@ -23,7 +22,6 @@
 .BottomContent{
     display: flex;
     justify-content: space-between;
-
 }
 .TopLeftBlock{
     width: 400px;
@@ -52,4 +50,46 @@
 
 .ContentBlock{
     margin: 50px;
+}
+@media (max-width: 865px) {
+    .ContentBlock h3, p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 675px) {
+    .ContentBlock h3, p{
+        font-size: 13px;
+    }
+    .TopLeftBlock{
+        width: 200px;
+        height: 250px;
+        padding: 0 0 0 0;
+        border-left: none;
+    }
+    .TopRightBlock{
+        width: 200px;
+        height: 250px;
+        padding: 0 50px 0 0;
+        border-left: none;
+    }
+    .BotLeftBlock{
+        width: 200px;
+        height: 250px;
+        margin: 0 0 0 50px;
+        border-left: none;
+    }
+    .BotRightBlock{
+        width: 200px;
+        height: 250px;
+        padding: 0 0 0 0;
+        border-left: none;
+    }
+    .ContentBlock{
+        margin: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+
 }

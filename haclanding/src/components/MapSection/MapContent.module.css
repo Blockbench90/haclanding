@@ -23,3 +23,22 @@
 .ButtonUp{
    padding: 800px 20px 0 0;
 }
+@media (max-width: 1270px) {
+
+}
+
+@media (max-width: 833px) {
+    .Container{
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 416px) {
+    .Container{
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+}

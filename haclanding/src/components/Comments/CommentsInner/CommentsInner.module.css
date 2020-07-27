@@ -16,3 +16,20 @@
     overflow: hidden;
     width: 30% ;
 }
+@media (max-width: 833px) {
+    .Container{
+        display: inline;
+    }
+    .CommentsInput{
+        width: 100% ;
+    }
+    .CommentsText{
+        padding-top: 15px;
+        width: 98%;
+    }
+}
+@media (max-width: 416px) {
+    .CommentsInput{
+        padding: 50px 50px 0 10px;
+    }
+}
