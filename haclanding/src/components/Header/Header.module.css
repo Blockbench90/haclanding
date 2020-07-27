@@ -28,23 +28,23 @@
 }
 .NavigationMenu a{
     padding: 15px;
-    /*border-bottom: 1px solid white;*/
     text-decoration: underline;
 }
 .NavigationMenu a:hover {
+    transition: all .3s;
+    transform: scale(1.2);
     font-size: 30px;
     font-weight: 700;
     color: aqua;
-
 }
 .Logo img{
     width: 45px;
+    padding-left: 30px;
 }
 .Logo img:hover {
     cursor: pointer;
     --stroke-pos: 1px;
     --stroke-neg: -1px;
-    /*--stroke-color: rgba(0, 255, 0, 0.5);*/
     --stroke-color: aqua;
     filter: drop-shadow(var(--stroke-pos) 0 0 var(--stroke-color))
     drop-shadow(var(--stroke-neg) 0 var(--stroke-color))
@@ -57,4 +57,109 @@
 }
 .Button{
     margin-top: 6px;
+    padding-right: 40px;
+}
+
+@media (max-width: 1200px) {
+    .Wrapper{
+        font-size: 22px;
+    }
+    .Container{
+        max-width: 414px;
+        padding-right: 290px;
+    }
+    .Logo img{
+        width: 30px;
+        padding-left: 10px;
+        padding-top: 8px;
+    }
+    .NavigationMenu {
+        padding: 9px 76px 0 10px;
+    }
+    .NavigationMenu a{
+        padding: 10px;
+    }
+    .Button{
+        display: none;
+    }
+    .NavigationMenu a:hover {
+        font-size: 22px;
+    }
+}
+@media (max-width: 768px) {
+    .Wrapper{
+        font-size: 20px;
+    }
+    .Container{
+        max-width: 414px;
+        padding-right: 200px;
+    }
+    .Logo img{
+        width: 30px;
+        padding-left: 10px;
+        padding-top: 8px;
+    }
+    .NavigationMenu {
+        padding: 9px 76px 0 10px;
+    }
+    .NavigationMenu a{
+        padding: 10px;
+    }
+    .Button{
+        display: none;
+    }
+    .NavigationMenu a:hover {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 414px) {
+    .Wrapper{
+        font-size: 10px;
+    }
+    .Container{
+        max-width: 414px;
+    }
+    .Logo img{
+        width: 25px;
+        padding-left: 10px;
+        padding-top: 8px;
+    }
+    .NavigationMenu {
+        padding: 9px 76px 0 0;
+    }
+    .NavigationMenu a{
+        padding: 10px;
+    }
+    .Button{
+        display: none;
+    }
+    .NavigationMenu a:hover {
+        font-size: 15px;
+    }
+}
+@media (max-width: 380px) {
+    .Wrapper{
+        font-size: 12px;
+    }
+    .Container{
+        max-width: 414px;
+    }
+    .Logo img{
+        width: 25px;
+        padding-left: 10px;
+        padding-top: 8px;
+    }
+    .NavigationMenu {
+        padding: 9px 76px 0 0;
+    }
+    .NavigationMenu a{
+        padding: 5px;
+    }
+    .Button{
+        display: none;
+    }
+    .NavigationMenu a:hover {
+        font-size: 13px;
+    }
 }

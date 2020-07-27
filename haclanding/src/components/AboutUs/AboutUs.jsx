@@ -25,15 +25,14 @@ const AboutUs = (props) => {
                         <div className={s.LeftBlock}>
                             <div className={s.tLbInner}>
                                 <Post title={"Ремонт любой сложности"}
-                                      content={"Будь у вас синий экран или перестала работать зарядка,\n" +
-                                      "                    мы отпемонтируем все."}
+                                      content={"Будь у вас синий экран или перестала работать зарядка"}
                                 route="/fix" />
                             </div>
                         </div>
                         <div className={s.RightBlock}>
                             <div className={s.tRbInner}>
                             <Post title={"Замена расходников"}
-                                  content={"Ваш Пк как и автомобиль, нуждается в замене термопасты"}
+                                  content={"Ваш Пк нуждается в замене термопасты"}
                                   route="/replacement"/>
                             </div>
                         </div>
@@ -42,14 +41,14 @@ const AboutUs = (props) => {
                         <div className={s.LeftBlock}>
                             <div className={s.cLbInner}>
                                 <Post title={"Програмное обогащение"}
-                                      content={"Переустановить Винду, обновить аккаунт в PornoHub, без проблем"}
+                                      content={"Переустановить Винду, обновить PornoHub"}
                                       route="/support"/>
                             </div>
                         </div>
                         <div className={s.RightBlock}>
                             <div className={s.cRbInner}>
                                 <Post title={"Сборка ПК под ключ"}
-                                      content={"Соберем даже коллайдер, только бы места в доме хватило"}
+                                      content={"Соберем даже коллайдер, если надо"}
                                 route="/assembly"/>
                             </div>
                         </div>

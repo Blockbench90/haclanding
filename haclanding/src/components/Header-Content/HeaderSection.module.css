@@ -1,14 +1,7 @@
 .Wrapper {
     color: white;
     width: 100vw;
-    height: 100vh;
-    margin-bottom: 100px;
 }
-
-.Container {
-
-}
-
 .HeaderTitle {
     padding-top: 10vh;
     padding-left: 8vw;
@@ -29,6 +22,25 @@
     padding-top: 30px;
 }
 
-.HeaderVideoBox {
-
+@media (max-width: 780px) {
+    .HeaderTitle img {
+        width: 120px;
+    }
+    .Container {
+        font-size: 18px;
+    }
+    .Content {
+        width: 350px;
+    }
+}
+@media (max-width: 414px) {
+    .HeaderTitle img {
+        width: 50px;
+    }
+    .Container {
+        font-size: 15px;
+    }
+    .Content {
+        width: 240px;
+    }
 }

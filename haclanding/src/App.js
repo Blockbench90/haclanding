@@ -38,20 +38,20 @@ const App = () => {
                         <Route path='/zero' render={() => <Zero/>}/>
                     </Switch>
                 </section>
-                <section className="Partners" id="section3">
-                    <div className="PartnersContent">
-                        <Partners/>
-                    </div>
-                    <div className="PartnersSlider">
-                        <PartnersSlider/>
-                    </div>
-                </section>
-                <section className="Comments" id="section4">
-                    <CommentsInner/>
-                </section>
-                <section className="Map" id="section5">
-                    <MapContent/>
-                </section>
+                {/*<section className="Partners" id="section3">*/}
+                {/*    <div className="PartnersContent">*/}
+                {/*        <Partners/>*/}
+                {/*    </div>*/}
+                {/*    <div className="PartnersSlider">*/}
+                {/*        <PartnersSlider/>*/}
+                {/*    </div>*/}
+                {/*</section>*/}
+                {/*<section className="Comments" id="section4">*/}
+                {/*    <CommentsInner/>*/}
+                {/*</section>*/}
+                {/*<section className="Map" id="section5">*/}
+                {/*    <MapContent/>*/}
+                {/*</section>*/}
                 {/*<section>*/}
                 {/*    <Preloader/>*/}
                 {/*</section>*/}
