@@ -120,176 +120,267 @@
     height: 259px;
     border-radius: 30px;
 }
+
 @media (max-width: 1380px) {
     .Content {
         max-width: 980px;
     }
+
     .tLbInner {
         width: 416px;
         height: 194px;
     }
+
     .tRbInner {
         width: 416px;
         height: 194px;
     }
+
     .cLbInner {
         width: 416px;
         height: 194px;
     }
+
     .cRbInner {
         width: 416px;
         height: 194px;
     }
+
     .bLbInner {
         width: 416px;
         height: 194px;
     }
+
     .bRbInner {
         width: 416px;
         height: 194px;
     }
+
     .PostInner {
         width: 416px;
         height: 194px;
     }
+
     .PostSpan {
         font-size: 12px;
         line-height: 25px;
         margin-left: 50px;
     }
+
     .PostBtn {
         margin: 0 0 0 222px;
         font-size: 20px;
     }
+
     .ContentInner h2 {
         line-height: 30px;
         padding-top: 19px;
         font-size: 29px;
     }
+
     .ContentInner p {
         font-size: 21px;
         line-height: 19px;
     }
 }
+
 @media (max-width: 1090px) {
     .Content {
         max-width: 900px;
     }
+
     .tLbInner {
         width: 392px;
         height: 181px;
         margin: 30px;
     }
+
     .tRbInner {
         width: 392px;
         height: 181px;
         margin: 30px;
     }
+
     .cLbInner {
         width: 392px;
         height: 181px;
         margin: 30px;
     }
+
     .cRbInner {
         width: 392px;
         height: 181px;
         margin: 30px;
     }
+
     .bLbInner {
         width: 392px;
         height: 181px;
         margin: 30px;
     }
+
     .bRbInner {
         width: 392px;
         height: 181px;
         margin: 30px;
     }
+
     .PostInner {
         width: 392px;
         height: 181px;
         /*margin: 30px;*/
     }
+
     .PostSpan {
         font-size: 12px;
         line-height: 25px;
         margin-left: 50px;
     }
+
     .PostBtn {
         margin: 0 0 0 218px;
         font-size: 15px;
     }
+
     .ContentInner h2 {
         /*line-height: 0px;*/
         padding-top: 10px;
         font-size: 25px;
     }
+
     .ContentInner p {
         font-size: 20px;
         line-height: 26px;
     }
 }
-@media (max-width: 820px) {
+
+@media (max-width: 925px) {
     .Content {
         max-width: 700px;
     }
+
     .tLbInner {
         width: 313px;
         height: 129px;
     }
+
     .tRbInner {
         width: 313px;
         height: 129px;
     }
+
     .cLbInner {
         width: 313px;
         height: 129px;
     }
+
     .cRbInner {
         width: 313px;
         height: 129px;
     }
+
     .bLbInner {
         width: 313px;
         height: 129px;
     }
+
     .bRbInner {
         width: 313px;
         height: 129px;
     }
+
     .PostInner {
         width: 313px;
         height: 129px;
     }
+
     .PostSpan {
         font-size: 12px;
         line-height: 25px;
         margin-left: 50px;
     }
+
     .PostBtn {
         margin: 0px 0 0 100px;
         font-size: 15px;
     }
+
     .ContentInner h2 {
         line-height: 0px;
         padding-top: 10px;
         font-size: 18px;
     }
+
     .ContentInner p {
         font-size: 16px;
         line-height: 19px;
     }
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 856px) {*/
+/*    .Content {*/
+/*        max-width: 900px;*/
+/*    }*/
+/*    .tLbInner {*/
+/*        width: 392px;*/
+/*        height: 181px;*/
+/*        margin: 30px;*/
+/*    }*/
+/*    .tRbInner {*/
+/*        width: 392px;*/
+/*        height: 181px;*/
+/*        margin: 30px;*/
+/*    }*/
+/*    .cLbInner {*/
+/*        width: 392px;*/
+/*        height: 181px;*/
+/*        margin: 30px;*/
+/*    }*/
+/*    .cRbInner {*/
+/*        width: 392px;*/
+/*        height: 181px;*/
+/*        margin: 30px;*/
+/*    }*/
+/*    .bLbInner {*/
+/*        width: 392px;*/
+/*        height: 181px;*/
+/*        margin: 30px;*/
+/*    }*/
+/*    .bRbInner {*/
+/*        width: 392px;*/
+/*        height: 181px;*/
+/*        margin: 30px;*/
+/*    }*/
+/*    .PostInner {*/
+/*        width: 392px;*/
+/*        height: 181px;*/
+/*        !*margin: 30px;*!*/
+/*    }*/
+/*    .PostSpan {*/
+/*        font-size: 12px;*/
+/*        line-height: 25px;*/
+/*        margin-left: 50px;*/
+/*    }*/
+/*    .PostBtn {*/
+/*        margin: 0 0 0 218px;*/
+/*        font-size: 15px;*/
+/*    }*/
+/*    .ContentInner h2 {*/
+/*        !*line-height: 0px;*!*/
+/*        padding-top: 10px;*/
+/*        font-size: 25px;*/
+/*    }*/
+/*    .ContentInner p {*/
+/*        font-size: 20px;*/
+/*        line-height: 26px;*/
+/*    }*/
+/*}*/
 
-}
+@media (max-width: 840px) {
+    .Content {
+        max-width: 400px;
+    }
 
-@media (max-width: 414px) {
-
-}
-
-@media (max-width: 380px) {
     .TopContent {
         display: inline-block;
     }
@@ -301,7 +392,79 @@
     .ButtonContent {
         display: inline-block;
     }
+
     .bRbInner {
         display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .ContentInner {
+        padding-top: 50px;
+    }
+    .Content {
+        max-width: 220px;
+    }
+    .tLbInner {
+        width: 203px;
+        height: 106px;
+        margin: 0;
+    }
+
+    .tRbInner {
+        width: 203px;
+        height: 106px;
+        margin: 0;
+    }
+
+    .cLbInner {
+        width: 203px;
+        height: 106px;
+        margin: 0;
+    }
+
+    .cRbInner {
+        width: 203px;
+        height: 106px;
+        margin: 0;
+    }
+
+    .bLbInner {
+        width: 203px;
+        height: 106px;
+        margin: 0;
+    }
+
+    .bRbInner {
+        width: 203px;
+        height: 106px;
+        margin: 0;
+    }
+
+    .PostInner {
+        width: 203px;
+        height: 106px;
+        margin: 0;
+    }
+
+    .PostSpan {
+        font-size: 12px;
+        line-height: 25px;
+        margin-left: 50px;
+    }
+
+    .PostBtn {
+        margin: 0 0 0 69px;
+        font-size: 12px;
+    }
+
+    .ContentInner h2 {
+        padding-top: 10px;
+        font-size: 10px;
+    }
+
+    .ContentInner p {
+        font-size: 10px;
+        line-height: 10px;
     }
 }

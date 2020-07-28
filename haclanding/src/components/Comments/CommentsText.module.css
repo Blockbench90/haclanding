@@ -63,6 +63,12 @@
 }
 
 @media (max-width: 416px) {
+    .Wrapper {
+        box-sizing: border-box;
+        overflow-x: hidden;
+        height: 300px;
+    }
+
     .Container {
         max-height: 419px;
         padding: 6px;

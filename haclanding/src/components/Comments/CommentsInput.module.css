@@ -39,6 +39,16 @@
 }
 
 @media (max-width: 416px) {
+    .Wrapper{
+        width: 90%;
+        overflow: hidden;
+    }
+    .InputInner{
+        margin-bottom: 5px;
+    }
+    .InputInner input{
+
+    }
     .InputInner span{
         font-size: 8px;
     }

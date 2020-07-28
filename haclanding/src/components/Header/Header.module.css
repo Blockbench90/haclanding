@@ -60,7 +60,7 @@
     padding-right: 40px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .Wrapper{
         font-size: 22px;
     }
@@ -113,7 +113,7 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 560px) {
     .Wrapper{
         font-size: 10px;
     }
@@ -140,7 +140,7 @@
 }
 @media (max-width: 380px) {
     .Wrapper{
-        font-size: 12px;
+        font-size: 10px;
     }
     .Container{
         max-width: 414px;

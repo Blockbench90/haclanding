@@ -2,9 +2,6 @@
     height: 100vh;
     background-image: url("../../assets/img/Map.png");
     background-size: cover;
-    /*left: 0;*/
-    /*right: 0;*/
-    /*top: 0;*/
     display: flex;
     justify-content: space-between;
 }
@@ -14,11 +11,28 @@
     font-weight: 500;
     line-height: 40px;
 }
+.Container span{
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
 .Container div{
     padding-bottom: 10px;
 }
-.BackContainer{
-    
+.PhoneBox{
+    display: flex;
+}
+.PhoneBox img{
+    width: 70px;
+}
+.PhoneBox a{
+    margin-top: 10px;
+}
+.MapBox{
+    display: flex;
+}
+.MapBox img{
+    width: 70px;
 }
 .ButtonUp{
    padding: 800px 20px 0 0;

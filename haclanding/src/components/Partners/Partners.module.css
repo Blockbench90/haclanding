@@ -52,6 +52,11 @@
     margin: 50px;
 }
 @media (max-width: 865px) {
+    .TopContent{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 20px 0;
+    }
     .ContentBlock h3, p{
         font-size: 15px;
     }
