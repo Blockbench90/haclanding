@@ -1,0 +1,97 @@
+.Wrapper{
+    padding: 43px;
+}
+.InputWrapper{
+    width: 325px;
+    border-bottom: 2px solid black;
+}
+.InputWrapper input {
+    background-color: darkcyan;
+    color: white;
+    padding-left: 10px;
+    /*Сброс стандартных стилей*/
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.InputWrapper input::placeholder {
+    color: darkgray;
+}
+.InputInner{
+    margin-bottom: 13px;
+}
+.InputInner span{
+    font-size: 8px;
+    font-weight: 700;
+}
+.TextareaInner{
+    margin-bottom: 10px;
+}
+.wrapperButton{
+    padding-left: 41%;
+
+}
+.wrapperButton button{
+    display: inline-block;
+    border: 1px solid red;
+    padding: 6px 22px;
+    background: rgba(255, 255, 255, 0.15);
+    transition: all .5s;
+}
+.wrapperButton button:hover{
+    background-color: aqua;
+}
+.TextareaWrapper textarea {
+    /*!* = Убираем скролл *!*/
+    overflow: auto;
+    /*!* = Убираем увеличение *!*/
+    resize: none;
+    /*background-color: darkcyan;*/
+    text-decoration: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: rgba(38, 55, 54, 0.3);
+    color: white;
+    height: 40vh;
+    width: 325px;
+}
+
+.TextareaWrapper textarea::placeholder {
+    color: rgba(38, 55, 54, 0.9);
+}
+@media (max-width: 1270px) {
+    .ButtonInner{
+        padding-left: 18%;
+    }
+}
+
+@media (max-width: 833px) {
+    .Wrapper{
+        padding: 0;
+    }
+    .Input textarea{
+        height: 10vh;
+        width: 60vw;
+    }
+}
+
+@media (max-width: 416px) {
+    .Wrapper{
+        width: 90%;
+        overflow: hidden;
+    }
+    .InputInner{
+        margin-bottom: 5px;
+    }
+    .InputInner input{
+
+    }
+    .InputInner span{
+        font-size: 8px;
+    }
+    .Input textarea{
+        height: 10vh;
+        width: 83vw;
+    }
+}

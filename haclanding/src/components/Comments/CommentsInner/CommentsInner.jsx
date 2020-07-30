@@ -1,7 +1,8 @@
 import React from "react";
 import s from "./CommentsInner.module.css"
-import CommentsText from "../CommentsText";
-import CommentsInput from "../CommentsInput";
+import CommentsInput from "./InputComments/CommentsInput";
+import CommentsText from "./TextComments/CommentsText";
+
 
 
 const CommentsInner = (props) => {

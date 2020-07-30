@@ -4,9 +4,13 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import HacLanding from "./HackLanding";
 import {BrowserRouter} from "react-router-dom";
+import {Provider} from "react-redux";
+import store from "./components/redux/redux";
 
 ReactDOM.render(<BrowserRouter>
+    <Provider store={store}>
         <HacLanding/>
+    </Provider>
     </BrowserRouter>,
     document.getElementById('root')
 );

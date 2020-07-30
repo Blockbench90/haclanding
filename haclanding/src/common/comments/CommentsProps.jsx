@@ -1,5 +1,6 @@
 import React from "react";
-import s from "./CommentsProps.module.css"
+import s from "./CommentsProps.module.css";
+
 export const Input = (props) => {
     return (
         <div className={s.InputWrapper}>
@@ -7,10 +8,11 @@ export const Input = (props) => {
         </div>
     )
 }
+
 export const Textarea = (props) => {
     return (
         <div className={s.TextareaWrapper}>
-            <textarea id="" cols="30" rows="10" placeholder={props.placeholder}/>
+            <textarea id="text" cols="30" rows="10" placeholder={props.placeholder}/>
         </div>
     )
 }

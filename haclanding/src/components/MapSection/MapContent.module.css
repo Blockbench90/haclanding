@@ -1,6 +1,7 @@
 .Wrapper{
     height: 100vh;
-    background-image: url("../../assets/img/Map.png");
+    /*background-image: url("../../assets/img/Map.png");*/
+    background-image: url("../../assets/img/Map3.png");
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -23,16 +24,20 @@
     display: flex;
 }
 .PhoneBox img{
-    width: 70px;
+    width: 47px;
 }
 .PhoneBox a{
     margin-top: 10px;
+
 }
 .MapBox{
     display: flex;
 }
+.MapBox{
+    text-decoration: underline;
+}
 .MapBox img{
-    width: 70px;
+    width: 47px;
 }
 .ButtonUp{
    padding: 800px 20px 0 0;

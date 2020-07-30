@@ -6,6 +6,7 @@ import kyivstar from "../../assets/img/kyivstar.png"
 import map from "../../assets/img/MapIcon.png"
 
 
+
 const MapContent = (props) => {
     const toUp = () => {
         scroll.scrollToTop();
