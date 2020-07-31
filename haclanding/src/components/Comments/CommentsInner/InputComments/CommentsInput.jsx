@@ -2,6 +2,7 @@ import React from "react";
 import s from "./CommentsInput.module.css"
 import {Field, reduxForm} from "redux-form";
 import {sendComment} from "../../../redux/comments-reducer";
+import {connect} from "react-redux";
 
 
 const CommentsForm = (props) => {
@@ -9,12 +10,27 @@ const CommentsForm = (props) => {
         <form onSubmit={props.handleSubmit} className={s.Input}>
             <div className={s.InputInner}>
                 <div className={s.InputWrapper}>
-                    <Field component="input" name={"name"} placeholder="Введите ваше имя"/>
+                    <Field component="input" name="name" placeholder="Введите ваше имя"/>
                 </div>
             </div>
             <div className={s.InputInner}>
                 <div className={s.InputWrapper}>
-                    <Field component="input" name="lastName" placeholder="Введите ваше фамилию"/>
+                    <Field component="input" name="lastName" placeholder="Введите вашу фамилию"/>
+                </div>
+            </div>
+            <div className={s.InputInner}>
+                <div>
+                    <label>
+                        <Field name="sex" component="input" type="radio" value="male" />
+                        {' '}
+                        Мужчина или
+                        {' '}
+                    </label>
+                    <label>
+                        <Field name="sex" component="input" type="radio" value="female" />
+                        {' '}
+                        Женщина
+                    </label>
                 </div>
             </div>
             <div className={s.InputInner}>
@@ -25,7 +41,7 @@ const CommentsForm = (props) => {
             </div>
             <div className={s.TextareaInner}>
                 <div className={s.TextareaWrapper}>
-                    <Field component="textarea" name={"comment"} placeholder={"Оставьте ваш отзыв"}/>
+                    <Field component="textarea" name="comment" placeholder={"Оставьте ваш отзыв"}/>
                 </div>
             </div>
             <div className={s.wrapperButton}>
@@ -39,8 +55,8 @@ let CommentsReduxForm = reduxForm({form: "test"})(CommentsForm)
 
 const CommentsInput = (props) => {
     let onSubmit = (formData) => {
-        debugger;
-        sendComment(formData)
+        console.log(formData)
+        props.sendComment(formData)
     }
     return (
         <div className={s.Wrapper}>
@@ -50,5 +66,8 @@ const CommentsInput = (props) => {
         </div>
     )
 }
+let mapStateToProps = (state) => ({
+    comments: state.commentsPage.comments
+})
 
-export default CommentsInput;
+export default connect(mapStateToProps, {sendComment})(CommentsInput);

@@ -8,7 +8,6 @@ import BadGay from "../../../../assets/img/users/BadGay.png"
 import BadWoman from "../../../../assets/img/users/BadWoman.png"
 import Oma from "../../../../assets/img/users/Oma.png"
 import Opa from "../../../../assets/img/users/Opa.png"
-import {sendComment} from "../../../redux/comments-reducer";
 import {connect} from "react-redux";
 
 const PostWoman = (props) => {
@@ -16,27 +15,27 @@ const PostWoman = (props) => {
         <div className={s.PostWrapper}>
             <div className={s.PostContainer}>
                 <div className={s.UserDescription}>
-                    <b>Fioleta Johansob</b>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti laborum nostrum quaerat! Ad
-                        dicta enim explicabo facere, illum molestiae nam quis quos tenetur voluptates. Aperiam dignissimos
-                        quis reiciendis soluta velit.</p>
+                    <b>{props.name} {props.lastName}</b>
+                    <p>{props.comment}</p>
                 </div>
                 <div className={s.UserPhoto}>
-                    <img src={Oma} alt=""/>
+                    <img src={props.age <= 14 ? jungWoman : props.age <=20 ? Chuwiha : props.age <= 35 ? BadWoman : props.age <= 100 ? Oma : "Какой-то странный возраст"} alt=""/>
                 </div>
             </div>
         </div>
     )
 }
+
+
 const PostMan = (props) => {
     return (
         <div className={s.PostWrapper}>
             <div className={s.PostContainer}>
                 <div className={s.UserPhoto}>
-                    <img src={Opa} alt=""/>
+                    <img src={props.age <= 14 ? kid : props.age <=20 ? Chell : props.age <= 35 ? BadGay : props.age <= 100 ? Opa : "Какой-то странный возраст"} alt=""/>
                 </div>
                 <div className={s.UserDescription}>
-                    <b>`${props.name} ${props.lastName}`</b>
+                    <b>{props.name} {props.lastName}</b>
                     <p>{props.comment}</p>
                 </div>
             </div>
@@ -46,12 +45,14 @@ const PostMan = (props) => {
 
 const CommentsText = (props) => {
     debugger;
+    let post = props.comments.map(p => p.sex === "male" ?
+        <PostMan name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.lastName}/>
+        : <PostWoman name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.lastName}/>)
+
     return (
         <div className={s.Wrapper}>
             <div className={s.Container}>
-                <PostMan name={props.comments.name} lastName={props.comments.lastName} comment={props.comments.comment}/>
-                <PostWoman/>
-                <PostMan/>
+                {post}
             </div>
         </div>
     )
@@ -61,5 +62,5 @@ let mapStateToProps = (state) => ({
     comments: state.commentsPage.comments
 })
 
-export default connect(mapStateToProps, {sendComment})(CommentsText);
+export default connect(mapStateToProps, {})(CommentsText);
 
