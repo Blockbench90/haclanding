@@ -51,6 +51,16 @@
 .ContentBlock{
     margin: 50px;
 }
+@media (max-width: 1199px) {
+    .Container{
+        max-width: 979px;
+        margin: 0 auto;
+        color: white;
+    }
+    .ContentBlock h3, p{
+        font-size: 20px;
+    }
+}
 @media (max-width: 865px) {
     .TopContent{
         display: flex;

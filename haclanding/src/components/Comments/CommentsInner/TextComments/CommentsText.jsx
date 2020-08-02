@@ -17,9 +17,11 @@ const PostWoman = (props) => {
                 <div className={s.UserDescription}>
                     <b>{props.name} {props.lastName}</b>
                     <p>{props.comment}</p>
+                    <span>{props.time}</span>
                 </div>
                 <div className={s.UserPhoto}>
                     <img src={props.age <= 14 ? jungWoman : props.age <=20 ? Chuwiha : props.age <= 35 ? BadWoman : props.age <= 100 ? Oma : "Какой-то странный возраст"} alt=""/>
+
                 </div>
             </div>
         </div>
@@ -34,6 +36,7 @@ const PostMan = (props) => {
                 <div className={s.UserPhoto}>
                     <img src={props.age <= 14 ? kid : props.age <=20 ? Chell : props.age <= 35 ? BadGay : props.age <= 100 ? Opa : "Какой-то странный возраст"} alt=""/>
                 </div>
+                <span>{props.time}</span>
                 <div className={s.UserDescription}>
                     <b>{props.name} {props.lastName}</b>
                     <p>{props.comment}</p>
@@ -44,10 +47,9 @@ const PostMan = (props) => {
 }
 
 const CommentsText = (props) => {
-    debugger;
-    let post = props.comments.map(p => p.sex === "male" ?
-        <PostMan name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.lastName}/>
-        : <PostWoman name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.lastName}/>)
+    let post = [...props.comments].reverse().map(p => p.sex === "male" ?
+        <PostMan name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.lastName} time={p.time}/>
+        : <PostWoman name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.lastName} time={p.time}/>)
 
     return (
         <div className={s.Wrapper}>

@@ -13,18 +13,4 @@
 .Header{
  /*overflow: hidden;*/
 }
-.PreloaderUnderWindow{
- /*z-index: 9;*/
- /*left: 0;*/
- /*right: 0;*/
- /*top: 0;*/
-}
-/*.Header-Top{*/
-/* height: 100vh;*/
-/* left: 0;*/
-/* right: 0;*/
-/* position: absolute;*/
-/* z-index: 5;*/
-/* background-color: rgba(0, 0, 0, 0.4);*/
-/*}*/
 

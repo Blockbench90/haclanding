@@ -4,6 +4,7 @@ import {ButtonToUp} from "../../common/Butoon/Button";
 import {animateScroll as scroll} from "react-scroll";
 import kyivstar from "../../assets/img/kyivstar.png"
 import map from "../../assets/img/MapIcon.png"
+import instagram from "../../assets/img/insta.png"
 
 
 
@@ -43,6 +44,14 @@ const MapContent = (props) => {
                     <a href="tel:+1234567890">+3 8 099 321 65 65</a>
                 </div>
             </div>
+            <div className={s.PhoneBox}>
+                <div>
+                    <img src={instagram} alt=""/>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/maxim.zpua/">maxim.zp.ua</a>
+                </div>
+            </div>
             <div className={s.MapBox}>
                 <div>
                     <img src={map} alt=""/>
@@ -51,9 +60,7 @@ const MapContent = (props) => {
                     Посмотреть нас на карте</a></div>
             </div>
         </div>
-        {/*<div className={s.ButtonUp}>*/}
-        {/*    <ButtonToUp handleClick={toUp}/>*/}
-        {/*</div>*/}
+
     </div>
 }
 export default MapContent;

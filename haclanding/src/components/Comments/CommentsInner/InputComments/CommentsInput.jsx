@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./CommentsInput.module.css"
-import {Field, reduxForm} from "redux-form";
+import {Field, reduxForm, reset} from "redux-form";
 import {sendComment} from "../../../redux/comments-reducer";
 import {connect} from "react-redux";
 
@@ -19,7 +19,7 @@ const CommentsForm = (props) => {
                 </div>
             </div>
             <div className={s.InputInner}>
-                <div>
+                <div className={s.Sex}>
                     <label>
                         <Field name="sex" component="input" type="radio" value="male" />
                         {' '}
@@ -51,12 +51,13 @@ const CommentsForm = (props) => {
     )
 };
 
-let CommentsReduxForm = reduxForm({form: "test"})(CommentsForm)
+let CommentsReduxForm = reduxForm({form: "comments"})(CommentsForm)
 
 const CommentsInput = (props) => {
-    let onSubmit = (formData) => {
-        console.log(formData)
-        props.sendComment(formData)
+    let onSubmit = (formData, dispatch) => {
+        console.log(formData);
+        props.sendComment(formData);
+        dispatch(reset("comments"))
     }
     return (
         <div className={s.Wrapper}>

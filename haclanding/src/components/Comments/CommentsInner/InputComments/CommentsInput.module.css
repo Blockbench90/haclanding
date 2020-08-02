@@ -30,7 +30,6 @@
 }
 .wrapperButton{
     padding-left: 41%;
-
 }
 .wrapperButton button{
     display: inline-block;
@@ -61,19 +60,25 @@
 .TextareaWrapper textarea::placeholder {
     color: rgba(38, 55, 54, 0.9);
 }
-@media (max-width: 1270px) {
-    .ButtonInner{
-        padding-left: 18%;
+@media (max-width: 1199px) {
+    .wrapperButton{
+        padding-left: 69%;
+    }
+    .Sex{
+        font-size: 16px;
     }
 }
 
-@media (max-width: 833px) {
+@media (max-width: 768px) {
+    .wrapperButton{
+        padding-left: 66%;
+    }
     .Wrapper{
         padding: 0;
     }
     .Input textarea{
         height: 10vh;
-        width: 60vw;
+        width: 83vw;
     }
 }
 

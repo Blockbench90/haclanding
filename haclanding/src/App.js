@@ -15,6 +15,8 @@ import Master from "./components/WithRoute/Master";
 import Zero from "./components/WithRoute/Zero";
 import CommentsInner from "./components/Comments/CommentsInner/CommentsInner";
 import MapContent from "./components/MapSection/MapContent";
+import Footer from "./components/Footer/Footer";
+import s from "./components/MapSection/MapContent.module.css";
 
 
 
@@ -52,6 +54,9 @@ const App = () => {
                 </section>
                 <section className="Map" id="section5">
                     <MapContent/>
+                </section>
+                <section className="Footer">
+                        <Footer/>
                 </section>
             </div>
         </div>
