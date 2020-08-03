@@ -1,18 +1,24 @@
 import React from "react";
 import s from "./CommentsProps.module.css";
 
-export const Input = (props) => {
+export const Input = ({input, meta, ...props}) => {
+    const hasError = meta.touched && meta.error
     return (
-        <div className={s.InputWrapper}>
-            <input type="text" placeholder={props.placeholder}/>
+        <div className={s.InputWrapper + ' ' + (hasError ? s.error : "")}>
+            <input {...input} {...props} />
+            {hasError && <span>"Ой-йой"</span>}
         </div>
     )
 }
 
-export const Textarea = (props) => {
+export const Textarea = ({input, meta, ...props}) => {
+    const hasError = meta.touched && meta.error
     return (
-        <div className={s.TextareaWrapper}>
-            <textarea id="text" cols="30" rows="10" placeholder={props.placeholder}/>
+        <div className={s.TextareaWrapper + ' ' + (hasError ? s.error : "")}>
+            <div>
+            <textarea {...input} {...props}/>
+            </div>
+            {hasError && <span>"Ой-йой, коль взялся, доделай"</span>}
         </div>
     )
 }

@@ -1,8 +1,14 @@
 .InputWrapper {
-    width: 450px;
+    width: 325px;
     border-bottom: 2px solid black;
 }
-
+.InputWrapper.error {
+    border-bottom: 3px solid red;
+}
+.InputWrapper.error span{
+    color: red;
+    font-size: 18px;
+}
 .InputWrapper input {
     background-color: darkcyan;
     color: white;
@@ -16,8 +22,9 @@
     color: darkgray;
 }
 
-.TextareaWrapper {
-
+.TextareaWrapper.error span{
+    color: red;
+    font-size: 15px;
 }
 
 .TextareaWrapper textarea {
@@ -30,6 +37,10 @@
     border: none;
     outline: none;
     padding: 10px;
+    background-color: rgba(38, 55, 54, 0.3);
+    color: white;
+    height: 40vh;
+    width: 325px;
 }
 
 .TextareaWrapper textarea::placeholder {

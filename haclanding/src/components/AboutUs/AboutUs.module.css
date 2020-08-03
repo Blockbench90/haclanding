@@ -4,52 +4,35 @@
     background: rgba(22, 99, 106, 0.9);
     color: white;
 }
-
 .Content {
     max-width: 1270px;
     margin: 0 auto;
 }
-
 .ContentInner {
     padding-top: 43px;
 }
-
 .ContentInner h2 {
     text-align: center;
     padding-top: 10px;
-
 }
-
 .ContentInner p {
     font-size: 22px;
     line-height: 30px;
     font-family: 'Roboto Slab', serif;
     padding: 0 10px 0 40px;
 }
-
 .TopContent {
     display: flex;
     justify-content: space-between;
 }
-
 .CenterContent {
     display: flex;
     justify-content: space-between;
 }
-
 .ButtonContent {
     display: flex;
     justify-content: space-between;
 }
-
-.LeftBlock {
-
-}
-
-.RightBlock {
-
-}
-
 .PostInner {
     width: 585px;
     height: 259px;
@@ -67,58 +50,41 @@
     margin: 60px 0 0 350px;
 }
 
-.tLbInner {
-    background-image: url("../../assets/img/remont.jpg");
+.tLbInner,
+.tRbInner,
+.cLbInner,
+.cRbInner,
+.bLbInner,
+.bRbInner,
+.PostInner{
     background-repeat: no-repeat;
     background-size: cover;
     width: 585px;
     height: 259px;
     border-radius: 30px;
+}
+.tLbInner {
+    background-image: url("../../assets/img/remont.jpg");
 }
 
 .tRbInner {
     background-image: url("../../assets/copy/img/pillll.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 585px;
-    height: 259px;
-    border-radius: 30px;
 }
 
 .cLbInner {
     background-image: url("../../assets/img/win.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 585px;
-    height: 259px;
-    border-radius: 30px;
 }
 
 .cRbInner {
     background-image: url("../../assets/copy/img/remont.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 585px;
-    height: 259px;
-    border-radius: 30px;
 }
 
 .bLbInner {
     background-image: url("../../assets/copy/img/max.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 585px;
-    height: 259px;
-    border-radius: 30px;
 }
 
 .bRbInner {
     background-image: url("../../assets/copy/img/gm.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 585px;
-    height: 259px;
-    border-radius: 30px;
 }
 
 @media (max-width: 1380px) {
@@ -126,41 +92,16 @@
         max-width: 980px;
     }
 
-    .tLbInner {
-        width: 416px;
-        height: 194px;
-    }
-
-    .tRbInner {
-        width: 416px;
-        height: 194px;
-    }
-
-    .cLbInner {
-        width: 416px;
-        height: 194px;
-    }
-
-    .cRbInner {
-        width: 416px;
-        height: 194px;
-    }
-
-    .bLbInner {
-        width: 416px;
-        height: 194px;
-    }
-
-    .bRbInner {
-        width: 416px;
-        height: 194px;
-    }
-
+    .tLbInner,
+    .tRbInner,
+    .cLbInner,
+    .cRbInner,
+    .bLbInner,
+    .bRbInner,
     .PostInner {
         width: 416px;
         height: 194px;
     }
-
     .PostSpan {
         font-size: 12px;
         line-height: 25px;
@@ -189,48 +130,17 @@
         max-width: 900px;
     }
 
-    .tLbInner {
-        width: 392px;
-        height: 181px;
-        margin: 30px;
-    }
-
-    .tRbInner {
-        width: 392px;
-        height: 181px;
-        margin: 30px;
-    }
-
-    .cLbInner {
-        width: 392px;
-        height: 181px;
-        margin: 30px;
-    }
-
-    .cRbInner {
-        width: 392px;
-        height: 181px;
-        margin: 30px;
-    }
-
-    .bLbInner {
-        width: 392px;
-        height: 181px;
-        margin: 30px;
-    }
-
-    .bRbInner {
-        width: 392px;
-        height: 181px;
-        margin: 30px;
-    }
-
+    .tLbInner,
+    .tRbInner,
+    .cLbInner,
+    .cRbInner,
+    .bLbInner,
+    .bRbInner,
     .PostInner {
         width: 392px;
         height: 181px;
-        /*margin: 30px;*/
+        margin: 30px;
     }
-
     .PostSpan {
         font-size: 12px;
         line-height: 25px;
@@ -258,42 +168,16 @@
     .Content {
         max-width: 700px;
     }
-
-    .tLbInner {
-        width: 313px;
-        height: 129px;
-    }
-
-    .tRbInner {
-        width: 313px;
-        height: 129px;
-    }
-
-    .cLbInner {
-        width: 313px;
-        height: 129px;
-    }
-
-    .cRbInner {
-        width: 313px;
-        height: 129px;
-    }
-
-    .bLbInner {
-        width: 313px;
-        height: 129px;
-    }
-
-    .bRbInner {
-        width: 313px;
-        height: 129px;
-    }
-
+    .tLbInner,
+    .tRbInner,
+    .cLbInner,
+    .cRbInner,
+    .bLbInner,
+    .bRbInner,
     .PostInner {
         width: 313px;
         height: 129px;
     }
-
     .PostSpan {
         font-size: 12px;
         line-height: 25px;
@@ -316,65 +200,6 @@
         line-height: 19px;
     }
 }
-
-/*@media (max-width: 856px) {*/
-/*    .Content {*/
-/*        max-width: 900px;*/
-/*    }*/
-/*    .tLbInner {*/
-/*        width: 392px;*/
-/*        height: 181px;*/
-/*        margin: 30px;*/
-/*    }*/
-/*    .tRbInner {*/
-/*        width: 392px;*/
-/*        height: 181px;*/
-/*        margin: 30px;*/
-/*    }*/
-/*    .cLbInner {*/
-/*        width: 392px;*/
-/*        height: 181px;*/
-/*        margin: 30px;*/
-/*    }*/
-/*    .cRbInner {*/
-/*        width: 392px;*/
-/*        height: 181px;*/
-/*        margin: 30px;*/
-/*    }*/
-/*    .bLbInner {*/
-/*        width: 392px;*/
-/*        height: 181px;*/
-/*        margin: 30px;*/
-/*    }*/
-/*    .bRbInner {*/
-/*        width: 392px;*/
-/*        height: 181px;*/
-/*        margin: 30px;*/
-/*    }*/
-/*    .PostInner {*/
-/*        width: 392px;*/
-/*        height: 181px;*/
-/*        !*margin: 30px;*!*/
-/*    }*/
-/*    .PostSpan {*/
-/*        font-size: 12px;*/
-/*        line-height: 25px;*/
-/*        margin-left: 50px;*/
-/*    }*/
-/*    .PostBtn {*/
-/*        margin: 0 0 0 218px;*/
-/*        font-size: 15px;*/
-/*    }*/
-/*    .ContentInner h2 {*/
-/*        !*line-height: 0px;*!*/
-/*        padding-top: 10px;*/
-/*        font-size: 25px;*/
-/*    }*/
-/*    .ContentInner p {*/
-/*        font-size: 20px;*/
-/*        line-height: 26px;*/
-/*    }*/
-/*}*/
 
 @media (max-width: 840px) {
     .Content {
@@ -402,45 +227,17 @@
     .ContentInner {
         padding-top: 50px;
     }
+
     .Content {
         max-width: 220px;
     }
-    .tLbInner {
-        width: 203px;
-        height: 106px;
-        margin: 0;
-    }
 
-    .tRbInner {
-        width: 203px;
-        height: 106px;
-        margin: 0;
-    }
-
-    .cLbInner {
-        width: 203px;
-        height: 106px;
-        margin: 0;
-    }
-
-    .cRbInner {
-        width: 203px;
-        height: 106px;
-        margin: 0;
-    }
-
-    .bLbInner {
-        width: 203px;
-        height: 106px;
-        margin: 0;
-    }
-
-    .bRbInner {
-        width: 203px;
-        height: 106px;
-        margin: 0;
-    }
-
+    .tLbInner,
+    .tRbInner,
+    .cLbInner,
+    .cRbInner,
+    .bLbInner,
+    .bRbInner,
     .PostInner {
         width: 203px;
         height: 106px;

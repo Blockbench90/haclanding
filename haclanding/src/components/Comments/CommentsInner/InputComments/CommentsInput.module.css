@@ -1,10 +1,12 @@
 .Wrapper{
     padding: 43px;
 }
-.InputWrapper{
-    width: 325px;
-    border-bottom: 2px solid black;
-}
+/*.InputWrapper{*/
+/*    width: 325px;*/
+/*    border-bottom: 2px solid black;*/
+/*}*/
+
+
 .InputWrapper input {
     background-color: darkcyan;
     color: white;
@@ -41,25 +43,25 @@
 .wrapperButton button:hover{
     background-color: aqua;
 }
-.TextareaWrapper textarea {
-    /*!* = Убираем скролл *!*/
-    overflow: auto;
-    /*!* = Убираем увеличение *!*/
-    resize: none;
-    /*background-color: darkcyan;*/
-    text-decoration: none;
-    border: none;
-    outline: none;
-    padding: 10px;
-    background-color: rgba(38, 55, 54, 0.3);
-    color: white;
-    height: 40vh;
-    width: 325px;
-}
+/*.TextareaWrapper textarea {*/
+/*    !*!* = Убираем скролл *!*!*/
+/*    overflow: auto;*/
+/*    !*!* = Убираем увеличение *!*!*/
+/*    resize: none;*/
+/*    !*background-color: darkcyan;*!*/
+/*    text-decoration: none;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    padding: 10px;*/
+/*    background-color: rgba(38, 55, 54, 0.3);*/
+/*    color: white;*/
+/*    height: 40vh;*/
+/*    width: 325px;*/
+/*}*/
 
-.TextareaWrapper textarea::placeholder {
-    color: rgba(38, 55, 54, 0.9);
-}
+/*.TextareaWrapper textarea::placeholder {*/
+/*    color: rgba(38, 55, 54, 0.9);*/
+/*}*/
 @media (max-width: 1199px) {
     .wrapperButton{
         padding-left: 69%;

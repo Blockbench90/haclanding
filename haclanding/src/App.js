@@ -16,9 +16,6 @@ import Zero from "./components/WithRoute/Zero";
 import CommentsInner from "./components/Comments/CommentsInner/CommentsInner";
 import MapContent from "./components/MapSection/MapContent";
 import Footer from "./components/Footer/Footer";
-import s from "./components/MapSection/MapContent.module.css";
-
-
 
 
 const App = () => {
