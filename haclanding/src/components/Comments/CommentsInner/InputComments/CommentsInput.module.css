@@ -24,7 +24,7 @@
     font-size: 18px;
 }
 .InputInner span{
-    font-size: 8px;
+    font-size: 9px;
     font-weight: 700;
 }
 .TextareaInner{
@@ -43,25 +43,7 @@
 .wrapperButton button:hover{
     background-color: aqua;
 }
-/*.TextareaWrapper textarea {*/
-/*    !*!* = Убираем скролл *!*!*/
-/*    overflow: auto;*/
-/*    !*!* = Убираем увеличение *!*!*/
-/*    resize: none;*/
-/*    !*background-color: darkcyan;*!*/
-/*    text-decoration: none;*/
-/*    border: none;*/
-/*    outline: none;*/
-/*    padding: 10px;*/
-/*    background-color: rgba(38, 55, 54, 0.3);*/
-/*    color: white;*/
-/*    height: 40vh;*/
-/*    width: 325px;*/
-/*}*/
 
-/*.TextareaWrapper textarea::placeholder {*/
-/*    color: rgba(38, 55, 54, 0.9);*/
-/*}*/
 @media (max-width: 1199px) {
     .wrapperButton{
         padding-left: 69%;

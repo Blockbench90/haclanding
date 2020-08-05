@@ -13,7 +13,6 @@ const required = value => (value || typeof value === 'number' ? undefined : 'Req
 const maxLength15 = maxLength(15);
 const maxLength25 = maxLength(25);
 const minLength2 = minLength(2);
-// const number = number()
 
 const CommentsForm = (props) => {
     return (

@@ -6,7 +6,7 @@
     border-bottom: 3px solid red;
 }
 .InputWrapper.error span{
-    color: red;
+    color: rgba(222,109,158, 1);
     font-size: 18px;
 }
 .InputWrapper input {
@@ -23,7 +23,7 @@
 }
 
 .TextareaWrapper.error span{
-    color: red;
+    color: rgba(222,109,158, 1);
     font-size: 15px;
 }
 

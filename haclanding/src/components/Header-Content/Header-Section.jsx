@@ -7,18 +7,19 @@ const HeaderSection = () => {
     return (
         <div className={style.Wrapper}>
             <div className={style.Container}>
-                <h1 className={style.HeaderTitle}>
+                <b className={style.HeaderTitle}>
                     <img src={logo} alt=""/>
                     Hacker-Inside
-                </h1>
+                </b>
                 <div className={style.Content}>
                     <div>
-                        <h2>Ремонт компьютеров в Запорожье</h2>
+                        <h1>Ремонт компьютеров</h1>
+                        <p>в Запорожье</p>
                     </div>
-                    <div><p>В наших силах выполнить ремонт любой сложности.</p>
-                        <span>Но это далеко не главное наше преимущество, это только факт. Наше преимущество в том, что мы не дерем людей как липку,
+                    <div>
+                        <span>В наших силах выполнить ремонт любой сложности.
+                        Но это далеко не главное наше преимущество, это только факт. Наше преимущество в том, что мы не дерем людей как липку,
                         отнюдь, мы рубим правду матку, и только вам выберать, оставться наряженной елкой, или остаться обдертой липой</span>
-
                     </div>
                     <div className={style.Btn}>
                         <ButtonPhone title={"Консультация"} phone={"tel:+1234567890"}/>

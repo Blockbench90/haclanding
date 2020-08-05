@@ -56,7 +56,7 @@ const MapContent = (props) => {
                 <div>
                     <img src={map} alt=""/>
                 </div>
-                <div><a href="https://www.google.com.ua/maps/@47.782484,35.1840032,18.75z?hl=ru" target="_blank">
+                <div><a href="https://www.google.com/maps/place/Hackers+inside/@47.7832345,35.1818275,17z/data=!3m1!4b1!4m5!3m4!1s0x40dc5ef9062555f9:0xa5d2e3fac23e0551!8m2!3d47.7832345!4d35.1840162" target="_blank">
                     Посмотреть нас на карте</a></div>
             </div>
         </div>

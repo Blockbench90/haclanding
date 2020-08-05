@@ -47,7 +47,8 @@
 }
 
 .PostBtn {
-    margin: 60px 0 0 350px;
+    margin: 19px 0 0 52px;
+    /*margin: 60px 0 0 350px;*/
 }
 
 .tLbInner,
@@ -64,7 +65,7 @@
     border-radius: 30px;
 }
 .tLbInner {
-    background-image: url("../../assets/img/remont.jpg");
+    background-image: url("../../assets/img/Fix2.png");
 }
 
 .tRbInner {

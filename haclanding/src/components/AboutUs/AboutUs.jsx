@@ -6,7 +6,7 @@ const Post = (props) => {
     return (
         <div className={s.PostInner}>
             <div><h2>{props.title}</h2>
-                <p>{props.content}</p>
+                {/*<p>{props.content}</p>*/}
             </div>
             <div className={s.PostBtn}>
                 <Button title={"Подробнее..."} route={props.route}/>

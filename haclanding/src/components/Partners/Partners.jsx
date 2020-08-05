@@ -20,26 +20,23 @@ const Partners = (props) => {
                 <div className={s.ContentInner}>
                     <div className={s.TopContent}>
                         <div className={s.TopLeftBlock}>
-                            <Content title={"Наши Top LeftBlock партнеры"}
+                            <Content title={"Собрать ПК"}
                                      content={"Мы работаем с многими оптовыми продавцами," +
-                                     "поэтому выгодно покупать у нас"}/>
+                                     "и нажедными поставщиками"}/>
                         </div>
                         <div className={s.TopRightBlock}>
-                            <Content title={"Наши Top RightBlock партнеры"}
-                                     content={"Мы работаем с многими оптовыми продавцами," +
-                                     "поэтому выгодно покупать у нас"}/>
+                            <Content title={"Заправка картриджей"}
+                                     content={"Возможна как оптовая, так и разовая заправка"}/>
                         </div>
                     </div>
                     <div className={s.BottomContent}>
                             <div className={s.BotLeftBlock}>
-                                <Content title={"Наши But LeftBlock преимущества"}
-                                         content={"Мы работаем с многими оптовыми продавцами," +
-                                         "поэтому выгодно покупать у нас"}/>
+                                <Content title={"Новое, по оптовой цене"}
+                                         content={"У нас вы найдете самые низкие цены, будь то телефон или двигатель самолета"}/>
                             </div>
                             <div className={s.BotRightBlock}>
-                                <Content title={"Наши But RightBlock преимущества"}
-                                         content={"Мы работаем с многими оптовыми продавцами," +
-                                         "поэтому выгодно покупать у нас"}/>
+                                <Content title={"Честный ремонт"}
+                                         content={"Гарантия на ремонт, а если вдруг, исправим за свой счет"}/>
                             </div>
                     </div>
                 </div>

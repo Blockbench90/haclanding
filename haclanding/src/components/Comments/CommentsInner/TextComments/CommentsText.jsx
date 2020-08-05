@@ -49,7 +49,6 @@ const PostMan = (props) => {
 }
 
 const CommentsText = (props) => {
-    debugger;
     let post = [...props.comments].reverse().map(p => p.sex === "male" ?
         <PostMan name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.lastName} time={p.time}/>
         : <PostWoman name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.lastName} time={p.time}/>)
