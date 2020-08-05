@@ -6,7 +6,7 @@ const Post = (props) => {
     return (
         <div className={s.PostInner}>
             <div><h2>{props.title}</h2>
-                {/*<p>{props.content}</p>*/}
+                <p>{props.content}</p>
             </div>
             <div className={s.PostBtn}>
                 <Button title={"Подробнее..."} route={props.route}/>
@@ -24,14 +24,15 @@ const AboutUs = (props) => {
                     <div className={s.TopContent}>
                         <div className={s.LeftBlock}>
                             <div className={s.tLbInner}>
-                                <Post title={"Ремонт любой сложности"}
-                                      content={"Будь у вас синий экран или перестала работать зарядка"}
+                                <Post title={"Ремонт"}
+                                      content={"Компьютер,ноутбук,планшет,телефонт,монитор,телевизор,принтер,акустика." +
+                                      "Будь у вас синий экран или перестала работать зарядка"}
                                 route="/fix" />
                             </div>
                         </div>
                         <div className={s.RightBlock}>
                             <div className={s.tRbInner}>
-                            <Post title={"Замена расходников"}
+                            <Post title={"Обслуживание"}
                                   content={"Ваш Пк нуждается в замене термопасты"}
                                   route="/replacement"/>
                             </div>
@@ -40,14 +41,14 @@ const AboutUs = (props) => {
                     <div className={s.CenterContent}>
                         <div className={s.LeftBlock}>
                             <div className={s.cLbInner}>
-                                <Post title={"Програмное обогащение"}
+                                <Post title={"Программы"}
                                       content={"Переустановить Винду, обновить PornoHub"}
                                       route="/support"/>
                             </div>
                         </div>
                         <div className={s.RightBlock}>
                             <div className={s.cRbInner}>
-                                <Post title={"Сборка ПК под ключ"}
+                                <Post title={"Сборка ПК"}
                                       content={"Соберем даже коллайдер, если надо"}
                                 route="/assembly"/>
                             </div>
@@ -56,15 +57,15 @@ const AboutUs = (props) => {
                     <div className={s.ButtonContent}>
                         <div className={s.LeftBlock}>
                             <div className={s.bLbInner}>
-                                <Post title={"Мастер на час"}
-                                      content={"- Можете приехать помочь, мне к вам далеко? Давайте адрес!"}
+                                <Post title={"Вызов мастера"}
+                                      content={"Вызов макстера на дом в офис,на дачу=),все равно!"}
                                 route="/master"/>
                             </div>
                         </div>
                         <div className={s.RightBlock}>
                             <div className={s.bRbInner}>
-                                <Post title={"Я вообще ноль"}
-                                      content={"Нужна помощь, а пользоваться могу только счетами"}
+                                <Post title={"Я пользователь"}
+                                      content={"я плохо разбираюсь в комьютерах,мне нужна помощь подскажите посоветуйте что лучше"}
                                 route="/zero"/>
                             </div>
                         </div>

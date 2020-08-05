@@ -30,10 +30,17 @@
     font-weight: 500;
 
 }
-
-.Content {
+.Info{
     width: 448px;
     padding-left: 3vw;
+}
+.Content {
+    display: flex;
+    justify-content: space-between;
+
+}
+.Content img{
+    width: 149px;
 }
 
 .Btn {

@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Header.module.css"
-import logo from "../../assets/img/Logo6.png"
+import logo from "../../assets/img/logo/logo11.png"
 import {ButtonPhone} from "../../common/Butoon/Button";
 import {Link, animateScroll as scroll} from "react-scroll";
 
