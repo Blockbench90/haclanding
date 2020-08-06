@@ -8,10 +8,20 @@ const HeaderSection = () => {
     return (
         <div className={style.Wrapper}>
             <div className={style.Container}>
-                <b className={style.HeaderTitle}>
-                    <img src={logo} alt=""/>
-                    Hacker-Inside
-                </b>
+                <div className={style.HeaderTitle}>
+                    <div>
+                        <img src={logo} alt=""/>
+                    </div>
+                    <div>
+                        <div className={style.Title}>
+                            <b>Hacker-Inside</b>
+                        </div>
+
+                        <div className={style.Btn}>
+                        {/*<ButtonPhone title={"Консультация"} phone={"tel:+1234567890"}/>*/}
+                        </div>
+                    </div>
+                </div>
                 <div className={style.Content}>
                     <div className={style.Info}>
                         <div>
@@ -20,20 +30,21 @@ const HeaderSection = () => {
                         </div>
                         <div>
                         <span>В наших силах выполнить ремонт любой сложности.
-                        Но это далеко не главное наше преимущество, это только факт. Наше преимущество в том, что мы не дерем людей как липку,
-                        отнюдь, мы рубим правду матку, и только вам выберать, оставться наряженной елкой, или остаться обдертой липой</span>
+                        Но это далеко не главное наше преимущество, это только факт.</span>
                         </div>
 
-                        <div className={style.Btn}>
-                            <ButtonPhone title={"Консультация"} phone={"tel:+1234567890"}/>
-                        </div>
+                        {/*<div className={style.Btn}>*/}
+                        {/*    <ButtonPhone title={"Консультация"} phone={"tel:+1234567890"}/>*/}
+                        {/*</div>*/}
                     </div>
-                    <div>
+                    <div className={style.PhotoInfo}>
                         <div>
                             <img src={Max} alt=""/>
+                            <ButtonPhone title={"Максим"}/>
                         </div>
                         <div>
                             <img src={Max} alt=""/>
+                            <ButtonPhone title={"Юрасик"}/>
                         </div>
                     </div>
                 </div>

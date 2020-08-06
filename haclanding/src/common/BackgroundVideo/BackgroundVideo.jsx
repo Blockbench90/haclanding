@@ -7,7 +7,7 @@ class BackgroundVideo extends React.Component{
         return (
             <div className={s.VideoInner}>
                 <div>
-                   <video autoPlay={true} loop={true} muted={true} id="background-video" className={s.Video}>
+                   <video /*autoPlay={true} loop={true} muted={true}*/ id="background-video" className={s.Video}>
                         <source src={video} type="video/mp4"/>
                         <source src={video} type="video/ogg"/>
                         Your browser does not support the video tag.

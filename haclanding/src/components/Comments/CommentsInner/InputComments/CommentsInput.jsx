@@ -23,9 +23,9 @@ const CommentsForm = (props) => {
                 </div>
             </div>
             <div className={s.InputInner}>
-                <div className={s.InputWrapper}>
-                    <Field component={Input} name="lastName" placeholder="Введите вашу фамилию" validate={[required, maxLength25, minLength2]}/>
-                </div>
+                {/*<div className={s.InputWrapper}>*/}
+                {/*    <Field component={Input} name="lastName" placeholder="Введите вашу фамилию" validate={[required, maxLength25, minLength2]}/>*/}
+                {/*</div>*/}
             </div>
             <div className={s.InputInner}>
                 <div className={s.Sex}>
