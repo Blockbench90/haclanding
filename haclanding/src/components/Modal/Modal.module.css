@@ -1,0 +1,64 @@
+.Modal {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    top: 70px;
+    left: 33%;
+    background-color: rgba(250, 250, 250, 1);
+    border-radius: 14px;
+}
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background-color: rgba(197, 232, 241, 0.2);*/
+    z-index: 11;
+}
+.InnerModal {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+.Top h3{
+    text-align: center;
+    /*padding-left: 35px;*/
+    line-height: 0px;
+}
+.Top span{
+    font-size: 28px;
+    padding: 0 0 0 43px;
+    font-weight: 700;
+}
+.Top img{
+    width: 37px;
+    padding-left: 95%;
+}
+.ImgInner img{
+    width: 29px;
+}
+
+.Bottom{
+
+}
+.Bottom p{
+    font-style: italic;
+    font-weight: 500;
+    line-height: 20px;
+}
+.Bottom span{
+
+}
+.Bottom button {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 6px 22px;
+    background: rgba(255, 255, 255, 0.15);
+    transition: all .5s;
+    margin-left: 150px;
+}
+.Bottom button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}

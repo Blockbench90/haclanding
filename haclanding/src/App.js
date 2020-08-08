@@ -16,6 +16,7 @@ import Zero from "./components/WithRoute/Zero";
 import CommentsInner from "./components/Comments/CommentsInner/CommentsInner";
 import MapContent from "./components/MapSection/MapContent";
 import Footer from "./components/Footer/Footer";
+import Modal from "./components/Modal/Modal";
 
 
 const App = () => {
@@ -53,7 +54,8 @@ const App = () => {
                     <MapContent/>
                 </section>
                 <section className="Footer">
-                        <Footer/>
+                        {/*<Footer/>*/}
+                        {/*<Modal/>*/}
                 </section>
             </div>
         </div>
