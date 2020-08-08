@@ -2,30 +2,30 @@
     color: white;
     width: 100vw;
 }
-.Container{
+
+.Container {
     margin-top: 8vh;
 }
+
 .HeaderTitle {
     display: flex;
     padding-left: 3vw;
 }
-.Title{
+
+.Title {
     font-size: 34px;
     margin: 81px 0 0px 21px;
-}
-.Btn {
-    margin: 0 0 15px 15px;
-    /*padding-left: 6vw;*/
-    /*padding-top: 30px;*/
 }
 
 .HeaderTitle img {
     width: 120px;
 }
+
 .Content h1 {
     line-height: 0px;
     font-size: 42px;
 }
+
 .Content p {
     line-height: 0px;
     text-align: center;
@@ -33,49 +33,66 @@
     font-weight: 700;
 
 }
+
 .Content span {
     font-size: 23px;
     font-weight: 500;
 
 }
-.Info{
+
+.Info {
     width: 448px;
     padding-left: 3vw;
 }
-.PhotoInfo {
-    margin-left: 3vw;
-    display: flex;
-    justify-content: space-between;
-    max-width: 400px;
-    /*margin: 0 auto;*/
-}
-.Content img{
-    width: 149px;
+
+.Info p, h1 {
+    text-shadow: 5px 4px 2px black, 0 0 2em cornflowerblue;
 }
 
+.PhotoInfo {
+    margin: 2vw 0 0 3vw;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+.PhotoInfo img {
+    border-radius: 10px;
+    width: 215px;
+    height: 320px;
+}
 .Btn {
-    /*padding-left: 6vw;*/
-    /*padding-top: 30px;*/
+
+    padding: 10px 42px;
+}
+
+.BtnUra {
+    padding: 10px 60px;
 }
 
 @media (max-width: 780px) {
     .HeaderTitle img {
         width: 120px;
     }
+
     .Container {
         font-size: 18px;
     }
+
     .Content {
         width: 350px;
     }
 }
+
 @media (max-width: 414px) {
     .HeaderTitle img {
         width: 50px;
     }
+
     .Container {
         font-size: 13px;
     }
+
     .Content {
         width: 240px;
     }

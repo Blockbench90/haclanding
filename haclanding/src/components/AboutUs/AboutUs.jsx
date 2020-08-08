@@ -25,8 +25,7 @@ const AboutUs = (props) => {
                         <div className={s.LeftBlock}>
                             <div className={s.tLbInner}>
                                 <Post title={"Ремонт"}
-                                      content={"Компьютер,ноутбук,планшет,телефонт"
-                                      /*+ ",монитор,телевизор,принтер,акустика."*/}
+                                      content={"Компьютер,ноутбук,планшет,телефонт"}
                                 route="/fix" />
                             </div>
                         </div>
@@ -42,7 +41,7 @@ const AboutUs = (props) => {
                         <div className={s.LeftBlock}>
                             <div className={s.cLbInner}>
                                 <Post title={"Программы"}
-                                      content={"Переустановить Винду, обновить PornoHub"}
+                                      content={"Переустановить Windows, обновить PornoHub"}
                                       route="/support"/>
                             </div>
                         </div>

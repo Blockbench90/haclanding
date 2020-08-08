@@ -1,9 +1,10 @@
 import React from "react";
-import s from "./WithRoute.module.css";
+import s from "./Assembly.module.css";
 import Button from "../../common/Butoon/Button";
-import assembly from "../../assets/img/assimblyPC.jpg"
+import assembly from "../../assets/img/fix-section.png";
+import assembly2 from "../../assets/img/fix-section2.png";
 
-const PostToLeftSide = ({image, content, title}) => {
+export const PostToLeftSide = ({image, content, title}) => {
     return (
         <div className={s.PostToLeftSideWrapper}>
             <div className={s.Content}>
@@ -16,7 +17,7 @@ const PostToLeftSide = ({image, content, title}) => {
         </div>
     )
 }
-const PostToRightSide = ({image, content, title}) => {
+export const PostToRightSide = ({image, content, title}) => {
     return (
         <div className={s.PostToRightSideWrapper}>
             <div>
@@ -35,7 +36,7 @@ const Assembly = (props) => {
         <div className={s.Wrapper}>
             <div className={s.Container}>
                 <div className={s.Assembly}>
-                    <PostToLeftSide image={assembly} title="Собрать новый ПК" content="
+                    <PostToLeftSide image={assembly2} title="Собрать новый ПК" content="
                     Мы можем собрать для Вас новый компьютер,
                      исходя из ваших желаний, предпочтений и,
                       естественно, кошелька. Весь процесс сборки чем-то схож с заказом вина в ресторане,
@@ -49,7 +50,7 @@ const Assembly = (props) => {
                      и наслаждаемся дальнейшей работой."/>
                 </div>
                 <div className={s.Modernization}>
-                    <PostToRightSide image={assembly} title="Помощь в продаже старого ПК"
+                    <PostToRightSide image={assembly2} title="Помощь в продаже старого ПК"
                                      content="Не беда, и на этот вопрос у нас ответ имеется.
                                       Мы ценим и с огромным уважением относимся ко всем нашим клиентам,
                                        поэтому поможем с реализацией старого. Вместе примем решение о цене,

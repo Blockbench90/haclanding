@@ -1,25 +1,32 @@
 .Wrapper{
     background-color: black;
 }
-.first, .two, .three, .For, .Fiwe {
+.first, .two, .three, .For, .Five, .Six, .Seven{
     background-size: cover;
     background-position: center;
     height: 100vh;
     left: 0;
     right: 0;
 }
+
 .first {
-    background-image: url("../../assets/img/green nvidia.jpg");
+    background-image: url("../../assets/img/slick/slick_1.jpg");
 }
 .two {
-    background-image: url("../../assets/img/green-computer.jpg");
+    background-image: url("../../assets/img/slick/slick_2.jpg");;
 }
 .three {
-    background-image: url("../../assets/img/1400.jpg");
+    background-image: url("../../assets/img/slick/slick_3.jpg");
 }
 .For{
-    background-image: url("../../assets/img/ais.jpg");
+    background-image: url("../../assets/img/slick/slick_4.jpg");
 }
-.Fiwe{
-    background-image: url("../../assets/img/Top-Free-RGB.jpg");
+.Five{
+    background-image: url("../../assets/img/slick/slick_6.jpg");
+}
+.Six{
+    background-image: url("../../assets/img/slick/slick_10.jpg");
+}
+.Seven{
+    background-image: url("../../assets/img/slick/slick_9.jpg");
 }

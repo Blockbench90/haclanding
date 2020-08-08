@@ -29,8 +29,20 @@ export default class PartnersSlider extends React.Component {
                     </div>
                     <div className={s.For}>
                     </div>
-                    <div className={s.Fiwe}>
+                    <div className={s.Five}>
                     </div>
+                    <div className={s.Six}>
+                    </div>
+                    <div className={s.Seven}>
+                    </div>
+                    {/*<div className={s.Eight}>*/}
+                    {/*</div>*/}
+                    {/*<div className={s.Nine}>*/}
+                    {/*</div>*/}
+                    {/*<div className={s.Ten}>*/}
+                    {/*</div>*/}
+                    {/*<div className={s.Eleven}>*/}
+                    {/*</div>*/}
                 </Slider>
             </div>
         );

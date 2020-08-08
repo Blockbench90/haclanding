@@ -20,18 +20,17 @@ const Partners = (props) => {
                 <div className={s.ContentInner}>
                     <div className={s.TopContent}>
                         <div className={s.TopLeftBlock}>
-                            <Content title={"Собрать ПК"}
-                                     content={"Мы работаем с многими оптовыми продавцами," +
-                                     "и нажедными поставщиками"}/>
+                            <Content title={"Сборка"}
+                                     content={"Как захотите, а за сколько захотите! Ваше желание для нас закон"}/>
                         </div>
                         <div className={s.TopRightBlock}>
-                            <Content title={"Заправка картриджей"}
-                                     content={"Возможна как оптовая, так и разовая заправка"}/>
+                            <Content title={"Модернизация"}
+                                     content={"Сделаем из Москвича - Tesla вместе! Только скажите какого цвета"}/>
                         </div>
                     </div>
                     <div className={s.BottomContent}>
                             <div className={s.BotLeftBlock}>
-                                <Content title={"Новое, по оптовой цене"}
+                                <Content title={"Адекватные цены"}
                                          content={"У нас вы найдете самые низкие цены, будь то телефон или двигатель самолета"}/>
                             </div>
                             <div className={s.BotRightBlock}>

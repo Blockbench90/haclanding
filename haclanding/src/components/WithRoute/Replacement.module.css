@@ -6,23 +6,18 @@
     overflow: hidden;
 }
 .Container{
-    display: flex;
-    justify-content: space-between;
-    max-width: 90vw;
+    max-width: 80vw;
     margin: 0 auto;
 }
+
 .Content p{
     text-indent: 20px;
     font-size: 16px;
 }
+.Gallery{
+    display: flex;
+    justify-content: space-between;
+}
 .BackButton{
     padding-left: 88%;
-}
-.Gallery{
-    max-width: 260px;
-}
-.Gallery img{
-    padding: 20px;
-    width: 200px;
-
 }

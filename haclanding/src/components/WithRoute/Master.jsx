@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./WithRoute.module.css";
+import s from "./Master.module.css";
 import Button from "../../common/Butoon/Button";
 
 const Master = (props) => {

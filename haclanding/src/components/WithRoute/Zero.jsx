@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./WithRoute.module.css";
+import s from "./Zero.module.css";
 import Button from "../../common/Butoon/Button";
 
 const Zero = (props) => {
