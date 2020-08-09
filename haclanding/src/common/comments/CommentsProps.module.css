@@ -46,3 +46,9 @@
 .TextareaWrapper textarea::placeholder {
     color: rgba(38, 55, 54, 0.9);
 }
+@media (max-width: 675px) {
+    .TextareaWrapper textarea {
+        height: 13vh;
+        width: 305px;
+    }
+}

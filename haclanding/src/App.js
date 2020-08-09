@@ -14,9 +14,6 @@ import Support from "./components/WithRoute/Support";
 import Master from "./components/WithRoute/Master";
 import Zero from "./components/WithRoute/Zero";
 import CommentsInner from "./components/Comments/CommentsInner/CommentsInner";
-import MapContent from "./components/MapSection/MapContent";
-import Footer from "./components/Footer/Footer";
-import Modal from "./components/Modal/Modal";
 
 
 const App = () => {
@@ -50,13 +47,12 @@ const App = () => {
                 <section className="Comments" id="section4">
                     <CommentsInner/>
                 </section>
-                <section className="Map" id="section5">
-                    <MapContent/>
-                </section>
-                <section className="Footer">
-                        {/*<Footer/>*/}
-                        {/*<Modal/>*/}
-                </section>
+                {/*<section className="Map" id="section5">*/}
+                {/*    <MapContent/>*/}
+                {/*</section>*/}
+                {/*<section className="Footer">*/}
+                {/*        /!*<Modal/>*!/*/}
+                {/*</section>*/}
             </div>
         </div>
     );

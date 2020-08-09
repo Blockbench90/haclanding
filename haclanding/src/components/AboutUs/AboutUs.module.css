@@ -218,18 +218,20 @@
         display: inline-block;
     }
 
+
+}
+@media (max-height: 900px) {
     .bRbInner {
         display: none;
     }
 }
-
 @media (max-width: 420px) {
     .ContentInner {
         padding-top: 50px;
     }
 
     .Content {
-        max-width: 220px;
+        max-width: 159px;
     }
 
     .tLbInner,
@@ -239,9 +241,10 @@
     .bLbInner,
     .bRbInner,
     .PostInner {
-        width: 203px;
-        height: 106px;
+        width: 156px;
+        height: 84px;
         margin: 0;
+        border-radius: 15px;
     }
 
     .PostSpan {
@@ -251,17 +254,16 @@
     }
 
     .PostBtn {
-        margin: 0 0 0 69px;
+        margin-left: 19px;
         font-size: 12px;
     }
 
     .ContentInner h2 {
-        padding-top: 10px;
-        font-size: 10px;
+        padding-top: 20px;
+        font-size: 20px;
     }
 
     .ContentInner p {
-        font-size: 10px;
-        line-height: 10px;
+        display: none;
     }
 }

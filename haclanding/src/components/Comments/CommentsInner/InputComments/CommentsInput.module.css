@@ -53,9 +53,12 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 675px) {
+    /*.TextareaWrapper{*/
+    /*    height: 13vh;*/
+    /*}*/
     .wrapperButton{
-        padding-left: 66%;
+        padding-left: 48%;
     }
     .Wrapper{
         padding: 0;

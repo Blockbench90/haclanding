@@ -1,5 +1,6 @@
 .Wrapper{
     background-color: black;
+    overflow-x: hidden;
 }
 .first, .two, .three, .For, .Five, .Six, .Seven{
     background-size: cover;

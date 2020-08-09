@@ -38,7 +38,6 @@
 .Content span {
     font-size: 23px;
     font-weight: 500;
-
 }
 
 .Info {
@@ -87,6 +86,7 @@
 
 @media (max-width: 414px) {
     .HeaderTitle img {
+        padding-top: 50px;
         width: 50px;
     }
 
@@ -96,5 +96,19 @@
 
     .Content {
         width: 240px;
+    }
+    .Content h1{
+        font-size: 25px;
+    }
+    .Content p{
+        font-size: 25px;
+    }
+    .Content span {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .Info {
+        width: 285px;
+        padding-left: 8vw;
     }
 }
