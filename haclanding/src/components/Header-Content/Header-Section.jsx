@@ -1,18 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import style from "./HeaderSection.module.css"
 import logo from "../../assets/img/logo/logo11.png"
-import Max from "../../assets/img/max_photo.png"
-import Anonimys from "../../assets/img/1200px-Anonymous.svg.png"
-import telegram from "../../assets/img/tetegram.png"
-import viber from "../../assets/img/viber.png"
-import {ButtonPhone} from "../../common/Butoon/Button";
+import Modal from "../Modal/Modal";
+
 
 const HeaderSection = () => {
+    const [modal, setModal] = useState(false)
+    const toggle = () => {
+        return setModal(false)
+    }
     return (
         <div className={style.Wrapper}>
             <div className={style.Container}>
+                {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="20%"
+                                 textWin="Ларису Ивановну хочу"/>}
                 <div className={style.HeaderTitle}>
-                    <div>
+                    <div onClick={()=> setModal(true)}>
                         <img src={logo} alt=""/>
                     </div>
                     <div>
@@ -32,20 +35,6 @@ const HeaderSection = () => {
                         Но это далеко не главное наше преимущество, это только факт.</span>
                         </div>
                     </div>
-                    {/*<div className={style.PhotoInfo}>*/}
-                    {/*    <div>*/}
-                    {/*        <img src={Max} alt=""/>*/}
-                    {/*        <div className={style.Btn}>*/}
-                    {/*            <ButtonPhone title={"Максим"} phone={"tel:+1234567890"}/>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*    <div>*/}
-                    {/*        <img src={Anonimys} alt=""/>*/}
-                    {/*        <div className={style.BtnUra}>*/}
-                    {/*            <ButtonPhone title={"Юра"} phone={"tel:+1234567890"}/>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
                 </div>
             </div>
         </div>

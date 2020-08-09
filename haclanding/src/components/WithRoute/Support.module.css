@@ -1,33 +1,82 @@
-.Wrapper{
+.Wrapper {
     height: 100vh;
-    /*width: 100vw;*/
-    /*background: rgba(22, 99, 106, 0.9);*/
-    /*background: rgba(211, 217, 237, 0.9);*/
     background: rgba(0, 128, 130, 0.9);
-
     color: white;
     padding: 50px;
     overflow: hidden;
 }
-.Container{
-    display: flex;
-    justify-content: space-between;
-    max-width: 90vw;
+
+.Container {
+    max-width: 80vw;
     margin: 0 auto;
 }
-.PostToLeftSideWrapper, .PostToRightSideWrapper{
-    /*display: flex;*/
-    /*justify-content: space-between;*/
+
+.Title {
+    line-height: 0px;
+    padding-left: 12%;
+    font-size: 25px;
 }
-.PostToLeftSideWrapper img, .PostToRightSideWrapper img{
-    width: 835px;
-    height: 100px;
-    margin: 10px;
+
+.Gallery {
+    display: flex;
+    justify-content: space-between;
 }
-.Content p{
-    text-indent: 20px;
-    font-size: 16px;
+
+.Gallery div {
+    width: 225px;
+    padding: 18px;
+    background-color: cadetblue;
+    transition: all .5s;
+    cursor: pointer;
+}
+.Gallery div:hover{
+    background: rgba(255, 255, 255, 0.6);
+}
+.Gallery img {
+    width: 190px;
+    padding-left: 17px;
+}
+.Gallery span{
+    font-size: 23px;
+    padding-left: 15px;
+}
+.Gallery b{
+    margin-left: 10px;
+}
+.TitleAnt{
+    line-height: 0px;
+    font-size: 30px;
+    padding-left: 39%;
+}
+
+.ImgAnt{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+.ImgAnt img{
+    cursor: pointer;
+}
+.ImgAnt:hover{
+    background: rgba(255, 255, 255, 0.6);
+}
+.Beer img{
+    padding-top: 45px;
+    width: 90px;
+}
+.Kasper img{
+    padding-top: 45px;
+    width: 90px;
+}
+.ImgPrograms{
+    width: 800px;
+    margin-left: 26%;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+.ImgPrograms:hover{
+    background: rgba(255, 255, 255, 0.6);
 }
 .BackButton{
-    padding-left: 88%;
+    padding-left: 90%;
 }

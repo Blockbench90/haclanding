@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import s from "./Assembly.module.css";
 import Button from "../../common/Butoon/Button";
 import assembly from "../../assets/img/fix-section.png";
 import assembly2 from "../../assets/img/fix-section2.png";
+import Modal from "../Modal/Modal";
 
 export const PostToLeftSide = ({image, content, title}) => {
     return (
@@ -27,9 +28,15 @@ export const PostToRightSide = ({image, content, title}) => {
 }
 
 const Assembly = (props) => {
+    const [modal, setModal] = useState(false)
+    const toggle = () => {
+        return setModal(false)
+    }
     return (
         <div className={s.Wrapper}>
             <div className={s.Container}>
+                {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="50%"
+                                 textWin="Мне бы такую работу, чтобы поменьше работы."/>}
                 <div className={s.Assembly}>
                     <div className={s.Block}>
                         <PostToLeftSide title="Собрать новый ПК" content="
@@ -68,7 +75,7 @@ const Assembly = (props) => {
                                            проявить себя, и вы не пожалеете. Любая деталь, любое комплектующие, от болтика до корпуса,
                                             от термопасты до IPS матрицы, от скотча до блока питания, нам все под силу, и без огромных переплат."/>
                         </div>
-                    <div>
+                    <div onClick={()=> setModal(true)}>
                         <img src={assembly2} alt=""/>
                     </div>
                     </div>

@@ -1,15 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 import s from "./WithRoute.module.css";
 import Button from "../../common/Butoon/Button";
 import scrin from "../../assets/img/contentImg/leptop.png";
 import scrin1 from "../../assets/img/contentImg/leptop1.png";
 import scrin2 from "../../assets/img/contentImg/leptop2.png";
+import Modal from "../Modal/Modal";
 
 const Fix = () => {
+    const [modal, setModal] = useState(false)
+    const toggle = () => {
+        return setModal(false)
+    }
     return (
         <div className={s.Wrapper}>
             <div className={s.Container}>
                 <div className={s.Info}>
+                    {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="50%"
+                                     textWin="И шо я в тебя такой влюбленный."/>}
                     <div className={s.Title}>
                         <h3>Раздавили экран? Залили жидкостью? Уронили? Ноутбук не включается без всякой причины?</h3>
                     </div>
@@ -56,7 +63,7 @@ const Fix = () => {
                     <div>
                         <img src={scrin1} alt=""/>
                     </div>
-                    <div>
+                    <div onClick={()=> setModal(true)}>
                         <img src={scrin2} alt=""/>
                     </div>
                 </div>
