@@ -4,13 +4,15 @@ import HeaderSection from "./Header-Section";
 import BackgroundVideo from "../../common/BackgroundVideo/BackgroundVideo";
 
 const HeaderContent = (props) => {
-    return <div className={s.HeaderContent}>
-        <div className={s.HeaderTop}>
-            <HeaderSection/>
+    return (
+        <div>
+            <div className={s.HeaderTop}>
+                <HeaderSection/>
+            </div>
+            <div>
+                <BackgroundVideo/>
+            </div>
         </div>
-        <div className={s.Video}>
-            <BackgroundVideo/>
-        </div>
-    </div>
+    )
 }
 export default HeaderContent;

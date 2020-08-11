@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import style from "./HeaderSection.module.css"
-import logo from "../../assets/img/logo/logo11.png"
+import style from "./HeaderSection.module.css";
+import logo from "../../assets/img/logo/logo11.png";
 import Modal from "../Modal/Modal";
 
 

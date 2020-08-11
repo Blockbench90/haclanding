@@ -1,6 +1,5 @@
 .Wrapper{
     height: 100vh;
-    /*background-image: url("../../assets/img/Map.png");*/
     background-image: url("../../assets/img/map.jpg");
     background-size: cover;
     display: flex;
@@ -37,13 +36,6 @@
 }
 .MapBox img{
     width: 47px;
-}
-.Footer{
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*bottom: 0;*/
-    /*width: 100%;*/
-    /*height: 80px;*/
 }
 .Society{
     width: 500px;
@@ -87,7 +79,9 @@
 .Btn {
     padding: 0 18px;
 }
-
+.BtnMedia{
+    display: none;
+}
 .BtnUra {
     padding: 0 44px;
 }
@@ -117,10 +111,18 @@
         height: 160px;
     }
     .MaxBoxImg img{
-        padding-left: 40px;
+        padding-left: 28px;
     }
     .Btn {
         padding: 0;
+    }
+    .Btn {
+        display: none;
+
+    }
+    .BtnMedia{
+        display: block;
+        padding: 0 18px;
     }
     .BtnUra {
         padding: 0;

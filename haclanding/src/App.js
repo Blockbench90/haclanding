@@ -17,7 +17,6 @@ import CommentsInner from "./components/Comments/CommentsInner/CommentsInner";
 import MapContent from "./components/MapSection/MapContent";
 
 
-
 const App = () => {
     return (
         <div className="App-Wrapper">

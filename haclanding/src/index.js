@@ -8,9 +8,9 @@ import {Provider} from "react-redux";
 import store from "./components/redux/redux";
 
 ReactDOM.render(<BrowserRouter>
-    <Provider store={store}>
-        <HacLanding/>
-    </Provider>
+        <Provider store={store}>
+            <HacLanding/>
+        </Provider>
     </BrowserRouter>,
     document.getElementById('root')
 );
