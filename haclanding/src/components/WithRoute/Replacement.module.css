@@ -27,3 +27,30 @@
 .BackButton{
     padding-left: 88%;
 }
+
+@media (max-width: 1350px) {
+    .Gallery img{
+        width: 200px;
+    }
+}
+@media (max-width: 1050px) {
+    .Gallery img{
+        width: 150px;
+    }
+}
+@media (max-width: 880px) {
+    .Wrapper{
+        padding: 50px 10px 0 10px;
+    }
+    .Content p{
+        text-indent: 12px;
+        line-height: 12px;
+        font-size: 10px;
+    }
+    .Gallery img{
+        width: 60px;
+    }
+    .BackButton{
+        padding-left: 50%;
+    }
+}

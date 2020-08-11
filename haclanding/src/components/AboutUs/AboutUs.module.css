@@ -130,7 +130,9 @@
     .Content {
         max-width: 900px;
     }
-
+    .ContentInner {
+        padding-top: 325px;
+    }
     .tLbInner,
     .tRbInner,
     .cLbInner,
@@ -167,6 +169,9 @@
 @media (max-width: 925px) {
     .Content {
         max-width: 700px;
+    }
+    .ContentInner {
+        padding-top: 60px;
     }
     .tLbInner,
     .tRbInner,
@@ -220,7 +225,7 @@
 
 
 }
-@media (max-height: 900px) {
+@media (max-height: 600px) {
     .bRbInner {
         display: none;
     }
@@ -231,7 +236,7 @@
     }
 
     .Content {
-        max-width: 159px;
+        max-width: 230px;
     }
 
     .tLbInner,
@@ -241,7 +246,7 @@
     .bLbInner,
     .bRbInner,
     .PostInner {
-        width: 156px;
+        width: 226px;
         height: 84px;
         margin: 0;
         border-radius: 15px;
@@ -254,7 +259,7 @@
     }
 
     .PostBtn {
-        margin-left: 19px;
+        margin-left: 55px;
         font-size: 12px;
     }
 

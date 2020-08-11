@@ -80,3 +80,131 @@
 .BackButton{
     padding-left: 90%;
 }
+
+@media (max-width: 1700px) {
+    .ImgAnt img{
+        width: 130px;
+    }
+    .BackButton{
+        padding-top: 20px;
+    }
+}
+@media (max-width: 1460px) {
+    .Title h3, h4{
+        font-size: 20px;
+    }
+    .Gallery img {
+        width: 100px;
+        padding-left: 55px;
+    }
+    .Gallery span{
+        font-size: 20px;
+    }
+    .ImgAnt img{
+        width: 80px;
+    }
+    .ImgPrograms{
+        margin-left: 15%;
+    }
+    .BackButton{
+        padding-top: 20px;
+        padding-left: 85%;
+    }
+}
+@media (max-width: 1110px) {
+    .Title h3, h4{
+        font-size: 15px;
+    }
+    .Gallery img {
+        padding-left: 30px;
+    }
+    .Gallery span{
+        font-size: 12px;
+    }
+    .ImgPrograms{
+        margin-left: 4%;
+    }
+    .BackButton{
+        padding-left: 80%;
+    }
+}
+@media (max-width: 1050px) {
+    .Gallery div {
+        width: 101px;
+    }
+    .ImgPrograms{
+        padding-left: 10px;
+        width: 400px;
+    }
+    .Title h3, h4{
+        font-size: 10px;
+    }
+    .Gallery img {
+        padding-left: 20px;
+    }
+    .Gallery span{
+        font-size: 8px;
+    }
+    .ImgPrograms{
+        margin-left: 0;
+    }
+    .ImgPrograms img{
+        width: 400px;
+    }
+}
+@media (max-width: 650px) {
+    .Wrapper {
+       padding: 50px 0 0 20px;
+    }
+    .Container {
+        max-width: 95vw;
+    }
+    .Title h3, h4{
+        font-size: 11px;
+        line-height: 10px;
+    }
+    .Gallery{
+        width: 320px;
+    }
+    .Gallery div {
+        width: 80px;
+        padding: 5px;
+    }
+    .Gallery img {
+        width: 44px;
+        padding-left: 10px;
+    }
+    .Gallery span{
+        display: none;
+    }
+    .TitleAnt{
+        line-height: 0;
+        font-size: 30px;
+        padding-left: 25%;
+    }
+    .ImgAnt{
+        width: 320px;
+    }
+    .ImgAnt img{
+        width: 33px;
+    }
+    .Beer img{
+        padding-top: 0;
+        width: 30px;
+    }
+    .Kasper img{
+        padding-top: 0;
+        width: 30px;
+    }
+    .ImgPrograms{
+        width: 261px;
+        margin-left: 5%;
+    }
+    .ImgPrograms img{
+        width: 251px;
+    }
+    .BackButton{
+        padding-left: 26%;
+    }
+
+}

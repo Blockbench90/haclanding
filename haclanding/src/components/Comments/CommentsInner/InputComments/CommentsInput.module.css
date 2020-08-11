@@ -1,11 +1,6 @@
 .Wrapper{
     padding: 43px;
 }
-/*.InputWrapper{*/
-/*    width: 325px;*/
-/*    border-bottom: 2px solid black;*/
-/*}*/
-
 
 .InputWrapper input {
     background-color: darkcyan;
@@ -46,7 +41,7 @@
 
 @media (max-width: 1199px) {
     .wrapperButton{
-        padding-left: 69%;
+        padding-left: 45%;
     }
     .Sex{
         font-size: 16px;
@@ -70,6 +65,9 @@
 }
 
 @media (max-width: 416px) {
+    .InputInner{
+        font-size: 12px;
+    }
     .Wrapper{
         width: 90%;
         overflow: hidden;
@@ -77,11 +75,14 @@
     .InputInner{
         margin-bottom: 5px;
     }
+    .Sex{
+        font-size: 14px;
+    }
     .InputInner input{
 
     }
     .InputInner span{
-        font-size: 8px;
+        font-size: 4px;
     }
     .Input textarea{
         height: 10vh;

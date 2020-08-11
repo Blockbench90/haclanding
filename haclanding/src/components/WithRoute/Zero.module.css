@@ -15,3 +15,23 @@
 .Button{
     padding-left: 90%;
 }
+@media (max-width: 1330px) {
+    .Content{
+        font-size: 15px;
+    }
+    .Content div{
+        margin: 20px 0;
+    }
+    .Button{
+        padding-left: 80%;
+    }
+}
+@media (max-width: 670px) {
+    .Content{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .Button{
+        padding-left: 50%;
+    }
+}

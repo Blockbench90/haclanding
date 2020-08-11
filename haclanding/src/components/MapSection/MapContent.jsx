@@ -8,7 +8,7 @@ import telegram from "../../assets/img/tetegram.png";
 import viber from "../../assets/img/viber.png";
 import Max from "../../assets/img/max_photo.png";
 import {ButtonPhone} from "../../common/Butoon/Button";
-import Anonimys from "../../assets/img/1200px-Anonymous.svg.png";
+import Anonimys from "../../assets/img/Yura_photo.png";
 
 
 
@@ -74,7 +74,7 @@ const MapContent = (props) => {
                 </div>
             </div>
             <div className={s.PhotoInfo}>
-                <div>
+                <div className={s.MaxBoxImg}>
                     <img src={Max} alt=""/>
                     <div className={s.Btn}>
                         <ButtonPhone title={"Максим"} phone={"tel:+1234567890"}/>

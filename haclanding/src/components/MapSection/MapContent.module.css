@@ -17,9 +17,7 @@
     font-weight: 700;
     color: white;
 }
-/*.Container div{*/
-/*    padding-bottom: 10px;*/
-/*}*/
+
 .PhoneBox{
     display: flex;
     font-size: 19px;
@@ -39,9 +37,6 @@
 }
 .MapBox img{
     width: 47px;
-}
-.ButtonUp{
-   padding: 800px 20px 0 0;
 }
 .Footer{
     /*position: absolute;*/
@@ -102,8 +97,33 @@
 @media (max-width: 833px) {
     .Container{
         font-size: 15px;
+        padding: 50px 0 0 20px;
         font-weight: 700;
         line-height: 25px;
+    }
+    .Society{
+        width: 296px;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0px;
+    }
+    .PhotoInfo {
+        max-width: 280px;
+    }
+    .PhotoInfo img {
+        padding-left: 5px;
+        border-radius: 10px;
+        width: 108px;
+        height: 160px;
+    }
+    .MaxBoxImg img{
+        padding-left: 40px;
+    }
+    .Btn {
+        padding: 0;
+    }
+    .BtnUra {
+        padding: 0;
     }
 }
 

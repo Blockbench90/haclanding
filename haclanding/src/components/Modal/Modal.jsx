@@ -15,7 +15,6 @@ class Modal extends React.Component {
         document.body.removeChild(this.root)
     }
     render() {
-        debugger
         return ReactDOM.createPortal(
             <div className={style.Overlay} onClick={this.closeModal}>
                 <div className={style.Modal}>

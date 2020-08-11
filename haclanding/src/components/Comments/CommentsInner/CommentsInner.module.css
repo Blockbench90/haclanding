@@ -18,18 +18,25 @@
 }
 @media (max-width: 833px) {
     .Container{
-        display: inline;
+        padding-top: 30px;
+        display: inline-block;
     }
     .CommentsInput{
-        width: 100% ;
+        width: 95% ;
     }
     .CommentsText{
         padding-top: 15px;
-        width: 98%;
+        padding-right: 0;
+        width: 95%;
     }
 }
 @media (max-width: 675px) {
     .CommentsInput{
-        padding: 50px 50px 0 10px;
+        padding: 20px 0 0 10px;
+    }
+    .CommentsText{
+        padding-top: 15px;
+        padding-right: 0;
+        width: 90%;
     }
 }

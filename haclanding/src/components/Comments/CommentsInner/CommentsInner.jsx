@@ -15,7 +15,6 @@ const CommentsInner = (props) => {
                 <div className={s.CommentsText}>
                     <CommentsText/>
                 </div>
-
             </div>
         </div>
     )
