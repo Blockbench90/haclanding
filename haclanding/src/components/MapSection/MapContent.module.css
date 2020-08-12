@@ -16,7 +16,6 @@
     font-weight: 700;
     color: white;
 }
-
 .PhoneBox{
     display: flex;
     font-size: 19px;
@@ -26,7 +25,6 @@
 }
 .PhoneBox a{
     margin-top: 10px;
-
 }
 .MapBox{
     display: flex;
@@ -61,21 +59,16 @@
     drop-shadow(var(--stroke-neg) var(--stroke-pos) 0 var(--stroke-color))
     drop-shadow(var(--stroke-neg) var(--stroke-neg) 0 var(--stroke-color));
 }
-
 .PhotoInfo {
-    /*margin-left: 3vw;*/
     display: flex;
     justify-content: space-between;
     max-width: 500px;
-    /*margin: 0 auto;*/
 }
-
 .PhotoInfo img {
     border-radius: 10px;
     width: 215px;
     height: 320px;
 }
-
 .Btn {
     padding: 0 18px;
 }
@@ -85,9 +78,7 @@
 .BtnUra {
     padding: 0 44px;
 }
-@media (max-width: 1270px) {
 
-}
 @media (max-width: 833px) {
     .Container{
         font-size: 15px;

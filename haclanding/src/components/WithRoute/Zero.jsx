@@ -2,7 +2,7 @@ import React from "react";
 import s from "./Zero.module.css";
 import Button from "../../common/Butoon/Button";
 
-const Zero = (props) => {
+const Zero = () => {
     return (
         <div className={s.Wrapper}>
             <div className={s.Container}>

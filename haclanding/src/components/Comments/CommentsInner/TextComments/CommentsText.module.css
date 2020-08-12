@@ -50,6 +50,7 @@
 .PostContainer img {
     width: 150px;
 }
+
 @media (max-width: 1270px) {
     .PostContainer img {
         width: 75px;
@@ -72,13 +73,11 @@
         overflow-x: hidden;
         height: 350px;
     }
-
     .Container {
         max-height: 419px;
         padding: 6px;
     }
     .UserDescription p{
-        /*padding: 30px;*/
         font-size: 11px;
     }
     .PostContainer {
@@ -88,11 +87,13 @@
         width: 30px;
     }
 }
+
 @media (max-height: 770px){
     .Wrapper {
         height: 280px;
     }
 }
+
 @media (max-height: 1050px) {
     .Container {
         padding: 0;
@@ -101,6 +102,7 @@
         max-height: 800px;
     }
 }
+
 @media (max-height: 770px){
     .Wrapper {
         height: 280px;

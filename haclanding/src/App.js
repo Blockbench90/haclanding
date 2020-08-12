@@ -22,34 +22,34 @@ const App = () => {
         <div className="App-Wrapper">
             <div className="Container">
                 <section className="Header" id="section1">
-                    <Header/>
-                    <HeaderContent/>
+                    <Header/>  {/* фиксированный хедер */}
+                    <HeaderContent/>  {/* видео как бекграунд и кондент над ним */}
                 </section>
                 <section className="AboutUs" id="section2">
                     <Switch>
-                        <Route path='/' exact component={() => <AboutUs/>}/>
+                        <Route path='/' exact component={() => <AboutUs/>}/> {/* Обертка для роутов */}
 
-                        <Route path='/fix' render={() => <Fix/>}/>
-                        <Route path='/replacement' render={() => <Replacement/>}/>
-                        <Route path='/support' render={() => <Support/>}/>
-                        <Route path='/assembly' render={() => <Assembly/>}/>
-                        <Route path='/master' render={() => <Master/>}/>
-                        <Route path='/zero' render={() => <Zero/>}/>
+                        <Route path='/fix' render={() => <Fix/>}/>  {/* Ремонт */}
+                        <Route path='/replacement' render={() => <Replacement/>}/>  {/* Обслуживание */}
+                        <Route path='/support' render={() => <Support/>}/>  {/* Программы */}
+                        <Route path='/assembly' render={() => <Assembly/>}/>    {/* Сборка */}
+                        <Route path='/master' render={() => <Master/>}/>    {/* Вызов мастера */}
+                        <Route path='/zero' render={() => <Zero/>}/>    {/* Неопытный пользователь */}
                     </Switch>
                 </section>
-                <section className="Partners" id="section3">
+                <section className="Partners" id="section3">    {/* Обертка для отдела мини-визитки со слик-слайдером */}
                     <div className="PartnersContent">
-                        <Partners/>
+                        <Partners/> {/* Контентная часть */}
                     </div>
                     <div className="PartnersSlider">
-                        <PartnersSlider/>
+                        <PartnersSlider/> {/* Собственно сам слайдер из 7 фото */}
                     </div>
                 </section>
                 <section className="Comments" id="section4">
-                    <CommentsInner/>
+                    <CommentsInner/>    {/* Обертка для отзывов */}
                 </section>
                 <section className="Map" id="section5">
-                    <MapContent/>
+                    <MapContent/>   {/* Контакты */}
                 </section>
             </div>
         </div>

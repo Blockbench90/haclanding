@@ -33,11 +33,13 @@
         width: 200px;
     }
 }
+
 @media (max-width: 1050px) {
     .Gallery img{
         width: 150px;
     }
 }
+
 @media (max-width: 880px) {
     .Wrapper{
         padding: 50px 10px 0 10px;

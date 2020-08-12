@@ -16,6 +16,7 @@
     overflow: hidden;
     width: 30% ;
 }
+
 @media (max-width: 833px) {
     .Container{
         padding-top: 30px;
@@ -30,6 +31,7 @@
         width: 95%;
     }
 }
+
 @media (max-width: 675px) {
     .CommentsInput{
         padding: 20px 0 0 10px;

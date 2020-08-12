@@ -2,7 +2,13 @@
     background-color: black;
     overflow-x: hidden;
 }
-.first, .two, .three, .For, .Five, .Six, .Seven{
+.first,
+.two,
+.three,
+.For,
+.Five,
+.Six,
+.Seven{
     background-size: cover;
     background-position: center;
     height: 100vh;

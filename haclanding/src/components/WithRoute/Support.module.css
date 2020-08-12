@@ -5,23 +5,19 @@
     padding: 50px;
     overflow: hidden;
 }
-
 .Container {
     max-width: 80vw;
     margin: 0 auto;
 }
-
 .Title {
     line-height: 0px;
     padding-left: 12%;
     font-size: 25px;
 }
-
 .Gallery {
     display: flex;
     justify-content: space-between;
 }
-
 .Gallery div {
     width: 225px;
     padding: 18px;
@@ -48,7 +44,6 @@
     font-size: 30px;
     padding-left: 39%;
 }
-
 .ImgAnt{
     display: flex;
     justify-content: space-between;
@@ -82,13 +77,15 @@
 }
 
 @media (max-width: 1700px) {
-    .ImgAnt img{
+    .ImgAnt img {
         width: 130px;
     }
-    .BackButton{
+
+    .BackButton {
         padding-top: 20px;
     }
 }
+
 @media (max-width: 1460px) {
     .Title h3, h4{
         font-size: 20px;
@@ -111,6 +108,7 @@
         padding-left: 85%;
     }
 }
+
 @media (max-width: 1110px) {
     .Title h3, h4{
         font-size: 15px;
@@ -128,6 +126,7 @@
         padding-left: 80%;
     }
 }
+
 @media (max-width: 1050px) {
     .Gallery div {
         width: 101px;
@@ -152,6 +151,7 @@
         width: 400px;
     }
 }
+
 @media (max-width: 650px) {
     .Wrapper {
        padding: 50px 0 0 20px;
@@ -206,5 +206,4 @@
     .BackButton{
         padding-left: 26%;
     }
-
 }

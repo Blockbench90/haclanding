@@ -12,35 +12,34 @@ import TiRex from "../../../../assets/img/users/TiRex.png";
 import Baby from "../../../../assets/img/users/Baby.png";
 import {connect} from "react-redux";
 
-const PostWoman = (props) => {
+const PostWoman = ({name,comment,age,time, lastName}) => {
     return (
         <div className={s.PostWrapper}>
             <div className={s.PostContainer}>
                 <div className={s.UserDescription}>
-                    <b>{props.name} {props.lastName}</b>
-                    <p>{props.comment}</p>
+                    <b>{name} {lastName}</b>
+                    <p>{comment}</p>
                 </div>
                 <div className={s.UserPhoto}>
-                    <img src={props.age <= 0 ? Baby : props.age <= 14 ? jungWoman : props.age <=20 ? Chuwiha : props.age <= 35 ? BadWoman : props.age <= 100 ? Oma : TiRex} alt=""/>
-                    <span>{props.time}</span>
+                    <img src={age <= 0 ? Baby : age <= 14 ? jungWoman : age <=20 ? Chuwiha : age <= 35 ? BadWoman : age <= 100 ? Oma : TiRex} alt=""/>
+                    <span>{time}</span>
                 </div>
             </div>
         </div>
     )
 }
 
-
-const PostMan = (props) => {
+const PostMan = ({name,comment,age,time, lastName}) => {
     return (
         <div className={s.PostWrapper}>
             <div className={s.PostContainer}>
                 <div className={s.UserPhoto}>
-                    <img src={props.age <= 0 ? Baby : props.age <= 14 ? kid : props.age <=20 ? Chell : props.age <= 35 ? BadGay : props.age <= 100 ? Opa : TiRex} alt=""/>
-                    <span>{props.time}</span>
+                    <img src={age <= 0 ? Baby : age <= 14 ? kid : age <=20 ? Chell : age <= 35 ? BadGay : age <= 100 ? Opa : TiRex} alt=""/>
+                    <span>{time}</span>
                 </div>
                 <div className={s.UserDescription}>
-                    <b>{props.name} {props.lastName}</b>
-                    <p>{props.comment}</p>
+                    <b>{name} {lastName}</b>
+                    <p>{comment}</p>
                 </div>
             </div>
         </div>
@@ -49,8 +48,8 @@ const PostMan = (props) => {
 
 const CommentsText = (props) => {
     let post = [...props.comments].reverse().map(p => p.sex === "male" ?
-        <PostMan name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.lastName} time={p.time}/>
-        : <PostWoman name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.lastName} time={p.time}/>)
+        <PostMan name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.name} time={p.time}/>
+        : <PostWoman name={p.name} age={p.age} lastName={p.lastName} comment={p.comment} key={p.name} time={p.time}/>)
 
     return (
         <div className={s.Wrapper}>

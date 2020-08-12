@@ -48,7 +48,6 @@
 
 .PostBtn {
     margin: 19px 0 0 52px;
-    /*margin: 60px 0 0 350px;*/
 }
 
 .tLbInner,
@@ -108,18 +107,15 @@
         line-height: 25px;
         margin-left: 50px;
     }
-
     .PostBtn {
         margin: 0 0 0 222px;
         font-size: 20px;
     }
-
     .ContentInner h2 {
         line-height: 30px;
         padding-top: 19px;
         font-size: 29px;
     }
-
     .ContentInner p {
         font-size: 15px;
         line-height: 19px;
@@ -148,18 +144,14 @@
         line-height: 25px;
         margin-left: 50px;
     }
-
     .PostBtn {
         margin: 0 0 0 218px;
         font-size: 15px;
     }
-
     .ContentInner h2 {
-        /*line-height: 0px;*/
         padding-top: 10px;
         font-size: 25px;
     }
-
     .ContentInner p {
         font-size: 12px;
         line-height: 26px;
@@ -188,18 +180,15 @@
         line-height: 25px;
         margin-left: 50px;
     }
-
     .PostBtn {
-        margin: 0px 0 0 100px;
+        margin: 0 0 0 100px;
         font-size: 15px;
     }
-
     .ContentInner h2 {
-        line-height: 0px;
+        line-height: 0;
         padding-top: 10px;
         font-size: 18px;
     }
-
     .ContentInner p {
         font-size: 10px;
         line-height: 19px;
@@ -210,35 +199,30 @@
     .Content {
         max-width: 400px;
     }
-
     .TopContent {
         display: inline-block;
     }
-
     .CenterContent {
         display: inline-block;
     }
-
     .ButtonContent {
         display: inline-block;
     }
-
-
 }
+
 @media (max-height: 600px) {
     .bRbInner {
         display: none;
     }
 }
+
 @media (max-width: 420px) {
     .ContentInner {
         padding-top: 50px;
     }
-
     .Content {
         max-width: 230px;
     }
-
     .tLbInner,
     .tRbInner,
     .cLbInner,
@@ -251,23 +235,19 @@
         margin: 0;
         border-radius: 15px;
     }
-
     .PostSpan {
         font-size: 12px;
         line-height: 25px;
         margin-left: 50px;
     }
-
     .PostBtn {
         margin-left: 55px;
         font-size: 12px;
     }
-
     .ContentInner h2 {
         padding-top: 20px;
         font-size: 20px;
     }
-
     .ContentInner p {
         display: none;
     }

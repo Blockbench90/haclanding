@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import s from "./PartnersSlider.module.css"
 
 
-
 export default class PartnersSlider extends React.Component {
     render() {
         let settings = {

@@ -5,7 +5,7 @@ import {ButtonPhone} from "../../common/Butoon/Button";
 import {Link, animateScroll as scroll} from "react-scroll";
 
 class Header extends React.Component {
-    scrollToTop = () => {
+    scrollToTop = () => {   /* перемотка в HeaderSection */
         scroll.scrollToTop();
     };
     render() {
@@ -14,11 +14,11 @@ class Header extends React.Component {
                 <div className={style.Container}>
                     <div>
                         <header className={style.HeaderInner}>
-                            <div className={style.Logo}>
-                                    <img src={logo} alt="Logo" onClick={this.scrollToTop}/>
+                            <div className={style.Logo}>    {/* лого по стандарту мотает вверх */}
+                                <img src={logo} alt="Logo" onClick={this.scrollToTop}/>
                             </div>
                             <nav className={style.NavigationMenu}>
-                                <div className={style.Nav}>
+                                <div className={style.Nav}> {/* параметры перемотки, где duration скорость */}
                                     <Link to="section1" spy={true} smooth={true} duration={1000}>Главная</Link>
                                 </div>
                                 <div className={style.Services}>

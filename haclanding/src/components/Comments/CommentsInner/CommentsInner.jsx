@@ -5,7 +5,7 @@ import CommentsText from "./TextComments/CommentsText";
 
 
 
-const CommentsInner = (props) => {
+const CommentsInner = () => {
     return (
         <div className={s.Wrapper}>
             <div className={s.Container}>

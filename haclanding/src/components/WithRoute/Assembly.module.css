@@ -11,12 +11,6 @@
     max-width: 90vw;
     margin: 0 auto;
 }
-.PostToLeftSideWrapper img, .PostToRightSideWrapper img{
-    cursor: pointer;
-    width: 835px;
-    height: 100px;
-    margin: 10px;
-}
 .Content p{
     text-indent: 20px;
     font-size: 16px;
@@ -24,12 +18,10 @@
 .Block{
     height: 60vh;
 }
-.Modernization{
-
-}
 .BackButton{
     padding-left: 88%;
 }
+
 @media (max-width: 1700px) {
     .Wrapper{
         padding: 50px 0 0 20px;
@@ -60,6 +52,7 @@
         padding-top: 73px;
     }
 }
+
 @media (max-width: 670px) {
     .Container{
         max-width: 91vw;

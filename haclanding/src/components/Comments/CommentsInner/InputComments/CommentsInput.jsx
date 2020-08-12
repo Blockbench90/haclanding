@@ -11,7 +11,6 @@ import {Input, Textarea} from "../../../../common/comments/CommentsProps";
 
 const required = value => (value || typeof value === 'number' ? undefined : 'Required')
 const maxLength15 = maxLength(15);
-const maxLength25 = maxLength(25);
 const minLength2 = minLength(2);
 
 const CommentsForm = (props) => {

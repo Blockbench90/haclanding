@@ -26,6 +26,7 @@
     width: 200px;
     cursor: pointer;
 }
+
 @media (max-width: 1150px) {
     .List {
         font-size: 14px;
@@ -40,6 +41,7 @@
         padding-left: 75%;
     }
 }
+
 @media (max-width: 650px) {
     .Wrapper{
      padding: 50px 10px 0 10px;
