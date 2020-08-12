@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import s from "./Assembly.module.css";
 import Button from "../../common/Butoon/Button";
-import assembly from "../../assets/img/fix-section.png";
-import assembly2 from "../../assets/img/fix-section2.png";
+import assembly from "../../assets/img/Abaut/fix-section.png";
+import assembly2 from "../../assets/img/Abaut/fix-section2.png";
 import Modal from "../Modal/Modal";
 
 export const PostToLeftSide = ({content, title}) => {

@@ -1,6 +1,6 @@
 .Wrapper{
     height: 100vh;
-    background-image: url("../../assets/img/map.jpg");
+    background-image: url("../../assets/img/MapContent/map.jpg");
     background-size: cover;
     display: flex;
     justify-content: space-between;

@@ -1,13 +1,13 @@
 import React from "react";
 import s from "./MapContent.module.css";
-import kyivstar from "../../assets/img/kyivstar.png";
-import map from "../../assets/img/MapIcon.png";
-import instagram from "../../assets/img/insta.png";
-import telegram from "../../assets/img/tetegram.png";
-import viber from "../../assets/img/viber.png";
-import Max from "../../assets/img/max_photo.png";
+import kyivstar from "../../assets/img/logo/kyivstar.png";
+import map from "../../assets/img/logo/MapIcon.png";
+import instagram from "../../assets/img/logo/insta.png";
+import telegram from "../../assets/img/logo/tetegram.png";
+import viber from "../../assets/img/logo/viber.png";
+import Max from "../../assets/img/MapContent/max_photo.png";
 import {ButtonPhone} from "../../common/Butoon/Button";
-import Anonimys from "../../assets/img/Yura_photo.png";
+import Anonimys from "../../assets/img/MapContent/Yura_photo.png";
 
 
 const MapContent = (props) => {

@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./Master.module.css";
 import Button from "../../common/Butoon/Button";
-import master from "../../assets/img/Call_Master2.png"
+import master from "../../assets/img/Abaut/Call_Master2.png"
 
 
 const Master = () => {

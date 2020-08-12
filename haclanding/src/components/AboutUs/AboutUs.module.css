@@ -64,27 +64,27 @@
     border-radius: 30px;
 }
 .tLbInner {
-    background-image: url("../../assets/img/Fix2.png");
+    background-image: url("../../assets/img/Abaut/Fix2.png");
 }
 
 .tRbInner {
-    background-image: url("../../assets/copy/img/pillll.jpg");
+    background-image: url("../../assets/img/Abaut/pillll.jpg");
 }
 
 .cLbInner {
-    background-image: url("../../assets/img/unnamed.jpg");
+    background-image: url("../../assets/img/Abaut/unnamed.jpg");
 }
 
 .cRbInner {
-    background-image: url("../../assets/copy/img/remont.jpg");
+    background-image: url("../../assets/img/Abaut/remont.jpg");
 }
 
 .bLbInner {
-    background-image: url("../../assets/img/shablon.png");
+    background-image: url("../../assets/img/Abaut/shablon2.png");
 }
 
 .bRbInner {
-    background-image: url("../../assets/copy/img/gm.png");
+    background-image: url("../../assets/img/Abaut/gm.png");
 }
 
 @media (max-width: 1380px) {
