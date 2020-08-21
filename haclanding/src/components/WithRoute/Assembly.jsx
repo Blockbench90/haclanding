@@ -4,6 +4,7 @@ import Button from "../../common/Butoon/Button";
 import assembly from "../../assets/img/Abaut/fix-section.png";
 import assembly2 from "../../assets/img/Abaut/fix-section2.png";
 import Modal from "../Modal/Modal";
+import Parallax from "../Parallax/Parallax";
 
 export const PostToLeftSide = ({content, title}) => {
     return (
@@ -33,6 +34,7 @@ const Assembly = (props) => {
     }
     return (
         <div className={s.Wrapper}>
+            <Parallax/>
             <div className={s.Container}>
                 {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="50%"
                                  textWin="Мне бы такую работу, чтобы поменьше работы."/>}

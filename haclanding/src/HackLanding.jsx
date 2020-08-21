@@ -7,7 +7,7 @@ const HacLanding = (props) => {
     const [isFetch, setIsFetch] = useState(true);
     setTimeout(() => {
         setIsFetch(false)
-    }, 4000)
+    }, 400)
     return (<div>
         <div className="PreloaderUnderWindow">
             {isFetch && <Preloader/>}

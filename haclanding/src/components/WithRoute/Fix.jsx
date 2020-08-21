@@ -5,6 +5,7 @@ import scrin from "../../assets/img/contentImg/leptop.png";
 import scrin1 from "../../assets/img/contentImg/leptop1.png";
 import scrin2 from "../../assets/img/contentImg/leptop2.png";
 import Modal from "../Modal/Modal";
+import Parallax from "../Parallax/Parallax";
 
 const Fix = () => {
     const [modal, setModal] = useState(false)
@@ -13,6 +14,7 @@ const Fix = () => {
     }
     return (
         <div className={s.Wrapper}>
+            <Parallax/>
             <div className={s.Container}>
                 <div className={s.Info}>
                     {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="50%"

@@ -2,11 +2,13 @@ import React from "react";
 import s from "./Master.module.css";
 import Button from "../../common/Butoon/Button";
 import master from "../../assets/img/Abaut/Call_Master2.png"
+import Parallax from "../Parallax/Parallax";
 
 
 const Master = () => {
     return (
         <div className={s.Wrapper}>
+            <Parallax/>
             <div className={s.Container}>
                 <div className={s.Content}>
                     <ul>

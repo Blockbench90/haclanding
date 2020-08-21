@@ -1,10 +1,12 @@
 import React from "react";
 import s from "./Zero.module.css";
 import Button from "../../common/Butoon/Button";
+import Parallax from "../Parallax/Parallax";
 
 const Zero = () => {
     return (
         <div className={s.Wrapper}>
+            <Parallax/>
             <div className={s.Container}>
                 <div className={s.Content}>
                     <div>

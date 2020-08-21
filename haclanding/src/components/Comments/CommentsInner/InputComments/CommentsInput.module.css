@@ -2,7 +2,8 @@
     padding: 43px;
 }
 .InputWrapper input {
-    background-color: darkcyan;
+    /*background-color: darkcyan;*/
+    /*background: rgba(255, 255, 255, 0.6);*/
     color: white;
     padding-left: 10px;
     /*Сброс стандартных стилей*/

@@ -10,7 +10,9 @@
     font-size: 18px;
 }
 .InputWrapper input {
-    background-color: darkcyan;
+    /*background-color: darkcyan;*/
+    width: 325px;
+    background: rgba(255, 255, 255, 0.6); /*белый полупрозрачный*/
     color: white;
     padding-left: 10px;
     /*Сброс стандартных стилей*/
@@ -19,6 +21,7 @@
     outline: none;
 }
 .InputWrapper input::placeholder {
+
     color: darkgray;
 }
 
@@ -37,7 +40,8 @@
     border: none;
     outline: none;
     padding: 10px;
-    background-color: rgba(38, 55, 54, 0.3);
+    /*background-color: rgba(38, 55, 54, 0.3);*/
+    background: rgba(255, 255, 255, 0.6); /*белый полупрозрачный*/
     color: white;
     height: 40vh;
     width: 325px;

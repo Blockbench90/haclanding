@@ -16,6 +16,7 @@ import panda from "../../assets/img/contentImg/antivirus/panda.png";
 import proprams from "../../assets/img/contentImg/antivirus/Programs.png";
 import Button from "../../common/Butoon/Button";
 import Modal from "../Modal/Modal";
+import Parallax from "../Parallax/Parallax";
 
 
 const Support = (props) => {
@@ -25,6 +26,7 @@ const Support = (props) => {
     }
     return (
         <div className={s.Wrapper}>
+            <Parallax/>
            <div className={s.Container}>
                {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="50%"
                                 textWin="Спасибо, я пешком постою."/>}

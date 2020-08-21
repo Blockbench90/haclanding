@@ -6,6 +6,7 @@ import Rep1 from "../../assets/img/contentImg/Rep1.png"
 import Rep2 from "../../assets/img/contentImg/Rep2.png"
 import Rep3 from "../../assets/img/contentImg/Rep3.png"
 import Modal from "../Modal/Modal";
+import Parallax from "../Parallax/Parallax";
 
 const Replacement = (props) => {
     const [modal, setModal] = useState(false)
@@ -14,6 +15,7 @@ const Replacement = (props) => {
     }
     return (
         <div className={s.Wrapper}>
+            <Parallax/>
             <div className={s.Container}>
                 <div className={s.Content}>
                     {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="10%"
