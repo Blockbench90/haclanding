@@ -1,0 +1,77 @@
+.Wrapper{
+    position: fixed;
+    z-index: 7;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 100vw;
+    line-height: 40px;
+    font-size: 26px;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto Slab', serif;
+}
+.Container{
+
+}
+.HeaderInner{
+    display: flex;
+    justify-content: space-between;
+}
+.NavigationWrapper{
+    /*margin-top: 50px;*/
+    width: 50vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+.NavigationMenu img{
+    padding-top: 50px;
+    width: 180px;
+}
+.NavigationMenu a{
+    margin-left: 10px;
+    border-bottom: 2px solid white;
+}
+.NavigationMenu a:hover {
+    transition: all .3s;
+    transform: scale(1.2);
+    font-size: 26px;
+    font-weight: 700;
+    color: aqua;
+    border-bottom: 2px solid aqua;
+}
+.Logo img{
+    width: 40px;
+    padding: 5px 0 0 30px;
+}
+.Logo img:hover {
+    cursor: pointer;
+    --stroke-pos: 1px;
+    --stroke-neg: -1px;
+    --stroke-color: aqua;
+    filter: drop-shadow(var(--stroke-pos) 0 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(0 var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(0 var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-pos) var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-pos) var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) var(--stroke-neg) 0 var(--stroke-color));
+}
+.hamburger {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 25px;
+    margin: 9px auto;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+.hamburger:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 100%;
+    border-top: 3px solid #fff;
+}

@@ -1,12 +1,30 @@
-.VideoInner{
+.VideoInner {
     height: 100vh;
     max-width: 100%;
     left: 0;
     right: 0;
     overflow: hidden;
 }
-.Video{
+.Video {
     background-size: cover;
     background: center;
+}
+.MediaInner {
+    display: none;
+}
+@media (max-width: 840px) {
+    @media (max-height: 812px) {
+        .BigMovie {
+            display: none;
+        }
+        .MediaInner {
+            display: block;
+            background-size: cover;
+            background: center;
+        }
+        .VideoInner {
+            height: 90vh;
+        }
+    }
 }
 

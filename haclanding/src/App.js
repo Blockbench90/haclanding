@@ -15,6 +15,7 @@ import Master from "./components/WithRoute/Master";
 import Zero from "./components/WithRoute/Zero";
 import CommentsInner from "./components/Comments/CommentsInner/CommentsInner";
 import MapContent from "./components/MapSection/MapContent";
+import HeaderMenu from "./components/HeaderMenu/HeaderMenu";
 
 
 const App = () => {
@@ -22,7 +23,12 @@ const App = () => {
         <div className="App-Wrapper">
             <div className="Container">
                 <section className="Header" id="section1">
-                    <Header/>  {/* фиксированный хедер */}
+                    <div className="NormalHeader">
+                        <Header/>  {/* фиксированный хедер */}
+                    </div>
+                    <div className="HeaderButton">
+                        <HeaderMenu/> {/* адаптивный хедер на 900px */}
+                    </div>
                     <HeaderContent/>  {/* видео как бекграунд и кондент над ним */}
                 </section>
                 <section className="AboutUs" id="section2">

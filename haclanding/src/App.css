@@ -1,13 +1,29 @@
-.App-Wrapper{
+.App-Wrapper {
 }
-.Container{
- color: #282c34;
+
+.Container {
+    color: #282c34;
 }
-.Container a{
- cursor: pointer;
+
+.Container a {
+    cursor: pointer;
 }
-.Header-Content{
+
+.Header-Content {
 }
-.Header{
+
+.HeaderButton {
+    display: none;
 }
+
+@media (max-width: 900px) {
+    .NormalHeader {
+        display: none;
+    }
+
+    .HeaderButton {
+        display: block;
+    }
+}
+
 
