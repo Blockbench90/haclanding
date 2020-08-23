@@ -13,26 +13,35 @@ import eset from "../../assets/img/contentImg/antivirus/eset.png";
 import kasper from "../../assets/img/contentImg/antivirus/Kasper.png";
 import mack from "../../assets/img/contentImg/antivirus/Mack.png";
 import panda from "../../assets/img/contentImg/antivirus/panda.png";
-import proprams from "../../assets/img/contentImg/antivirus/Programs.png";
+import exel from "../../assets/img/contentImg/antivirus/pregrams/exel.png";
+import google from "../../assets/img/contentImg/antivirus/pregrams/google.png";
+import mediaget from "../../assets/img/contentImg/antivirus/pregrams/mediaget.png";
+import microsoft from "../../assets/img/contentImg/antivirus/pregrams/microsoft.png";
+import mozilla from "../../assets/img/contentImg/antivirus/pregrams/mozilla.png";
+import office from "../../assets/img/contentImg/antivirus/pregrams/office.png";
+import opera from "../../assets/img/contentImg/antivirus/pregrams/opera.png";
+import Photoshop from "../../assets/img/contentImg/antivirus/pregrams/Photoshop.png";
+import promierPro from "../../assets/img/contentImg/antivirus/pregrams/promierPro.png";
+import skype from "../../assets/img/contentImg/antivirus/pregrams/skype.png";
+import telegram from "../../assets/img/contentImg/antivirus/pregrams/telegram.png";
+import uTorrent from "../../assets/img/contentImg/antivirus/pregrams/uTorrent.png";
+import veber from "../../assets/img/contentImg/antivirus/pregrams/veber.png";
+import WinRar from "../../assets/img/contentImg/antivirus/pregrams/WinRar.png";
 import Button from "../../common/Butoon/Button";
 import Modal from "../Modal/Modal";
 import Parallax from "../Parallax/Parallax";
 
-
-const antivirusList = [avg, avast, beer, drweb, eset, kasper, mack, panda]
+const WrapperForImg = ({img}) => {
+    return <div>
+        <img src={img} alt=""/>
+    </div>
+}
 
 const Support = (props) => {
-    debugger;
     const [modal, setModal] = useState(false)
     const toggle = () => {
         return setModal(false)
     }
-    const antivirus = antivirusList.map(photo => {
-        debugger;
-        return <div>
-            <img src={photo} key={photo} alt=""/>
-        </div>
-    })
     return (
         <div className={s.Wrapper}>
             <Parallax/>
@@ -44,21 +53,11 @@ const Support = (props) => {
                         <h3>Работаем со всеми самыми распространенными операционными системами</h3>
                     </div>
                     <div className={s.Gallery}>
-                        <div>
-                            <img src={windows} alt=""/>
-                        </div>
-                        <div>
-                            <img src={linux} alt=""/>
-                        </div>
-                        <div>
-                            <img src={macos} alt=""/>
-                        </div>
-                        <div>
-                            <img src={android} alt=""/>
-                        </div>
-                        <div>
-                            <img src={ios} alt=""/>
-                        </div>
+                        <WrapperForImg img={windows}/>
+                        <WrapperForImg img={linux}/>
+                        <WrapperForImg img={macos}/>
+                        <WrapperForImg img={android}/>
+                        <WrapperForImg img={ios}/>
                     </div>
                     <div className={s.Antivirus}>
                         <div className={s.Antivirus}>
@@ -68,31 +67,14 @@ const Support = (props) => {
                                 </div>
                             </div>
                             <div className={s.ImgAnt} onClick={() => setModal(true)}>
-                                {antivirus}
-                                {/*<div>*/}
-                                {/*    <img src={avg} alt=""/>*/}
-                                {/*</div>*/}
-                                {/*<div>*/}
-                                {/*    <img src={avast} alt=""/>*/}
-                                {/*</div>*/}
-                                {/*<div className={s.Beer}>*/}
-                                {/*    <img src={beer} alt=""/>*/}
-                                {/*</div>*/}
-                                {/*<div>*/}
-                                {/*    <img src={drweb} alt=""/>*/}
-                                {/*</div>*/}
-                                {/*<div>*/}
-                                {/*    <img src={eset} alt=""/>*/}
-                                {/*</div>*/}
-                                {/*<div className={s.Kasper}>*/}
-                                {/*    <img src={kasper} alt=""/>*/}
-                                {/*</div>*/}
-                                {/*<div>*/}
-                                {/*    <img src={mack} alt=""/>*/}
-                                {/*</div>*/}
-                                {/*<div>*/}
-                                {/*    <img src={panda} alt=""/>*/}
-                                {/*</div>*/}
+                                <WrapperForImg img={avg}/>
+                                <WrapperForImg img={avast}/>
+                                <WrapperForImg img={beer}/>
+                                <WrapperForImg img={drweb}/>
+                                <WrapperForImg img={eset}/>
+                                <WrapperForImg img={kasper}/>
+                                <WrapperForImg img={mack}/>
+                                <WrapperForImg img={panda}/>
                             </div>
                         </div>
                     </div>
@@ -104,9 +86,20 @@ const Support = (props) => {
                                 </div>
                             </div>
                             <div className={s.ImgPrograms}>
-                                <div>
-                                    <img src={proprams} alt=""/>
-                                </div>
+                                <WrapperForImg img={exel}/>
+                                <WrapperForImg img={google}/>
+                                <WrapperForImg img={mediaget}/>
+                                <WrapperForImg img={microsoft}/>
+                                <WrapperForImg img={mozilla}/>
+                                <WrapperForImg img={office}/>
+                                <WrapperForImg img={opera}/>
+                                <WrapperForImg img={Photoshop}/>
+                                <WrapperForImg img={promierPro}/>
+                                <WrapperForImg img={skype}/>
+                                <WrapperForImg img={telegram}/>
+                                <WrapperForImg img={uTorrent}/>
+                                <WrapperForImg img={veber}/>
+                                <WrapperForImg img={WinRar}/>
                             </div>
                         </div>
                     </div>

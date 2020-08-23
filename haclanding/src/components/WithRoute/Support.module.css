@@ -1,6 +1,5 @@
 .Wrapper {
     height: 100vh;
-    /*background: rgba(0, 128, 130, 0.9);*/
     color: white;
     padding: 50px;
     overflow: hidden;
@@ -49,6 +48,7 @@
     display: flex;
     justify-content: space-between;
     background-color: cadetblue;
+    border-radius: 10px;
 }
 .ImgAnt img{
     width: 160px;
@@ -57,24 +57,35 @@
 .ImgAnt:hover{
     background: rgba(255, 255, 255, 0.6);
 }
-/*.Beer img{*/
-/*    padding-top: 45px;*/
-/*    width: 90px;*/
-/*}*/
-/*.Kasper img{*/
-/*    padding-top: 45px;*/
-/*    width: 90px;*/
-/*}*/
+.ImgAnt img:hover{
+    transition: all .3s;
+    margin-top: -20px;
+    width: 180px;
+}
+
 .ImgPrograms{
-    width: 800px;
-    margin-left: 26%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: 19%;
     cursor: pointer;
     background-color: cadetblue;
+    border-radius: 10px;
 }
 .ImgPrograms:hover{
     background: rgba(255, 255, 255, 0.6);
 }
+.ImgPrograms img{
+    width: 60px;
+}
+.ImgPrograms img:hover{
+    transition: all .2s;
+    margin-top: -20px;
+    width: 90px;
+}
 .BackButton{
+    padding-top: 30px;
     padding-left: 90%;
 }
 
