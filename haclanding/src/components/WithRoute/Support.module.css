@@ -51,19 +51,20 @@
     background-color: cadetblue;
 }
 .ImgAnt img{
+    width: 160px;
     cursor: pointer;
 }
 .ImgAnt:hover{
     background: rgba(255, 255, 255, 0.6);
 }
-.Beer img{
-    padding-top: 45px;
-    width: 90px;
-}
-.Kasper img{
-    padding-top: 45px;
-    width: 90px;
-}
+/*.Beer img{*/
+/*    padding-top: 45px;*/
+/*    width: 90px;*/
+/*}*/
+/*.Kasper img{*/
+/*    padding-top: 45px;*/
+/*    width: 90px;*/
+/*}*/
 .ImgPrograms{
     width: 800px;
     margin-left: 26%;

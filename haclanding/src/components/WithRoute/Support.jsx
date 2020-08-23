@@ -19,92 +19,102 @@ import Modal from "../Modal/Modal";
 import Parallax from "../Parallax/Parallax";
 
 
+const antivirusList = [avg, avast, beer, drweb, eset, kasper, mack, panda]
+
 const Support = (props) => {
+    debugger;
     const [modal, setModal] = useState(false)
     const toggle = () => {
         return setModal(false)
     }
+    const antivirus = antivirusList.map(photo => {
+        debugger;
+        return <div>
+            <img src={photo} key={photo} alt=""/>
+        </div>
+    })
     return (
         <div className={s.Wrapper}>
             <Parallax/>
-           <div className={s.Container}>
-               {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="50%"
-                                textWin="Спасибо, я пешком постою."/>}
-               <div className={s.Content}>
-                   <div className={s.Title}>
-                       <h3>Работаем со всеми самыми распространенными операционными системами</h3>
-                   </div>
-                   <div className={s.Gallery}>
-                       <div>
-                           <img src={windows} alt=""/>
-                       </div>
-                       <div>
-                           <img src={linux} alt=""/>
-                       </div>
-                       <div>
-                           <img src={macos} alt=""/>
-                       </div>
-                       <div>
-                           <img src={android} alt=""/>
-                       </div>
-                       <div>
-                           <img src={ios} alt=""/>
-                       </div>
-                   </div>
-                   <div className={s.Antivirus}>
-                       <div className={s.Antivirus}>
-                           <div className={s.TitleAnt}>
+            <div className={s.Container}>
+                {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="50%"
+                                 textWin="Спасибо, я пешком постою."/>}
+                <div className={s.Content}>
+                    <div className={s.Title}>
+                        <h3>Работаем со всеми самыми распространенными операционными системами</h3>
+                    </div>
+                    <div className={s.Gallery}>
+                        <div>
+                            <img src={windows} alt=""/>
+                        </div>
+                        <div>
+                            <img src={linux} alt=""/>
+                        </div>
+                        <div>
+                            <img src={macos} alt=""/>
+                        </div>
+                        <div>
+                            <img src={android} alt=""/>
+                        </div>
+                        <div>
+                            <img src={ios} alt=""/>
+                        </div>
+                    </div>
+                    <div className={s.Antivirus}>
+                        <div className={s.Antivirus}>
+                            <div className={s.TitleAnt}>
                                 <div>
                                     <h4>Установка антивируса</h4>
                                 </div>
-                           </div>
-                           <div className={s.ImgAnt} onClick={()=> setModal(true)}>
-                               <div>
-                                   <img src={avg} alt=""/>
-                               </div>
-                               <div>
-                                   <img src={avast} alt=""/>
-                               </div>
-                               <div className={s.Beer}>
-                                   <img src={beer} alt=""/>
-                               </div>
-                               <div>
-                                   <img src={drweb} alt=""/>
-                               </div>
-                               <div>
-                                   <img src={eset} alt=""/>
-                               </div>
-                               <div className={s.Kasper}>
-                                   <img src={kasper} alt=""/>
-                               </div>
-                               <div>
-                                   <img src={mack} alt=""/>
-                               </div>
-                               <div>
-                                   <img src={panda} alt=""/>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-                   <div className={s.Programms}>
-                       <div className={s.ProgramsWrapper}>
-                           <div className={s.TitleAnt}>
-                               <div>
-                                   <h4>Програмное сопровождение</h4>
-                               </div>
-                           </div>
-                           <div className={s.ImgPrograms}>
-                               <div>
-                                   <img src={proprams} alt=""/>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-                   <div className={s.BackButton}>
-                       <Button title="Вернуться" to="/"/>
-                   </div>
-               </div>
-           </div>
+                            </div>
+                            <div className={s.ImgAnt} onClick={() => setModal(true)}>
+                                {antivirus}
+                                {/*<div>*/}
+                                {/*    <img src={avg} alt=""/>*/}
+                                {/*</div>*/}
+                                {/*<div>*/}
+                                {/*    <img src={avast} alt=""/>*/}
+                                {/*</div>*/}
+                                {/*<div className={s.Beer}>*/}
+                                {/*    <img src={beer} alt=""/>*/}
+                                {/*</div>*/}
+                                {/*<div>*/}
+                                {/*    <img src={drweb} alt=""/>*/}
+                                {/*</div>*/}
+                                {/*<div>*/}
+                                {/*    <img src={eset} alt=""/>*/}
+                                {/*</div>*/}
+                                {/*<div className={s.Kasper}>*/}
+                                {/*    <img src={kasper} alt=""/>*/}
+                                {/*</div>*/}
+                                {/*<div>*/}
+                                {/*    <img src={mack} alt=""/>*/}
+                                {/*</div>*/}
+                                {/*<div>*/}
+                                {/*    <img src={panda} alt=""/>*/}
+                                {/*</div>*/}
+                            </div>
+                        </div>
+                    </div>
+                    <div className={s.Programms}>
+                        <div className={s.ProgramsWrapper}>
+                            <div className={s.TitleAnt}>
+                                <div>
+                                    <h4>Програмное сопровождение</h4>
+                                </div>
+                            </div>
+                            <div className={s.ImgPrograms}>
+                                <div>
+                                    <img src={proprams} alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={s.BackButton}>
+                        <Button title="Вернуться" to="/"/>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
