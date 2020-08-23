@@ -15,7 +15,7 @@ const HeaderSection = () => {
                 {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="20%"
                                  textWin="Ларису Ивановну хочу"/>}
                 <div className={style.HeaderTitle}>
-                    <div onClick={()=> setModal(true)}>
+                    <div onClick={() => setModal(true)}>
                         <img src={logo} alt=""/>
                     </div>
                     <div>
@@ -31,8 +31,12 @@ const HeaderSection = () => {
                             <p>в Запорожье</p>
                         </div>
                         <div>
-                        <span>В наших силах выполнить ремонт любой сложности.
-                        Но это далеко не главное наше преимущество, это только факт.</span>
+                            <ul>
+                                <li>Не работает? – Починим!</li>
+                                <li>Не включается? – Включим!</li>
+                                <li>Не знаете как? – Подскажем!</li>
+                                <li>Дорого? – Обсудим!</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

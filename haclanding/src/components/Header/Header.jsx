@@ -1,9 +1,19 @@
 import React from "react";
 import style from "./Header.module.css"
 import logo from "../../assets/img/logo/logo11.png"
-import {ButtonPhone} from "../../common/Butoon/Button";
 import {Link, animateScroll as scroll} from "react-scroll";
 
+const ButtonPhone = ({phone, title }) => {
+    return (
+        <div className={style.wrapper}>
+            <a href={phone || "#"}>
+                <div className={style.title}>
+                    <span>{title}</span>
+                </div>
+            </a>
+        </div>
+    )
+};
 class Header extends React.Component {
     scrollToTop = () => {   /* перемотка в HeaderSection */
         scroll.scrollToTop();

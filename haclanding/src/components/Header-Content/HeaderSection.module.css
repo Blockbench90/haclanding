@@ -35,6 +35,15 @@
     width: 448px;
     padding-left: 3vw;
 }
+.Info  li, ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-decoration: none;
+}
+.Info li{
+    padding-left: 75px;
+}
 .Info p, h1 {
     text-shadow: 5px 4px 2px black, 0 0 2em cornflowerblue;
 }

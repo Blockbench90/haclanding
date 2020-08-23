@@ -36,7 +36,7 @@ const Assembly = (props) => {
         <div className={s.Wrapper}>
             <Parallax/>
             <div className={s.Container}>
-                {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="50%"
+                {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="1%"
                                  textWin="Мне бы такую работу, чтобы поменьше работы."/>}
                 <div className={s.Assembly}>
                     <div className={s.Block}>

@@ -55,6 +55,19 @@
     margin-top: 10px;
     padding-right: 10px;
 }
+
+.wrapper {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 6px 22px;
+    background: rgba(255, 255, 255, 0.15);
+
+    transition: all .5s;
+}
+.wrapper:hover{
+    background: rgb(255,0,42);
+}
+
 @media (max-width: 1199px) {
     .Wrapper{
         font-size: 22px;

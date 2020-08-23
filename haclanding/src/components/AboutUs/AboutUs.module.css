@@ -1,28 +1,9 @@
 .Wrapper {
     height: 100vh;
     width: 100vw;
-    /*background: rgba(22, 99, 106, 0.9);*/
     color: white;
 }
-/*.ParallaxWrapper {*/
-/*    z-index: -1;*/
-/*    position: fixed;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*    top: 0;*/
-/*    !*height: 100vh;*!*/
-/*}*/
-/*.Parallax{*/
-/*    background: url("../../assets/img/stena-kladka-kamen-podsvetka.jpg") no-repeat;*/
-/*    background-size: cover;*/
-/*    position: absolute;*/
-/*    left: -10%;*/
-/*    top: 0;*/
-/*    bottom: 0;*/
-/*    width: 110%;*/
-/*    height: 100%;*/
-/*}*/
+
 .Content {
     z-index: 1;
     max-width: 1270px;
@@ -31,10 +12,12 @@
 .ContentInner {
     padding-top: 43px;
 }
-.ContentInner h2 {
+.ContentInner h4 {
     text-align: center;
-    padding-top: 10px;
-    margin-bottom: 80px;
+    padding: 27px 0 138px 0;
+    font-size: 60px;
+    line-height: 0;
+    margin: 25px 0;
 }
 .ContentInner p {
     font-size: 22px;
@@ -68,7 +51,7 @@
 }
 
 .PostBtn {
-    margin: 19px 0 0 52px;
+    margin: 19px 0 0 193px;
 }
 
 .tLbInner,

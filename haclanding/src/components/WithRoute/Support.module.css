@@ -32,6 +32,7 @@
     width: 190px;
     padding-left: 17px;
 }
+
 .Gallery span{
     font-size: 23px;
     padding-left: 15px;
@@ -173,9 +174,6 @@
     .Gallery img {
         width: 44px;
         padding-left: 10px;
-    }
-    .Gallery span{
-        display: none;
     }
     .TitleAnt{
         line-height: 0;

@@ -37,23 +37,18 @@ const Support = (props) => {
                    <div className={s.Gallery}>
                        <div>
                            <img src={windows} alt=""/>
-                           <span>установка<b>150 грн</b></span>
                        </div>
                        <div>
                            <img src={linux} alt=""/>
-                           <span>установка<b>150 грн</b></span>
                        </div>
                        <div>
                            <img src={macos} alt=""/>
-                           <span>установка<b>150 грн</b></span>
                        </div>
                        <div>
                            <img src={android} alt=""/>
-                           <span>установка<b>150 грн</b></span>
                        </div>
                        <div>
                            <img src={ios} alt=""/>
-                           <span>установка<b>150 грн</b></span>
                        </div>
                    </div>
                    <div className={s.Antivirus}>
