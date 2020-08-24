@@ -1,6 +1,5 @@
 .Wrapper{
     height: 100vh;
-    /*background: rgba(0, 128, 130, 0.9);*/
     color: white;
     padding: 50px;
     overflow: hidden;
@@ -10,10 +9,30 @@
     justify-content: space-between;
     max-width: 90vw;
     margin: 0 auto;
+    padding-bottom: 20px;
+}
+.Assembly {
+    padding-left: 15px;
 }
 .Content p{
     text-indent: 20px;
-    font-size: 16px;
+    font-size: 22px;
+}
+.Gallery {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: 0 auto;
+    height: 190px;
+}
+.Gallery img{
+    width: 150px;
+}
+.Gallery img:hover{
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: -20px;
+    width: 140px;
 }
 .Block{
     height: 60vh;
@@ -53,9 +72,24 @@
     }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 767px) {
+    .Wrapper{
+        padding: 50px 0 0 5px;
+    }
     .Container{
-        max-width: 91vw;
+        max-width: 97vw;
+    }
+    .Assembly {
+        padding-left: 0;
+    }
+    .Gallery {
+        max-width: 97vw;
+        margin: 0 auto;
+        height: 45px;
+    }
+    .Gallery img{
+        width: 40px;
+        padding-left: 0;
     }
     .Content h3{
         line-height: 0;

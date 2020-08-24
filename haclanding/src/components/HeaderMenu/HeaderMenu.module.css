@@ -8,7 +8,7 @@
     width: 100vw;
     line-height: 40px;
     font-size: 26px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     font-family: 'Roboto Slab', serif;
 }
 .Container{
@@ -19,18 +19,15 @@
     justify-content: space-between;
 }
 .NavigationWrapper{
-    /*margin-top: 50px;*/
     width: 50vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.5);
 }
 .NavigationMenu img{
-    padding-top: 50px;
     width: 180px;
 }
 .NavigationMenu a{
     margin-left: 10px;
-    border-bottom: 2px solid white;
 }
 .NavigationMenu a:hover {
     transition: all .3s;
@@ -58,20 +55,40 @@
     drop-shadow(var(--stroke-neg) var(--stroke-pos) 0 var(--stroke-color))
     drop-shadow(var(--stroke-neg) var(--stroke-neg) 0 var(--stroke-color));
 }
-.hamburger {
-    position: relative;
-    display: block;
+.CloseMenu img{
+    padding-left: 35vw;
     width: 40px;
-    height: 25px;
-    margin: 9px auto;
-    border-top: 3px solid #fff;
-    border-bottom: 3px solid #fff;
+    margin: 0 0 0 0;
 }
-.hamburger:before {
-    content: "";
-    position: absolute;
-    top: 10px;
-    left: 0px;
-    width: 100%;
-    border-top: 3px solid #fff;
+.CloseMenu img:hover {
+    cursor: pointer;
+    --stroke-pos: 1px;
+    --stroke-neg: -1px;
+    --stroke-color: aqua;
+    filter: drop-shadow(var(--stroke-pos) 0 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(0 var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(0 var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-pos) var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-pos) var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) var(--stroke-neg) 0 var(--stroke-color));
+}
+.Open img{
+    width: 48px;
+    padding-right: 15px;
+}
+.Open img:hover {
+    cursor: pointer;
+    --stroke-pos: 1px;
+    --stroke-neg: -1px;
+    --stroke-color: aqua;
+    filter: drop-shadow(var(--stroke-pos) 0 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(0 var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(0 var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-pos) var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-pos) var(--stroke-neg) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) var(--stroke-pos) 0 var(--stroke-color))
+    drop-shadow(var(--stroke-neg) var(--stroke-neg) 0 var(--stroke-color));
 }

@@ -18,6 +18,7 @@
     font-size: 60px;
     line-height: 0;
     margin: 25px 0;
+    text-shadow: 5px 4px 2px black, 0 0 2em cornflowerblue;
 }
 .ContentInner p {
     font-size: 22px;
@@ -84,7 +85,7 @@
 }
 
 .bLbInner {
-    background-image: url("../../assets/img/Abaut/shablon2.png");
+    background-image: url("../../assets/img/Abaut/shablon3.png");
 }
 
 .bRbInner {
@@ -214,13 +215,7 @@
     }
 }
 
-@media (max-height: 600px) {
-    .bRbInner {
-        display: none;
-    }
-}
-
-@media (max-width: 420px) {
+@media (max-width: 767px) {
     .ContentInner {
         padding-top: 50px;
     }
@@ -248,11 +243,23 @@
         margin-left: 55px;
         font-size: 12px;
     }
-    .ContentInner h2 {
-        padding-top: 20px;
+    .ContentInner h4 {
+        padding: 7px 0 8px 0;
         font-size: 20px;
     }
-    .ContentInner p {
-        display: none;
+}
+@media (max-height: 668px) {
+    .tLbInner,
+    .tRbInner,
+    .cLbInner,
+    .cRbInner,
+    .bLbInner,
+    .bRbInner,
+    .PostInner {
+        height: 74px;
+        line-height: 15px;
+    }
+    .ContentInner h4 {
+        /*line-height: 10px;*/
     }
 }

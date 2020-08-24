@@ -1,6 +1,5 @@
 .Wrapper{
     height: 100vh;
-    /*background: rgba(0, 128, 130, 0.9);*/
     color: white;
     padding: 50px;
     overflow: hidden;
@@ -13,7 +12,7 @@
 }
 .Content p{
     text-indent: 20px;
-    font-size: 16px;
+    font-size: 20px;
 }
 .BackButton{
     padding-left: 88%;
@@ -42,21 +41,21 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 767px) {
     .Wrapper{
      padding: 50px 10px 0 10px;
     }
     .List {
-        font-size: 10px;
-        line-height: 11px;
+        font-size: 12px;
+        line-height: 12px;
     }
     .Title h3{
-        font-size: 10px;
-        line-height: 11px;
+        font-size: 12px;
+        line-height: 15px;
     }
     .Content p{
-        font-size: 11px;
-        line-height: 11px;
+        font-size: 14px;
+        line-height: 14px;
     }
     .BackButton{
         padding-left: 75%;
@@ -68,5 +67,19 @@
     }
     .BackButton{
         padding-left: 50%;
+    }
+}
+@media (max-height: 668px) {
+    .List {
+        font-size: 11px;
+        line-height: 10px;
+    }
+    .Title h3{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .Content p{
+        font-size: 12px;
+        line-height: 13px;
     }
 }

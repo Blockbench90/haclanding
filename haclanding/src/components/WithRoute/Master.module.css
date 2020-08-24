@@ -16,6 +16,8 @@
 }
 .Content li{
     padding-bottom: 50px;
+    font-size: 29px;
+    line-height: 32px;
 }
 .ButtonImg img{
     width: 600px;
@@ -39,19 +41,22 @@
     }
 }
 
-@media (max-width: 848px) {
+@media (max-width: 767px) {
     .Wrapper{
-        padding: 50px 0 0 20px;
+        padding: 50px 0 0 0px;
     }
     .Container{
         display: inline-block;
     }
     .Content li{
         padding-bottom: 10px;
+        font-size: 18px;
+        line-height: 17px;
+        margin-left: 10px;
     }
     .ButtonImg img{
         padding-left: 100px;
-        width: 200px;
+        width: 150px;
     }
     .Content{
         width: 90%;

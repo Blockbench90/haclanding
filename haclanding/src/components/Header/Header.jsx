@@ -45,7 +45,7 @@ class Header extends React.Component {
                                 </div>
                             </nav>
                             <div className={style.Button}>
-                                <ButtonPhone title={"Консультация"} phone={"tel:+1234567890"}/>
+                                <ButtonPhone title={"Консультация"} phone={"tel:+380979107901"}/>
                             </div>
                         </header>
                     </div>

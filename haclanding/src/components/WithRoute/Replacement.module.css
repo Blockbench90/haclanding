@@ -1,6 +1,5 @@
 .Wrapper{
     height: 100vh;
-    /*background: rgba(0, 128, 130, 0.9);*/
     color: white;
     padding: 50px;
     overflow: hidden;
@@ -14,7 +13,7 @@
 }
 .Content p{
     text-indent: 20px;
-    font-size: 16px;
+    font-size: 22px;
 }
 .Gallery{
     display: flex;
@@ -40,19 +39,32 @@
     }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 767px) {
     .Wrapper{
         padding: 50px 10px 0 10px;
+    }
+    .Content{
+        height: 72vh;
     }
     .Content p{
         text-indent: 12px;
         line-height: 12px;
-        font-size: 10px;
+        font-size: 13px;
     }
     .Gallery img{
         width: 60px;
     }
     .BackButton{
         padding-left: 50%;
+    }
+}
+@media (max-height: 668px) {
+    .Content{
+        height: 73vh;
+    }
+    .Content p{
+        text-indent: 12px;
+        line-height: 12px;
+        font-size: 11px;
     }
 }

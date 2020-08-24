@@ -8,12 +8,14 @@
     /*height: 100vh;*/
 }
 .Parallax{
-    background: url("../../assets/img/stena-kladka-kamen-podsvetka.jpg") no-repeat;
+    /*background: url("../../assets/img/back2.jpg") no-repeat;*/
+    background: url("../../assets/img/back1.png") no-repeat;
     background-size: cover;
     position: absolute;
     left: -10%;
+    bottom: -10%;
     top: 0;
     bottom: 0;
-    width: 110%;
-    height: 100%;
+    width: 120%;
+    height: 120%;
 }

@@ -69,17 +69,18 @@
     width: 215px;
     height: 320px;
 }
+.WorkTime{
+    color: white;
+}
 .Btn {
     padding: 0 18px;
 }
-.BtnMedia{
-    display: none;
-}
+
 .BtnUra {
     padding: 0 44px;
 }
 
-@media (max-width: 833px) {
+@media (max-width: 767px) {
     .Container{
         font-size: 15px;
         padding: 50px 0 0 20px;
@@ -91,6 +92,10 @@
         display: flex;
         justify-content: space-between;
         margin: 10px 0px;
+    }
+    .WorkTime {
+     font-size: 20px;
+        padding-left: 10%;
     }
     .PhotoInfo {
         max-width: 280px;

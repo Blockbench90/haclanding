@@ -3,10 +3,22 @@ import style from "./HeaderMenu.module.css";
 import logo from "../../assets/img/logo/logo11.png";
 import master from "../../assets/img/Abaut/Call_Master2.png";
 import {Link, animateScroll as scroll} from "react-scroll";
+import openImg from "../../assets/img/logo/openMenu.png";
+import closeMenu from "../../assets/img/logo/closeMenu.png";
 
-const NavigationMenu = () => {
+const MenuButton = ({photo}) => {
+    return (
+        <div className={style.CloseMenu}>
+            <img src={photo} alt=""/>
+        </div>
+    )
+}
+const NavigationMenu = (props) => {
     return (
         <div className={style.NavigationWrapper}>
+            <div className={style.CloseMenu} onClick={()=>{props.setMenu(false)}}>
+                <MenuButton photo={closeMenu}/>
+            </div>
             <nav className={style.NavigationMenu}>
                 <div className={style.Nav}> {/* параметры перемотки, где duration скорость */}
                     <Link to="section1" spy={true} smooth={true} duration={1000}>Главная</Link>
@@ -31,20 +43,12 @@ const NavigationMenu = () => {
     )
 }
 
-const MenuButton = () => {
-    return (
-        <div>
-            <span className={style.hamburger}>
-            </span>
-        </div>
-    )
-}
 
 const HeaderMenu = () => {
     const scrollToTop = () => {   /* перемотка в HeaderSection */
         scroll.scrollToTop();
     }
-    const [menu, setMenu] = useState(true)
+    const [menu, setMenu] = useState(false)
     return (
         <div className={style.Wrapper}>
             <div className={style.Container}>
@@ -54,8 +58,10 @@ const HeaderMenu = () => {
                             <img src={logo} alt="Logo" onClick={scrollToTop}/>
                         </div>
                         <div>
-                            <MenuButton/>
-                            {menu && <NavigationMenu/>}
+                            {menu ? <NavigationMenu setMenu={setMenu}/> :
+                                <div className={style.Open} onClick={()=>{setMenu(true)}}>
+                                    <MenuButton photo={openImg}/>
+                                </div>}
                         </div>
                     </header>
                 </div>

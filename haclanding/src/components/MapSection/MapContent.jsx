@@ -1,5 +1,7 @@
 import React from "react";
 import s from "./MapContent.module.css";
+import life from "../../assets/img/logo/life.png";
+import vodafone from "../../assets/img/logo/vodafone.png";
 import kyivstar from "../../assets/img/logo/kyivstar.png";
 import map from "../../assets/img/logo/MapIcon.png";
 import instagram from "../../assets/img/logo/insta.png";
@@ -19,23 +21,23 @@ const MapContent = (props) => {
                         <img src={kyivstar} alt=""/>
                     </div>
                     <div>
-                        <a href="tel:+1234567890">+3 8 099 321 65 65</a>
+                        <a href="tel:+380 97 910 79 01">+380 97 910 79 01</a>
                     </div>
                 </div>
                 <div className={s.PhoneBox}>
                     <div>
-                        <img src={kyivstar} alt=""/>
+                        <img src={vodafone} alt=""/>
                     </div>
                     <div>
-                        <a href="tel:+1234567890">+3 8 099 321 65 65</a>
+                        <a href="tel:+380950718593">+380 95 071 85 93</a>
                     </div>
                 </div>
                 <div className={s.PhoneBox}>
                     <div>
-                        <img src={kyivstar} alt=""/>
+                        <img src={life} alt=""/>
                     </div>
                     <div>
-                        <a href="tel:+1234567890">+3 8 099 321 65 65</a>
+                        <a href="tel:+1234567890">+380 93 316 09 89</a>
                     </div>
                 </div>
                 <div className={s.Society}>
@@ -63,21 +65,24 @@ const MapContent = (props) => {
                             Посмотреть на карте</a></div>
                     </div>
                 </div>
+                <div className={s.WorkTime}>
+                    <b>Мы работаем:</b>
+                    <ul>
+                        <li>Пн-Пт: с 10 до 17</li>
+                        <li>Сб-Вс: с 10 до 15</li>
+                    </ul>
+                </div>
                 <div className={s.PhotoInfo}>
                     <div className={s.MaxBoxImg}>
                         <img src={Max} alt=""/>
                         <div className={s.Btn}>
-                            <ButtonPhone title={"Максим"} phone={"tel:+1234567890"}/>
+                            <ButtonPhone title={"Максим"} phone={"tel:+380979107901"}/>
                         </div>
-                        <div className={s.BtnMedia}>
-                            <ButtonPhone title={"Макс"} phone={"tel:+1234567890"}/>
-                        </div>
-
                     </div>
                     <div>
                         <img src={Anonimys} alt=""/>
                         <div className={s.BtnUra}>
-                            <ButtonPhone title={"Юра"} phone={"tel:+1234567890"}/>
+                            <ButtonPhone title={"Юра"} phone={"tel:+380987334951"}/>
                         </div>
                     </div>
                 </div>

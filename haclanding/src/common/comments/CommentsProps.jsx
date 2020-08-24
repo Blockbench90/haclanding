@@ -6,7 +6,7 @@ export const Input = ({input, meta, ...props}) => {
     return (
         <div className={s.InputWrapper + ' ' + (hasError ? s.error : "")}>
             <input {...input} {...props} />
-            {hasError && <span>"Ой-йой"</span>}
+            {hasError && <span>"Ой-йой, что-то не то"</span>}
         </div>
     )
 }

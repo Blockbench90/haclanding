@@ -93,7 +93,10 @@
     .ImgAnt img {
         width: 130px;
     }
-
+    .ImgPrograms{
+        max-width: 900px;
+        margin-left: 19%;
+    }
     .BackButton {
         padding-top: 20px;
     }
@@ -114,7 +117,11 @@
         width: 80px;
     }
     .ImgPrograms{
+        max-width: 800px;
         margin-left: 15%;
+    }
+    .ImgPrograms img{
+        width: 50px;
     }
     .BackButton{
         padding-top: 20px;
@@ -133,7 +140,11 @@
         font-size: 12px;
     }
     .ImgPrograms{
-        margin-left: 4%;
+        max-width: 600px;
+        margin-left: 15%;
+    }
+    .ImgPrograms img{
+        width: 40px;
     }
     .BackButton{
         padding-left: 80%;
@@ -143,10 +154,6 @@
 @media (max-width: 1050px) {
     .Gallery div {
         width: 101px;
-    }
-    .ImgPrograms{
-        padding-left: 10px;
-        width: 400px;
     }
     .Title h3, h4{
         font-size: 10px;
@@ -158,45 +165,49 @@
         font-size: 8px;
     }
     .ImgPrograms{
-        margin-left: 0;
+        max-width: 600px;
+        margin-left: 15%;
     }
     .ImgPrograms img{
-        width: 400px;
+        width: 40px;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 767px) {
     .Wrapper {
-       padding: 50px 0 0 20px;
+       padding: 50px 0 0 0;
     }
     .Container {
-        max-width: 95vw;
+        max-width: 90vw;
+        margin: 0 auto;
     }
     .Title h3, h4{
-        font-size: 11px;
-        line-height: 10px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 19px;
     }
     .Gallery{
-        width: 320px;
+        width: 341px;
     }
     .Gallery div {
-        width: 80px;
-        padding: 5px;
+        width: 50px;
+        padding: 8px;
     }
     .Gallery img {
-        width: 44px;
-        padding-left: 10px;
+        width: 50px;
+        padding-left: 4px;
     }
     .TitleAnt{
         line-height: 0;
         font-size: 30px;
-        padding-left: 25%;
+        padding-left: 17%;
     }
     .ImgAnt{
-        width: 320px;
+        height: 50px;
+        width: 341px;
     }
     .ImgAnt img{
-        width: 33px;
+        width: 40px;
     }
     .Beer img{
         padding-top: 0;
@@ -206,14 +217,21 @@
         padding-top: 0;
         width: 30px;
     }
+    .TitleAnt{
+        padding-left: 8%;
+    }
+    .Title {
+        padding-left: 0;
+    }
     .ImgPrograms{
-        width: 261px;
-        margin-left: 5%;
+        height: 40px;
+        max-width: 341px;
+        margin-left: 2%;
     }
     .ImgPrograms img{
-        width: 251px;
+        width: 15px;
     }
     .BackButton{
-        padding-left: 26%;
+        padding-left: 30%;
     }
 }

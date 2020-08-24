@@ -53,7 +53,7 @@ const AboutUs = (props) => {
                         </div>
                         <div className={s.RightBlock}>
                             <div className={s.bRbInner}>
-                                <Post title={"Я пользователь"} route="/zero"/>
+                                <Post title={"Для чайников"} route="/zero"/>
                             </div>
                         </div>
                     </div>

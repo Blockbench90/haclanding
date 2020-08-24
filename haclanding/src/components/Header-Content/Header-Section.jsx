@@ -1,21 +1,14 @@
-import React, {useState} from "react";
+import React from "react";
 import style from "./HeaderSection.module.css";
 import logo from "../../assets/img/logo/logo11.png";
-import Modal from "../Modal/Modal";
 
 
 const HeaderSection = () => {
-    const [modal, setModal] = useState(false)
-    const toggle = () => {
-        return setModal(false)
-    }
     return (
         <div className={style.Wrapper}>
             <div className={style.Container}>
-                {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="20%"
-                                 textWin="Ларису Ивановну хочу"/>}
                 <div className={style.HeaderTitle}>
-                    <div onClick={() => setModal(true)}>
+                    <div>
                         <img src={logo} alt=""/>
                     </div>
                     <div>
