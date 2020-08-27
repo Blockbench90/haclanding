@@ -17,51 +17,24 @@ const MapContent = (props) => {
         <div className={s.Container}>
             <div>
                 <div className={s.PhoneBox}>
-                    <div>
-                        <img src={kyivstar} alt=""/>
-                    </div>
-                    <div>
-                        <a href="tel:+380 97 910 79 01">+380 97 910 79 01</a>
-                    </div>
+                    <div><img src={kyivstar} alt=""/></div>
+                    <div><a href="tel:+380 97 910 79 01">+380 97 910 79 01</a></div>
                 </div>
                 <div className={s.PhoneBox}>
-                    <div>
-                        <img src={vodafone} alt=""/>
-                    </div>
-                    <div>
-                        <a href="tel:+380950718593">+380 95 071 85 93</a>
-                    </div>
+                    <div><img src={vodafone} alt=""/></div>
+                    <div><a href="tel:+380950718593">+380 95 071 85 93</a></div>
                 </div>
                 <div className={s.PhoneBox}>
-                    <div>
-                        <img src={life} alt=""/>
-                    </div>
-                    <div>
-                        <a href="tel:+1234567890">+380 93 316 09 89</a>
-                    </div>
+                    <div><img src={life} alt=""/></div>
+                    <div><a href="tel:+1234567890">+380 93 316 09 89</a></div>
                 </div>
                 <div className={s.Society}>
-                    <div>
-                        <a href="https://www.instagram.com/maxim.zpua/">
-                            <img src={instagram} alt=""/>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://t.me/Hacersinside">
-                            <img src={telegram} alt=""/>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="viber://chat?number=+380964237550">
-                            <img src={viber} alt=""/>
-                        </a>
-                    </div>
+                    <div><a href="https://www.instagram.com/maxim.zpua/"><img src={instagram} alt=""/></a></div>
+                    <div><a href="https://t.me/Hacersinside"><img src={telegram} alt=""/></a></div>
+                    <div><a href="viber://chat?number=+380964237550"><img src={viber} alt=""/></a></div>
                     <div className={s.MapBox}>
-                        <div>
-                            <img src={map} alt=""/>
-                        </div>
-                        <div><a
-                            href="https://www.google.com/maps/place/Hackers+inside/@47.7832345,35.1818275,17z/data=!3m1!4b1!4m5!3m4!1s0x40dc5ef9062555f9:0xa5d2e3fac23e0551!8m2!3d47.7832345!4d35.1840162">
+                        <div><img src={map} alt=""/></div>
+                        <div><a href="https://www.google.com/maps/place/Hackers+inside/@47.7832345,35.1818275,17z/data=!3m1!4b1!4m5!3m4!1s0x40dc5ef9062555f9:0xa5d2e3fac23e0551!8m2!3d47.7832345!4d35.1840162">
                             Посмотреть на карте</a></div>
                     </div>
                 </div>
