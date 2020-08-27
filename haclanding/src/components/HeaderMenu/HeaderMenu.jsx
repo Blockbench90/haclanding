@@ -8,7 +8,7 @@ import closeMenu from "../../assets/img/logo/closeMenu.png";
 
 const MenuButton = ({photo}) => {
     return (
-        <div className={style.CloseMenu}>
+        <div className={style.CloseMenu}> {/* Кнопка открытия и закрытия в адаптивном меню */}
             <img src={photo} alt=""/>
         </div>
     )
