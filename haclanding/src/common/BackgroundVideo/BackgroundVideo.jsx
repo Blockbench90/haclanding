@@ -1,6 +1,6 @@
 import React from "react";
-import video from "../../assets/img/Abaut/Hack_vid.mp4";
-import media from "../../assets/img/Abaut/Hac_media.mp4";
+import video from "../../assets/img/Abaut/Hack_big.mp4";
+import media from "../../assets/img/Abaut/HacSmoll.mp4";
 import s from "./BackgroundVideo.module.css"
 
 class BackgroundVideo extends React.Component{
