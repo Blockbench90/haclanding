@@ -15,6 +15,8 @@ import Master from "./components/WithRoute/Master";
 import Zero from "./components/WithRoute/Zero";
 import MapContent from "./components/MapSection/MapContent";
 import HeaderMenu from "./components/HeaderMenu/HeaderMenu";
+import Modal from "./components/Modal/Modal";
+import MyComponent from "./components/Gallery/Gallery";
 
 
 const App = () => {
@@ -50,8 +52,8 @@ const App = () => {
                         <PartnersSlider/> {/* Собственно сам слайдер из 7 фото */}
                     </div>
                 </section>
-                <section className="Comments" id="section4">
-
+                <section className="Gallery" id="section4">
+                    <MyComponent/>
                 </section>
                 <section className="Map" id="section5">
                     <MapContent/>   {/* Контакты */}
