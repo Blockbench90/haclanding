@@ -20,7 +20,7 @@ const Partners = (props) => {
                 <div className={s.ContentInner}>
                     <div className={s.TopContent}>
                         <div className={s.TopLeftBlock}>
-                            <Content title={"Сборка"} content={"Как захотите, а за сколько захотите! Ваше желание для нас закон"}/>
+                            <Content title={"Сборка"} content={"Как захотите, и за сколько захотите! Ваше желание для нас закон"}/>
                         </div>
                         <div className={s.TopRightBlock}>
                             <Content title={"Модернизация"} content={"Сделаем из Москвича - Tesla вместе! Только скажите какого цвета"}/>

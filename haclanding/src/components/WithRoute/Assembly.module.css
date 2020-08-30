@@ -5,6 +5,7 @@
     overflow: hidden;
 }
 .Container{
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: space-between;
     max-width: 90vw;

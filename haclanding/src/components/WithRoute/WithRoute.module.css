@@ -71,15 +71,15 @@
 }
 @media (max-height: 668px) {
     .List {
-        font-size: 11px;
+        font-size: 7px;
         line-height: 10px;
     }
     .Title h3{
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 9px;
+        line-height: 14px;
     }
     .Content p{
-        font-size: 12px;
-        line-height: 13px;
+        font-size: 10px;
+        line-height: 10px;
     }
 }

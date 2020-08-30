@@ -9,6 +9,7 @@
     line-height: 15px;
     font-size: 18px;
     background: rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto', sans-serif;
 }
 .Container{
     max-width: 1200px;

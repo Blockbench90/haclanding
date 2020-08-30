@@ -47,6 +47,11 @@
 .Info p, h1 {
     text-shadow: 5px 4px 2px black, 0 0 2em cornflowerblue;
 }
+.Visit{
+    font-family: 'Neucha', cursive;
+    text-shadow: 3px 3px 2px black, 0 0 2em cornflowerblue;
+    font-size: 25px;
+}
 .PhotoInfo {
     margin: 2vw 0 0 3vw;
     display: flex;
@@ -67,6 +72,9 @@
 }
 
 @media (max-width: 780px) {
+    .Visit{
+        font-size: 13px;
+    }
     .HeaderTitle img {
         width: 120px;
     }

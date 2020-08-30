@@ -23,7 +23,7 @@ const HeaderSection = () => {
                             <h1>Ремонт компьютеров</h1>
                             <p>в Запорожье</p>
                         </div>
-                        <div>
+                        <div className={style.Visit}>
                             <ul>
                                 <li>Не работает? – Починим!</li>
                                 <li>Не включается? – Включим!</li>
