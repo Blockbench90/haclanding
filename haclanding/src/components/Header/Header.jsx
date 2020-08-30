@@ -38,7 +38,7 @@ class Header extends React.Component {
                                     <Link  to="section3" spy={true} smooth={true} duration={1000}>Партнеры</Link>
                                 </div>
                                 <div className={style.NavButton}>
-                                    <Link  to="section4" spy={true} smooth={true} duration={1000}>Отзывы</Link>
+                                    <Link  to="section4" spy={true} smooth={true} duration={1000}>Галерея</Link>
                                 </div>
                                 <div className={style.NavButton}>
                                     <Link  to="section5" spy={true} smooth={true} duration={1000}>Контакты</Link>

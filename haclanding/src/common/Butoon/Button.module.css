@@ -26,3 +26,8 @@
 .ButtonUp{
 
 }
+@media (max-height: 600px) {
+    .wrapper {
+        padding: 2px 22px;
+    }
+}

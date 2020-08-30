@@ -13,7 +13,6 @@ import Assembly from "./components/WithRoute/Assembly";
 import Support from "./components/WithRoute/Support";
 import Master from "./components/WithRoute/Master";
 import Zero from "./components/WithRoute/Zero";
-import CommentsInner from "./components/Comments/CommentsInner/CommentsInner";
 import MapContent from "./components/MapSection/MapContent";
 import HeaderMenu from "./components/HeaderMenu/HeaderMenu";
 
@@ -52,7 +51,7 @@ const App = () => {
                     </div>
                 </section>
                 <section className="Comments" id="section4">
-                    <CommentsInner/>    {/* Обертка для отзывов */}
+
                 </section>
                 <section className="Map" id="section5">
                     <MapContent/>   {/* Контакты */}

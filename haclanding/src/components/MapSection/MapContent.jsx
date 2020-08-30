@@ -26,7 +26,7 @@ const MapContent = (props) => {
                 </div>
                 <div className={s.PhoneBox}>
                     <div><img src={life} alt=""/></div>
-                    <div><a href="tel:+1234567890">+380 93 316 09 89</a></div>
+                    <div><a href="tel:+380933160989">+380 93 316 09 89</a></div>
                 </div>
                 <div className={s.Society}>
                     <div><a href="https://www.instagram.com/maxim.zpua/"><img src={instagram} alt=""/></a></div>
