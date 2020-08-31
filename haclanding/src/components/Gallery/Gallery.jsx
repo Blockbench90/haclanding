@@ -4,7 +4,7 @@ import s from "./Gallery.module.css"
 import ImageGallery from 'react-image-gallery';
 import imageLoader from "./Photos";
 
-const MyComponent = () => {
+const Gallery = () => {
     const images = imageLoader()
     return (
         <div className={s.Wrapper}>
@@ -16,4 +16,4 @@ const MyComponent = () => {
         </div>
     );
 }
-export default MyComponent;
+export default Gallery;

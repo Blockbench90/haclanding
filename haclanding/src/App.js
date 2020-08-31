@@ -16,7 +16,7 @@ import Zero from "./components/WithRoute/Zero";
 import MapContent from "./components/MapSection/MapContent";
 import HeaderMenu from "./components/HeaderMenu/HeaderMenu";
 import Modal from "./components/Modal/Modal";
-import MyComponent from "./components/Gallery/Gallery";
+import Gallery from "./components/Gallery/Gallery";
 
 
 const App = () => {
@@ -53,7 +53,7 @@ const App = () => {
                     </div>
                 </section>
                 <section className="Gallery" id="section4">
-                    <MyComponent/>
+                    <Gallery/>
                 </section>
                 <section className="Map" id="section5">
                     <MapContent/>   {/* Контакты */}
