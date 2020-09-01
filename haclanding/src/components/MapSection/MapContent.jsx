@@ -31,7 +31,7 @@ const MapContent = (props) => {
                 <div className={s.Society}>
                     <div><a href="https://www.instagram.com/maxim.zpua/"><img src={instagram} alt=""/></a></div>
                     <div><a href="https://t.me/Hacersinside"><img src={telegram} alt=""/></a></div>
-                    <div><a href="viber://chat?number=+380964237550"><img src={viber} alt=""/></a></div>
+                    <div><a href="viber://add?number=380979107901"><img src={viber} alt=""/></a></div>
                     <div className={s.MapBox}>
                         <div><img src={map} alt=""/></div>
                         <div><a href="https://www.google.com/maps/place/Hackers+inside/@47.7832345,35.1818275,17z/data=!3m1!4b1!4m5!3m4!1s0x40dc5ef9062555f9:0xa5d2e3fac23e0551!8m2!3d47.7832345!4d35.1840162">
