@@ -254,9 +254,11 @@
     .cLbInner,
     .cRbInner,
     .bLbInner,
-    .bRbInner,
     .PostInner {
         height: 74px;
         line-height: 15px;
+    }
+    .bRbInner{
+        display: none;
     }
 }

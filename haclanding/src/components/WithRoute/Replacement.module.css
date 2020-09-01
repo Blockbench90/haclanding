@@ -1,72 +1,112 @@
-.Wrapper{
+.Wrapper {
     height: 100vh;
     color: white;
     padding: 50px;
     overflow: hidden;
 }
-.Container{
+
+.Container {
     max-width: 80vw;
     margin: 0 auto;
 }
-.Content{
+
+.Content {
     height: 50vh;
 }
-.Content p{
+.Content span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.Content p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-indent: 20px;
     font-size: 22px;
 }
-.Gallery{
+
+.Gallery {
     display: flex;
     justify-content: space-between;
 }
-.Gallery img{
+
+.Gallery img {
     cursor: pointer;
     margin-bottom: 10px;
 }
-.BackButton{
+
+.BackButton {
     padding-left: 88%;
 }
 
 @media (max-width: 1350px) {
-    .Gallery img{
+    .Gallery img {
         width: 200px;
     }
 }
 
 @media (max-width: 1050px) {
-    .Gallery img{
+    .Gallery img {
         width: 150px;
     }
 }
 
 @media (max-width: 767px) {
-    .Wrapper{
+    .Wrapper {
         padding: 50px 10px 0 10px;
     }
-    .Content{
+
+    .Content {
         height: 72vh;
     }
-    .Content p{
+
+    .Content p {
         text-indent: 12px;
         line-height: 12px;
         font-size: 13px;
     }
-    .Gallery img{
+
+    .Gallery img {
         width: 60px;
     }
-    .BackButton{
+
+    .BackButton {
         padding-left: 50%;
     }
 }
-@media (max-height: 668px) {
-    .Content{
+@media (max-width: 374px) {
+    .Gallery{
+        display: none;
+    }
+    .BackButton {
+        margin-top: 100px;
+    }
+}
+
+@media (max-height: 800px) {
+    .Content {
         height: 73vh;
     }
-    .Content p{
+
+    .Content p {
         text-indent: 12px;
         line-height: 12px;
         font-size: 11px;
+    }
+}
+
+@media (max-height: 680px) {
+    .Content span {
+        font-size: 11px;
+        line-height: 7px;
+    }
+    .Content{
+        margin-bottom: 5px;
+    }
+}
+@media (max-height: 680px) {
+    .BackButton {
+        margin-top: 100px;
     }
 }

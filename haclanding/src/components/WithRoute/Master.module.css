@@ -15,6 +15,7 @@
     width: 60%;
 }
 .Content li{
+    font-family: 'Roboto', sans-serif;
     padding-bottom: 50px;
     font-size: 29px;
     line-height: 32px;
@@ -65,5 +66,15 @@
     }
     .Button{
         padding-left: 13%;
+    }
+}
+@media (max-height: 749px) {
+    .Content li{
+        font-size: 15px;
+    }
+}
+@media (max-height: 636px) {
+    .Content li{
+        font-size: 11px;
     }
 }
