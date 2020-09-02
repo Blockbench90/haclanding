@@ -3,7 +3,7 @@ import s from "./Parallax.module.css";
 
 const parallaxRef = React.createRef()
 const parallax = (e) => {
-    // parallaxRef.current.style.transform = `translateX(${e.clientX / 50}px)`;
+    parallaxRef.current.style.transform = `translateX(${e.clientX / 50}px)`;
 }
 
 document.addEventListener("mousemove", parallax)
