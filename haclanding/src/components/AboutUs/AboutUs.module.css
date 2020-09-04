@@ -262,3 +262,38 @@
         display: none;
     }
 }
+
+@media (max-height: 900px) {
+    .Content {
+        max-width: 980px;
+    }
+
+    .tLbInner,
+    .tRbInner,
+    .cLbInner,
+    .cRbInner,
+    .bLbInner,
+    .bRbInner,
+    .PostInner {
+        width: 416px;
+        height: 194px;
+    }
+    .PostSpan {
+        font-size: 12px;
+        line-height: 25px;
+        margin-left: 50px;
+    }
+    .PostBtn {
+        margin: 0 0 0 222px;
+        font-size: 20px;
+    }
+    .ContentInner h4 {
+        padding: 7px 0 8px 0;
+        line-height: 30px;
+        font-size: 50px;
+    }
+    .ContentInner p {
+        font-size: 15px;
+        line-height: 19px;
+    }
+}
