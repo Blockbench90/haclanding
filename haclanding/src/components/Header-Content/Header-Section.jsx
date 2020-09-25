@@ -13,15 +13,17 @@ const HeaderSection = () => {
                     </div>
                     <div>
                         <div className={style.Title}>
-                            <b>Hacker-Inside</b>
+                            <strong><h2>Hacker-Inside</h2></strong>
                         </div>
                     </div>
                 </div>
                 <div className={style.Content}>
                     <div className={style.Info}>
                         <div>
+                            <strong>
                             <h1>Ремонт компьютеров</h1>
-                            <p>в Запорожье</p>
+                            <h2>в Запорожье</h2>
+                            </strong>
                         </div>
                         <div className={style.Visit}>
                             <ul>

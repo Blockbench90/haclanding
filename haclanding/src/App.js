@@ -15,7 +15,6 @@ import Master from "./components/WithRoute/Master";
 import Zero from "./components/WithRoute/Zero";
 import MapContent from "./components/MapSection/MapContent";
 import HeaderMenu from "./components/HeaderMenu/HeaderMenu";
-import Modal from "./components/Modal/Modal";
 import Gallery from "./components/Gallery/Gallery";
 
 

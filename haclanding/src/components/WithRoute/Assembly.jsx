@@ -11,7 +11,7 @@ import Parallax from "../Parallax/Parallax";
 export const PostToLeftSide = ({content, title}) => {
     return (
             <div className={s.Content}>
-                <h3>{title}</h3>
+                <strong><h3>{title}</h3></strong>
                 <p>{content}</p>
             </div>
     )
@@ -19,7 +19,7 @@ export const PostToLeftSide = ({content, title}) => {
 export const PostToRightSide = ({content, title}) => {
     return (
             <div className={s.Content}>
-                <h3>{title}</h3>
+                <strong><h3>{title}</h3></strong>
                 <p>{content}</p>
             </div>
     )
@@ -40,7 +40,8 @@ const Assembly = (props) => {
         <div className={s.Wrapper}>
             <Parallax/>
             <div className={s.Container}>
-                {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!" size="1%"
+                {modal && <Modal toggle={toggle} title="Поздравляю! Вы ВЫИГРАЛИ!!!!!!"
+                                 size="1%"
                                  textWin="Мне бы такую работу, чтобы поменьше работы."/>}
                 <div className={s.Assembly}>
                     <div className={s.Block}>

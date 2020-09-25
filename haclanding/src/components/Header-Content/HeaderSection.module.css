@@ -21,7 +21,7 @@
     line-height: 0px;
     font-size: 42px;
 }
-.Content p {
+.Content h2 {
     line-height: 0px;
     text-align: center;
     font-size: 46px;
@@ -44,7 +44,7 @@
 .Info li{
     padding-left: 75px;
 }
-.Info p, h1 {
+.Info h2, h1 {
     text-shadow: 5px 4px 2px black, 0 0 2em cornflowerblue;
 }
 .Visit{
@@ -85,7 +85,11 @@
         width: 350px;
     }
 }
-
+@media (max-width: 458px) {
+    .Title {
+        font-size: 20px;
+    }
+}
 @media (max-width: 414px) {
     .HeaderTitle img {
         padding-top: 50px;
@@ -100,7 +104,7 @@
     .Content h1{
         font-size: 25px;
     }
-    .Content p{
+    .Content h2{
         font-size: 25px;
     }
     .Content span {

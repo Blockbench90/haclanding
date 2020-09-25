@@ -7,7 +7,7 @@ const Post = ({title, route}) => {
     return (
         <div className={s.PostInner}>
             <div>
-                <h4>{title}</h4>
+                <strong><h4>{title}</h4></strong>
             </div>
             <div className={s.PostBtn}>
                 <Button title={"Подробнее..."} route={route}/>

@@ -50,7 +50,7 @@ const Support = (props) => {
                                  textWin="Спасибо, я пешком постою."/>}
                 <div className={s.Content}>
                     <div className={s.Title}>
-                        <h3>Работаем со всеми самыми распространенными операционными системами</h3>
+                        <h3>Работаем со всеми самыми распространенными <strong>операционными системами</strong></h3>
                     </div>
                     <div className={s.Gallery}>
                         <WrapperForImg img={windows}/>
@@ -63,7 +63,7 @@ const Support = (props) => {
                         <div className={s.Antivirus}>
                             <div className={s.TitleAnt}>
                                 <div>
-                                    <h4>Установка антивируса</h4>
+                                    <strong><h4>Установка антивируса</h4></strong>
                                 </div>
                             </div>
                             <div className={s.ImgAnt} onClick={() => setModal(true)}>
@@ -82,7 +82,7 @@ const Support = (props) => {
                         <div className={s.ProgramsWrapper}>
                             <div className={s.TitleAnt}>
                                 <div>
-                                    <h4>Програмное сопровождение</h4>
+                                    <strong><h4>Програмное сопровождение</h4></strong>
                                 </div>
                             </div>
                             <div className={s.ImgPrograms}>
